@@ -12,8 +12,8 @@ Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1
 | Generated report drift | PASS — 5 reports checked, 0 stale |
 | Local Markdown links | PASS — 0 broken |
 | Unit tests | PASS — 35 tests |
-| Markdown lint | PASS — 105 files, 0 errors |
-| External URL probe (soft) | PASS — 71 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
+| Markdown lint | PASS — 108 files, 0 errors |
+| External URL probe (soft) | PASS — 79 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
 
 ## Commands and output
 
@@ -37,11 +37,11 @@ Ran 35 tests in 0.275s
 OK
 
 $ npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
-Linting: 105 file(s)
+Linting: 108 file(s)
 Summary: 0 error(s)
 
-$ python3 scripts/check_links.py --network --soft --timeout 8 --workers 12
-Probed 71 external URL(s).
+$ python3 scripts/check_links.py --network --all-links --soft --timeout 8 --workers 12
+Probed 79 external URL(s).
 Local links checked. Broken local: 0; broken external: 0.
 ```
 
@@ -67,4 +67,7 @@ python3 scripts/generate_reports.py --check
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
+python3 scripts/check_links.py --network --all-links --soft
 ```
+
+The same non-network checks are available as `make check`.
