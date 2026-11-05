@@ -10,10 +10,11 @@ Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1
 | Catalog validation | PASS — 32 resources, 46 collections, 0 errors, 2 expected warnings |
 | Generated index drift | PASS — 67 files checked, 0 stale |
 | Generated report drift | PASS — 5 reports checked, 0 stale |
+| Generated asset drift | PASS — 4 assets checked, 0 stale |
 | Local Markdown links | PASS — 0 broken |
-| Unit tests | PASS — 45 tests |
-| Markdown lint | PASS — 108 files, 0 errors |
-| External URL probe (soft) | PASS — 79 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
+| Unit tests | PASS — 51 tests |
+| Markdown lint | PASS — 109 files, 0 errors |
+| External URL probe (soft) | PASS — 74 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
 
 ## Commands and output
 
@@ -29,19 +30,22 @@ Checked 67 generated file(s); 0 stale.
 $ python3 scripts/generate_reports.py --check
 Checked 5 report(s); 0 stale.
 
+$ python3 scripts/generate_assets.py --check
+Checked 4 asset(s); 0 stale.
+
 $ python3 scripts/check_links.py
 Local links checked. Broken local: 0; broken external: 0.
 
 $ python3 -m unittest discover -s tests -v
-Ran 45 tests in 0.295s
+Ran 51 tests in 0.308s
 OK
 
 $ npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
-Linting: 108 file(s)
+Linting: 109 file(s)
 Summary: 0 error(s)
 
 $ python3 scripts/check_links.py --network --all-links --soft --timeout 8 --workers 12
-Probed 79 external URL(s).
+Probed 74 external URL(s).
 Local links checked. Broken local: 0; broken external: 0.
 ```
 
@@ -64,6 +68,7 @@ Local links checked. Broken local: 0; broken external: 0.
 python3 scripts/validate_catalog.py
 python3 scripts/generate_indexes.py --check
 python3 scripts/generate_reports.py --check
+python3 scripts/generate_assets.py --check
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"

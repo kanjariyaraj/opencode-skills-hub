@@ -1,21 +1,45 @@
-# OpenCode Skills Hub
+<!-- markdownlint-disable MD041 -->
+<a name="top"></a>
 
-<p><strong>Discover. Build. Create. Automate.</strong></p>
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f.svg)](LICENSE)
-[![Python: 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab.svg)](https://www.python.org/)
-[![OpenCode: compatible](https://img.shields.io/badge/opencode-compatible-6e57ff.svg)](https://opencode.ai)
-[![Verification: evidence first](https://img.shields.io/badge/verification-evidence--first-0a7ea4.svg)](docs/verification.md)
-[![PRs: welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="OpenCode Skills Hub — Discover. Build. Create. Automate." width="100%">
+  </picture>
+</h1>
+
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square" alt="License: MIT"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square" alt="Python 3.10+"></a>
+  <a href="https://opencode.ai"><img src="https://img.shields.io/badge/opencode-compatible-6e57ff?style=flat-square" alt="OpenCode compatible"></a>
+  <a href="docs/verification.md"><img src="https://img.shields.io/badge/verification-evidence--first-0a7ea4?style=flat-square" alt="Evidence-first verification"></a>
+  <br>
+  <a href="https://github.com/kanjariyaraj/opencode-skills-hub/actions/workflows/validate.yml"><img src="https://github.com/kanjariyaraj/opencode-skills-hub/actions/workflows/validate.yml/badge.svg?branch=main" alt="Validate workflow"></a>
+  <a href="https://github.com/kanjariyaraj/opencode-skills-hub/actions/workflows/links.yml"><img src="https://github.com/kanjariyaraj/opencode-skills-hub/actions/workflows/links.yml/badge.svg?branch=main" alt="Link check workflow"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs welcome"></a>
+</p>
+
+<p>
+  <a href="#browse-categories"><kbd>Browse categories</kbd></a>
+  &nbsp;
+  <a href="#find-by-task"><kbd>Find by task</kbd></a>
+  &nbsp;
+  <a href="#search-sort-and-filter"><kbd>Query and sort</kbd></a>
+  &nbsp;
+  <a href="CONTRIBUTING.md"><kbd>Contribute</kbd></a>
+</p>
+
+</div>
+
+<!-- markdownlint-enable MD041 -->
 
 A structured, searchable and evidence-based catalog of **skills, agents, plugins, MCP servers, commands, rules, hooks, providers and workflow collections** for [OpenCode](https://opencode.ai).
 
 Every catalogued resource has a stable ID, a category, a source, a license status, a security label and a verification record. Entries that could not be verified stay in a separate raw inventory instead of being presented as working software.
 
-| Browse | Curate | Verify | Contribute |
-| :---: | :---: | :---: | :---: |
-| [Categories](#browse-categories) | [Role collections](collections/README.md) | [Methodology](docs/verification.md) | [Contribution guide](CONTRIBUTING.md) |
-| [Find by task](#find-by-task) | [Skill packs](collections/README.md) | [Security](SECURITY.md) | [Resource template](docs/resource-template.md) |
+**Browse:** [categories](#browse-categories) · [task index](#find-by-task) · [role collections](collections/README.md) · [resource types](#resource-types) · **Trust:** [verification](docs/verification.md) · [security](SECURITY.md) · [licenses](reports/licenses.md) · **Project:** [contributing](CONTRIBUTING.md) · [roadmap](ROADMAP.md) · [FAQ](docs/faq.md)
 
 > [!IMPORTANT]
 > This is a **verification-first catalog**, not a link dump and not an endorsement. A listed resource is not guaranteed to be safe, compatible or maintained. Upstream claims are kept separate from independently observed facts.
@@ -98,7 +122,7 @@ All **18 categories**, sorted by catalog coverage (resources descending), then a
 
 | Resources | Collections | Categories | Tests |
 | ---: | ---: | ---: | ---: |
-| **32** | **46** | **18** | **45** |
+| **32** | **46** | **18** | **51** |
 
 Counts are produced from [`catalog/*.json`](catalog/) as of 2026-11-05. They describe catalog entries, not downloads, stars or upstream quality. The live breakdown is in [`reports/stats.md`](reports/stats.md).
 
@@ -113,6 +137,15 @@ Counts are produced from [`catalog/*.json`](catalog/) as of 2026-11-05. They des
 
 > [!NOTE]
 > `0` installation tests is deliberate. Third-party resources were **not** installed on the maintainer's host during cataloging. An upstream README describing an install method is not an independent test result.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/coverage-dark.svg">
+    <img src="assets/coverage-light.svg" alt="Bar chart of verified catalog entries per category, led by Software Development with 8, Design and Image Generation with 5, and Cybersecurity with 4." width="100%">
+  </picture>
+  <br>
+  <sub>Generated from <code>catalog/*.json</code>. Counts are entries, not popularity or quality.</sub>
+</p>
 
 ## 30-second tour
 
@@ -318,6 +351,7 @@ Do not submit invented repositories, guessed package names or unverified install
 │   ├── collections.json
 │   └── index.json            # generated unified index
 ├── schemas/                  # JSON Schema definitions
+├── assets/                   # generated theme-aware SVG artwork
 ├── data/
 │   ├── taxonomy.json
 │   └── raw-inventory.json
@@ -419,3 +453,5 @@ This repository's own content is licensed under the [MIT License](LICENSE). Upst
 ---
 
 <p align="center"><strong>OpenCode Skills Hub</strong><br/>Discover. Build. Create. Automate.</p>
+
+<p align="right"><a href="#top">Back to top</a></p>
