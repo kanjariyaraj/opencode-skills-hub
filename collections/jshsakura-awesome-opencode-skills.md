@@ -1,5 +1,7 @@
 # jshsakura/awesome-opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Collection of Codex-derived OpenCode subagents and skills covering API design, frontend, backend, full-stack and mobile roles.
 
 **Kind:** skill-pack

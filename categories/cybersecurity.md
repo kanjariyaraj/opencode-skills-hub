@@ -1,8 +1,14 @@
 # Cybersecurity
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Defensive security, SAST/DAST, threat modeling, and authorized offensive research.
 
-**Catalog entries:** 4 primary, 2 secondary. **Collections:** 2 packs/toolkits, 1 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 4 | 2 | 2 | 1 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `defensive`, `appsec`, `sast`, `pentest`, `reverse-engineering`, `malware-analysis`
 

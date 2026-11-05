@@ -1,5 +1,7 @@
 # MRCalderon3D/everything-game-dev-code
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Multi-engine game-development scaffold with agents, commands and skills for Unity, Unreal, Godot and HTML targets.
 
 **Kind:** skill-pack

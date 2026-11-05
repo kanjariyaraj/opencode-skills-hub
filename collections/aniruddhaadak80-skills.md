@@ -1,5 +1,7 @@
 # aniruddhaadak80/skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Broad professional skill pack spanning science, finance, legal, product, business and marketing workflows.
 
 **Kind:** skill-pack

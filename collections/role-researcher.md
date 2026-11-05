@@ -1,5 +1,7 @@
 # Researcher & Student
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for literature work, notes, data analysis and learning workflows.
 
 **Kind:** role

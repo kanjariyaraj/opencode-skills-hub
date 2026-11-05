@@ -1,5 +1,7 @@
 # TheArchitectit/awesome-opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Curated OpenCode skills and workflow resources for customizing agent behaviour.
 
 **Kind:** skill-pack

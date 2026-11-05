@@ -1,5 +1,7 @@
 # UI/UX Designer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for design systems, visual review, design-to-code and creative assets.
 
 **Kind:** role

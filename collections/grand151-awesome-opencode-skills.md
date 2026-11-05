@@ -1,5 +1,7 @@
 # grand151/awesome-opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Curated OpenCode skill list organized by data, document processing, development, creative media and security.
 
 **Kind:** skill-pack

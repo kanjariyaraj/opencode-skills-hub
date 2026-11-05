@@ -1,5 +1,7 @@
 # pkuxkxjason/skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Content and video skill collection including article-to-video and vertical sketch-video workflows.
 
 **Kind:** skill-pack

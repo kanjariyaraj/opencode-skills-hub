@@ -1,5 +1,7 @@
 # HossamYoussof/opencode-config
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Personal OpenCode configuration bundling MCP servers, agent presets and a cross-platform installer.
 
 **Kind:** toolkit

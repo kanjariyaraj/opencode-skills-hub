@@ -1,5 +1,7 @@
 # SteamedFish/skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > OpenCode skill catalog distributed for browsing and consumption by agents.
 
 **Kind:** skill-pack

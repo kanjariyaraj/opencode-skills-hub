@@ -1,5 +1,7 @@
 # civiltekk-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Skill and MCP configuration bundle including document conversion, browser automation, market data and image-generation servers.
 
 **Kind:** skill-pack

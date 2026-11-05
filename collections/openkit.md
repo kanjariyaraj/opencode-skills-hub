@@ -1,5 +1,7 @@
 # openkit
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Configurable framework of toggleable tools, skills and references for OpenCode, including frontend and backend specialists.
 
 **Kind:** toolkit

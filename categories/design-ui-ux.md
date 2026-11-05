@@ -1,8 +1,14 @@
 # Design & UI/UX
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Design systems, visual hierarchy, accessibility, motion and design-to-code.
 
-**Catalog entries:** 5 primary, 4 secondary. **Collections:** 4 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 5 | 4 | 4 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `design-systems`, `ux`, `accessibility`, `typography`, `motion`, `prototyping`
 

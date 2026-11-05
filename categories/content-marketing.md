@@ -1,8 +1,14 @@
 # Content & Marketing
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Writing, SEO, social media, email, scripts and content operations.
 
-**Catalog entries:** 0 primary, 3 secondary. **Collections:** 4 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 0 | 3 | 4 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `writing`, `seo`, `social`, `email`, `scripts`
 

@@ -1,5 +1,7 @@
 # Content Creator
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for writing, social content, image assets and video repurposing.
 
 **Kind:** role

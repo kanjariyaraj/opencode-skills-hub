@@ -1,8 +1,14 @@
 # Education & Research
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Literature review, paper reading, scientific writing, tutoring and learning flows.
 
-**Catalog entries:** 0 primary, 1 secondary. **Collections:** 2 packs/toolkits, 1 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 0 | 1 | 2 | 1 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `research`, `papers`, `writing`, `tutoring`, `courses`
 

@@ -1,5 +1,7 @@
 # delta120S/gamedev-agent-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Unity-focused agent skills distilled from production experience, covering compile triage, console forensics, terrain pipelines and mobile quality tiers.
 
 **Kind:** skill-pack

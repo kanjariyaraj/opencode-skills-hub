@@ -1,5 +1,7 @@
 # agent-ml-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Production-oriented ML and data-science skills covering exploratory analysis, scikit-learn pipelines, PyTorch training loops, RAG, fine-tuning and model serving.
 
 **Kind:** skill-pack

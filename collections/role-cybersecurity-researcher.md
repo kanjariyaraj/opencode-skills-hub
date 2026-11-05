@@ -1,5 +1,7 @@
 # Cybersecurity Researcher
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Defensive and authorized offensive resources. Every offensive entry requires explicit written authorization and a defined in-scope target.
 
 **Kind:** role

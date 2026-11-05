@@ -1,5 +1,7 @@
 # AI Engineer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for ML, RAG, agent and data-science workflows.
 
 **Kind:** role

@@ -1,5 +1,7 @@
 # Full-Stack Developer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for building and shipping web applications across frontend, backend and database layers.
 
 **Kind:** role

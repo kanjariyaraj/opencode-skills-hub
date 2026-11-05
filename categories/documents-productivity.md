@@ -1,8 +1,14 @@
 # Documents & Productivity
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > PDF/DOCX/PPTX/XLSX processing, notes, knowledge management and automation.
 
-**Catalog entries:** 2 primary, 0 secondary. **Collections:** 6 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 2 | 0 | 6 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `documents`, `spreadsheets`, `notes`, `automation`, `knowledge-management`
 

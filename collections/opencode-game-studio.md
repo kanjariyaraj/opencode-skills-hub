@@ -1,5 +1,7 @@
 # OpenCode Game Studio
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Game-development skill and agent pack with director, designer, programming and engine-specialist roles for Godot, Unity, Unreal and GameMaker.
 
 **Kind:** skill-pack

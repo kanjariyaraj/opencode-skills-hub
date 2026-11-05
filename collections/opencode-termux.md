@@ -1,5 +1,7 @@
 # Hope2333/opencode-termux
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Native Android build of OpenCode using a Bionic executable, intended to run the agent directly on-device.
 
 **Kind:** toolkit

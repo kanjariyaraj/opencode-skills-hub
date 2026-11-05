@@ -1,5 +1,7 @@
 # naodeng/awesome-qa-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > AI-native QA and testing skill collection covering API, UI, performance, regression and LLM testing.
 
 **Kind:** skill-pack

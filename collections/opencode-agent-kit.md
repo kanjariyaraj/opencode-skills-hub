@@ -1,5 +1,7 @@
 # opencode-agent-kit
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Agent kit focused on Android Jetpack Compose, navigation, Play Billing, Flutter and Dart development patterns.
 
 **Kind:** toolkit

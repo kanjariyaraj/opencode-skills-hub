@@ -1,5 +1,7 @@
 # kedbin/relearning-flow
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Content-to-audio learning pipeline that condenses material into a script and produces narrated audio, useful for study and accessibility workflows.
 
 **Kind:** skill-pack

@@ -1,5 +1,7 @@
 # oywjun/opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > OpenCode skills and MCP configuration aimed at Android and Linux kernel development.
 
 **Kind:** skill-pack

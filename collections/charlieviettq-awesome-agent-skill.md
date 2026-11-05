@@ -1,5 +1,7 @@
 # charlieviettq/awesome-agent-skill
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Portable skill collection with persona bundles for data science, AI engineering, research and finance workflows.
 
 **Kind:** skill-pack

@@ -1,8 +1,14 @@
 # Android System & Custom ROM
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > AOSP, LineageOS, device trees, recoveries, Termux and device automation.
 
-**Catalog entries:** 2 primary, 1 secondary. **Collections:** 2 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 2 | 1 | 2 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `aosp`, `lineageos`, `device-trees`, `recovery`, `termux`, `reverse-engineering`
 

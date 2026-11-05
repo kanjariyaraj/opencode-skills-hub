@@ -1,5 +1,7 @@
 # Productivity-Focused User
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for task management, memory, document processing and personal knowledge management.
 
 **Kind:** role

@@ -171,7 +171,11 @@ def build_categories_readme(taxonomy: dict, resources: list[dict], collections: 
     lines = [
         "# Categories",
         "",
+        "[Home](../README.md) · [Collections](../collections/README.md) · [Reports](../reports/stats.md)",
+        "",
         "Browse the catalog by domain. Every category page is generated from the JSON catalog in [`catalog/`](../catalog/).",
+        "",
+        f"**{len(taxonomy['categories'])} categories** · **{len(resources)} catalogued resources** · **{len(collections)} collections**",
         "",
         "| Category | Resources | Collections |",
         "| --- | ---: | ---: |",
@@ -212,10 +216,16 @@ def build_category_page(category: dict, resources: list[dict], collections: list
     lines = [
         f"# {category['label']}",
         "",
+        "[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)",
+        "",
         f"> {category['description']}",
         "",
-        f"**Catalog entries:** {len(primary)} primary, {len(secondary)} secondary. "
-        f"**Collections:** {len(packs)} packs/toolkits, {len(roles)} role collections.",
+        "| Primary entries | Secondary mentions | Skill packs | Role collections |",
+        "| ---: | ---: | ---: | ---: |",
+        f"| {len(primary)} | {len(secondary)} | {len(packs)} | {len(roles)} |",
+        "",
+        "Counts reflect structured catalog entries, not popularity or upstream quality. "
+        "A resource can appear on another page through its secondary categories.",
         "",
     ]
     if category.get("subcategories"):
@@ -284,6 +294,10 @@ def build_collections_readme(collections: list[dict]) -> str:
     lines = [
         "# Collections",
         "",
+        "[Home](../README.md) · [Categories](../categories/README.md) · [Reports](../reports/stats.md)",
+        "",
+        f"**{len(roles)} role collections** · **{len(packs)} skill packs and toolkits**",
+        "",
         "Collections come in two forms:",
         "",
         "- **Role collections** map a user role to catalogued resources and packs.",
@@ -307,6 +321,8 @@ def build_collection_page(collection: dict, resources_by_id: dict[str, dict], co
     source = collection.get("source") or {}
     lines = [
         f"# {collection['name']}",
+        "",
+        "[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)",
         "",
         f"> {collection['description']}",
         "",

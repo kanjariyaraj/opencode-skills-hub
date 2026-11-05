@@ -1,5 +1,7 @@
 # Video Editor & Creator
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for video generation, FFmpeg processing, captions, recaps and short-form content.
 
 **Kind:** role

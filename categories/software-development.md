@@ -1,8 +1,14 @@
 # Software Development
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Web, backend, full-stack, API, language and framework resources.
 
-**Catalog entries:** 8 primary, 8 secondary. **Collections:** 16 packs/toolkits, 3 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 8 | 8 | 16 | 3 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `frontend`, `backend`, `fullstack`, `api`, `languages`, `frameworks`, `architecture`
 

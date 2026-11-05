@@ -1,5 +1,9 @@
 # Collections
 
+[Home](../README.md) · [Categories](../categories/README.md) · [Reports](../reports/stats.md)
+
+**15 role collections** · **31 skill packs and toolkits**
+
 Collections come in two forms:
 
 - **Role collections** map a user role to catalogued resources and packs.

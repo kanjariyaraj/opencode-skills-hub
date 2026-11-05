@@ -1,5 +1,7 @@
 # luongnv89/awesome-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Universal agent skill collection intended to work across OpenCode, Claude Code and other harnesses.
 
 **Kind:** skill-pack

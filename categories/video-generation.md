@@ -1,8 +1,14 @@
 # Video Generation & Editing
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Text-to-video, FFmpeg workflows, captions, recaps and video automation.
 
-**Catalog entries:** 2 primary, 1 secondary. **Collections:** 3 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 2 | 1 | 3 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `text-to-video`, `editing`, `ffmpeg`, `subtitles`, `automation`
 

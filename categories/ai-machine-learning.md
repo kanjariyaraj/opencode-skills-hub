@@ -1,8 +1,14 @@
 # AI & Machine Learning
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > LLM applications, agents, RAG, fine-tuning, evaluation and MLOps.
 
-**Catalog entries:** 0 primary, 0 secondary. **Collections:** 3 packs/toolkits, 1 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 0 | 0 | 3 | 1 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `llm`, `agents`, `rag`, `fine-tuning`, `evaluation`, `mlops`, `computer-vision`
 

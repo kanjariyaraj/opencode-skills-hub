@@ -1,5 +1,7 @@
 # sickn33/agentic-awesome-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Very large community skill library with broad coverage of web, DevOps, TypeScript, Node.js and related engineering disciplines.
 
 **Kind:** skill-pack

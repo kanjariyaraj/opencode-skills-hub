@@ -1,5 +1,7 @@
 # Agentic Bug Hunter
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Bug-bounty workflow pack with recon, hunting and reporting skills for authorized HackerOne and Bugcrowd programs.
 
 **Kind:** skill-pack

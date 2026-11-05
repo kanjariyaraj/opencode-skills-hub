@@ -1,5 +1,7 @@
 # saurabhnemade/open-design
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Local-first design skill collection with brand-grade design systems for web and mobile prototypes, images and video.
 
 **Kind:** skill-pack

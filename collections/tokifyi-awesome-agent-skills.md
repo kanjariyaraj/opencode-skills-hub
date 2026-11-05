@@ -1,5 +1,7 @@
 # tokifyi/awesome-agent-skills-1
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Large curated agent-skill collection advertised as compatible with OpenCode and other coding agents.
 
 **Kind:** skill-pack

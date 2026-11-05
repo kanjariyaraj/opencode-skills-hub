@@ -1,5 +1,7 @@
 # ffhub-ffmpeg
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Video and audio processing skill that uses a cloud FFmpeg API for convert, compress, trim, resize and GIF workflows.
 
 **Kind:** skill-pack

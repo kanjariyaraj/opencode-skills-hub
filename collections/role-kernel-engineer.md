@@ -1,5 +1,7 @@
 # Kernel Engineer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for Linux and Android kernel module development and low-level debugging.
 
 **Kind:** role

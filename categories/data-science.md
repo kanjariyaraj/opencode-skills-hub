@@ -1,8 +1,14 @@
 # Data Science & Analytics
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Exploratory analysis, statistics, pipelines, visualization and data engineering.
 
-**Catalog entries:** 0 primary, 0 secondary. **Collections:** 2 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 0 | 0 | 2 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `analysis`, `statistics`, `pipelines`, `visualization`, `data-engineering`
 

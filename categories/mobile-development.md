@@ -1,8 +1,14 @@
 # Mobile Development
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Flutter, React Native, Android, iOS and cross-platform app development.
 
-**Catalog entries:** 1 primary, 2 secondary. **Collections:** 4 packs/toolkits, 2 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 1 | 2 | 4 | 2 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `flutter`, `react-native`, `android`, `ios`, `ui`, `testing`, `release`
 

@@ -1,8 +1,14 @@
 # Business & Finance
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Market research, product management, finance workflows and business docs.
 
-**Catalog entries:** 0 primary, 1 secondary. **Collections:** 3 packs/toolkits, 1 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 0 | 1 | 3 | 1 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `research`, `product`, `finance`, `crm`, `operations`
 

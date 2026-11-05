@@ -1,5 +1,7 @@
 # podo/design-agent-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Design skill catalogue covering UI craft, motion, Figma workflows, accessibility, data visualization and user research.
 
 **Kind:** skill-pack

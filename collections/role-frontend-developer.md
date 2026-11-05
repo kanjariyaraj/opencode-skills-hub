@@ -1,5 +1,7 @@
 # Frontend Developer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for UI engineering, design systems, frontend review and design polish.
 
 **Kind:** role

@@ -1,5 +1,7 @@
 # Hcachild/opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Personal skill collection with Flutter, React Native and broad productivity coverage.
 
 **Kind:** skill-pack

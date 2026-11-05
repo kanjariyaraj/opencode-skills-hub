@@ -1,5 +1,7 @@
 # Stonelukas/Mouse-on-Numpad
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Creative skill collection that includes AI image-prompting workflows such as ai-artist.
 
 **Kind:** skill-pack

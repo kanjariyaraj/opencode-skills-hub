@@ -1,6 +1,10 @@
 # Categories
 
+[Home](../README.md) · [Collections](../collections/README.md) · [Reports](../reports/stats.md)
+
 Browse the catalog by domain. Every category page is generated from the JSON catalog in [`catalog/`](../catalog/).
+
+**18 categories** · **32 catalogued resources** · **46 collections**
 
 | Category | Resources | Collections |
 | --- | ---: | ---: |

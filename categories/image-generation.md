@@ -1,8 +1,14 @@
 # Image Generation & Editing
 
+[Home](../README.md) · [Categories](README.md) · [Collections](../collections/README.md) · [Stats](../reports/stats.md)
+
 > Text-to-image, editing, upscaling, SVG and visual asset generation.
 
-**Catalog entries:** 5 primary, 4 secondary. **Collections:** 5 packs/toolkits, 3 role collections.
+| Primary entries | Secondary mentions | Skill packs | Role collections |
+| ---: | ---: | ---: | ---: |
+| 5 | 4 | 5 | 3 |
+
+Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
 **Subcategories:** `text-to-image`, `editing`, `upscaling`, `svg`, `3d`
 

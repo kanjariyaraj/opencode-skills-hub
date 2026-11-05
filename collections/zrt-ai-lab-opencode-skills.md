@@ -1,5 +1,7 @@
 # zrt-ai-lab/opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Creative skill library featuring video generation, image generation, video editing and natural-language data querying.
 
 **Kind:** skill-pack

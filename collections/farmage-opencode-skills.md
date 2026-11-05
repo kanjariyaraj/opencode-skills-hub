@@ -1,5 +1,7 @@
 # farmage/opencode-skills
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Large language and framework skill pack covering Python, TypeScript, Go, Rust, React, Next.js, Vue, Django, FastAPI, Laravel and Rails, plus API, GraphQL and microservice guidance.
 
 **Kind:** skill-pack

@@ -1,5 +1,7 @@
 # Custom ROM Developer
 
+[Home](../README.md) · [Collections](README.md) · [Categories](../categories/README.md)
+
 > Resources for AOSP and LineageOS building, device trees and on-device automation.
 
 **Kind:** role
