@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="OpenCode Skills Hub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="300" rx="28"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <circle cx="1080" cy="30" r="190" fill="#818cf8" opacity="0.10"/>
+    <circle cx="940" cy="320" r="150" fill="#22d3ee" opacity="0.08"/>
+    <path d="M0 268 L1200 268" stroke="#312e81" stroke-width="1" opacity="0.6"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="27" fill="none" stroke="#312e81" stroke-width="1.5"/>
+  <text x="64" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="3.4" fill="#a5b4fc">OPENCODE ECOSYSTEM</text>
+  <text x="62" y="136" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="800" letter-spacing="-1.6" fill="#f8fafc">OpenCode Skills Hub</text>
+  <text x="64" y="176" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="600" fill="#a5b4fc">Discover. Build. Create. Automate.</text>
+  <text x="64" y="206" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#94a3b8">An evidence-first catalog of skills, agents, plugins, MCP servers and collections.</text>
+  <rect x="64" y="230" width="121" height="30" rx="15" fill="#0b1120" stroke="#3730a3" stroke-width="1.2"/><text x="124.5" y="250" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8" fill="#c7d2fe">32 RESOURCES</text><rect x="195" y="230" width="136" height="30" rx="15" fill="#0b1120" stroke="#3730a3" stroke-width="1.2"/><text x="263.0" y="250" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8" fill="#c7d2fe">46 COLLECTIONS</text><rect x="341" y="230" width="128" height="30" rx="15" fill="#0b1120" stroke="#3730a3" stroke-width="1.2"/><text x="405.0" y="250" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8" fill="#c7d2fe">18 CATEGORIES</text><rect x="479" y="230" width="136" height="30" rx="15" fill="#0b1120" stroke="#3730a3" stroke-width="1.2"/><text x="547.0" y="250" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8" fill="#c7d2fe">EVIDENCE-FIRST</text>
+  <g transform="translate(820,50)">
+    <rect width="316" height="200" rx="18" fill="#0b1120" stroke="#312e81" stroke-width="1.5"/>
+    <circle cx="24" cy="26" r="5" fill="#f87171"/>
+    <circle cx="42" cy="26" r="5" fill="#fbbf24"/>
+    <circle cx="60" cy="26" r="5" fill="#34d399"/>
+    <text x="24" y="68" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#94a3b8">$ query_catalog.py</text>
+    <text x="24" y="94" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#7dd3fc">--category image-generation</text>
+    <text x="24" y="120" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#7dd3fc">--sort security --reverse</text>
+    <rect x="24" y="144" width="210" height="8" rx="4" fill="#1e293b"/>
+    <rect x="24" y="144" width="128" height="8" rx="4" fill="url(#accent)"/>
+    <text x="24" y="178" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#86efac">4 high-risk entries surfaced</text>
+  </g>
+</svg>
