@@ -6,10 +6,12 @@
 python3 scripts/validate_catalog.py
 python3 scripts/generate_indexes.py
 python3 scripts/generate_reports.py
+python3 scripts/generate_assets.py
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 python3 scripts/generate_indexes.py --check
 python3 scripts/generate_reports.py --check
+python3 scripts/generate_assets.py --check
 ```
 
 If the generated files changed, commit them with the data change.
@@ -29,7 +31,7 @@ If the generated files changed, commit them with the data change.
 2. Update `signals` and `verification.date`.
 3. Update `MAINTAINED` / `UNMAINTAINED` based on observed activity.
 4. Update the license if it changed.
-5. Regenerate reports.
+5. Regenerate reports and assets.
 6. Note material changes in `CHANGELOG.md`.
 
 ## Reviewing a pull request
@@ -60,6 +62,7 @@ Check for:
 ```bash
 python3 scripts/generate_indexes.py
 python3 scripts/generate_reports.py
+python3 scripts/generate_assets.py
 ```
 
 Never hand-edit generated files.

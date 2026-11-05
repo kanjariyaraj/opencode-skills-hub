@@ -1,12 +1,13 @@
 PYTHON ?= python3
 MDLINT ?= npx --yes markdownlint-cli2@0.13.0
 
-.PHONY: help validate generate query test lint links network-links check all clean
+.PHONY: help validate generate assets query test lint links network-links check all clean
 
 help:
 	@printf '%s\n' \
 		'make validate       Validate schemas, IDs, categories and references' \
 		'make generate       Regenerate index, category pages, collections and reports' \
+		'make assets         Regenerate README banner and coverage SVGs' \
 		'make query          Print resources sorted by name' \
 		'make test           Run the unit test suite' \
 		'make lint           Lint Markdown (downloads markdownlint-cli2 via npx)' \
@@ -21,6 +22,10 @@ validate:
 generate:
 	$(PYTHON) scripts/generate_indexes.py
 	$(PYTHON) scripts/generate_reports.py
+	$(PYTHON) scripts/generate_assets.py
+
+assets:
+	$(PYTHON) scripts/generate_assets.py
 
 query:
 	$(PYTHON) scripts/query_catalog.py --sort name
@@ -41,6 +46,7 @@ check:
 	$(PYTHON) scripts/validate_catalog.py
 	$(PYTHON) scripts/generate_indexes.py --check
 	$(PYTHON) scripts/generate_reports.py --check
+	$(PYTHON) scripts/generate_assets.py --check
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) scripts/check_links.py
 

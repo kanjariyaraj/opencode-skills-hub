@@ -13,6 +13,7 @@ python3 -m unittest discover -s tests -v
 - index generation: deterministic output, category pages, collection pages, `--check`
 - report generation: statistics and reports, `--check`
 - query tool: filtering, sorting, JSON/ID rendering and CLI limits
+- generated assets: themes, counts, category coverage, ordering and well-formed SVG
 
 ## Fixtures
 
