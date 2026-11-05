@@ -8,6 +8,8 @@ This directory explains how the catalog is built, verified and maintained.
 | [Installation](installation.md) | Safe installation guidance and OpenCode configuration notes |
 | [Data model](data-model.md) | Catalog schema, IDs, categories and collections |
 | [Discovery](discovery.md) | How to search the catalog by task, tag, platform or status |
+| [Resource template](resource-template.md) | Copy-ready JSON entry and submission checklist |
+| [FAQ](faq.md) | Common questions about verification, counts and safety |
 | [Maintainer guide](maintainer-guide.md) | Release, regeneration and review workflow |
 | [Website plan](website.md) | Future static website architecture |
 | [Security policy](../SECURITY.md) | Reporting and review policy |

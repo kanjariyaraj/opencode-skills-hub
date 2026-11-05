@@ -47,7 +47,7 @@ Use a category ID from [`data/taxonomy.json`](data/taxonomy.json). If a new cate
 
 ### 3. Add the entry
 
-Add the resource to the matching `catalog/<type>.json` file. The file has the shape:
+Start from the copy-ready [resource template](docs/resource-template.md). Then add the resource to the matching `catalog/<type>.json` file. The file has the shape:
 
 ```json
 {
