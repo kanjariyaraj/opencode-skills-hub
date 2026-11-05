@@ -14,23 +14,22 @@ Every catalogued resource has a stable ID, a category, a source, a license statu
 
 | Browse | Curate | Verify | Contribute |
 | :---: | :---: | :---: | :---: |
-| [Categories](categories/README.md) | [Role collections](collections/README.md) | [Methodology](docs/verification.md) | [Contribution guide](CONTRIBUTING.md) |
+| [Categories](#browse-categories) | [Role collections](collections/README.md) | [Methodology](docs/verification.md) | [Contribution guide](CONTRIBUTING.md) |
 | [Find by task](#find-by-task) | [Skill packs](collections/README.md) | [Security](SECURITY.md) | [Resource template](docs/resource-template.md) |
 
 > [!IMPORTANT]
 > This is a **verification-first catalog**, not a link dump and not an endorsement. A listed resource is not guaranteed to be safe, compatible or maintained. Upstream claims are kept separate from independently observed facts.
 
----
-
 <details open>
 <summary><strong>Table of contents</strong></summary>
 
-- [Why this hub exists](#why-this-hub-exists)
-- [30-second tour](#30-second-tour)
-- [Catalog at a glance](#catalog-at-a-glance)
-- [Categories](#categories)
+- [Browse categories](#browse-categories)
 - [Find by task](#find-by-task)
+- [Catalog at a glance](#catalog-at-a-glance)
+- [30-second tour](#30-second-tour)
+- [Why this hub exists](#why-this-hub-exists)
 - [Resource types](#resource-types)
+- [Search, sort and filter](#search-sort-and-filter)
 - [How the catalog works](#how-the-catalog-works)
 - [Verification and trust](#verification-and-trust)
 - [Security model](#security-model)
@@ -47,77 +46,26 @@ Every catalogued resource has a stable ID, a category, a source, a license statu
 
 ---
 
-## Why this hub exists
+## Browse categories
 
-The OpenCode ecosystem is growing faster than any person can track. Useful skills are scattered across GitHub, npm, PyPI, forums and chat threads. Search results mix real projects with abandoned experiments, copied prompts and unverified links.
+All **18 categories**, sorted by catalog coverage (resources descending), then alphabetically. Each page is generated from the JSON catalog.
 
-| The usual problem | What this hub does |
-| --- | --- |
-| Links without context | Every entry explains what it does and who it is for |
-| Unknown trust level | Source, license, maintenance and security labels are recorded |
-| Claimed testing | Installation and functional testing are marked honestly |
-| Duplicate entries | Stable IDs and a validator catch duplicates and broken references |
-| Unstructured lists | JSON catalog, schemas, generated pages and reports |
-| Lost discoveries | Unresolved entries are preserved in a raw inventory |
-| Unsafe tooling | Permission-bypass and guardrail-removal tools are excluded |
+| Category | Resources | Collections | Category | Resources | Collections |
+| --- | ---: | ---: | --- | ---: | ---: |
+| [Software Development](categories/software-development.md) | 8 | 19 | [Design & UI/UX](categories/design-ui-ux.md) | 5 | 6 |
+| [Image Generation & Editing](categories/image-generation.md) | 5 | 8 | [Cybersecurity](categories/cybersecurity.md) | 4 | 3 |
+| [Android System & Custom ROM](categories/android-system-custom-rom.md) | 2 | 4 | [Database & Backend Infrastructure](categories/database-backend.md) | 2 | 4 |
+| [Documents & Productivity](categories/documents-productivity.md) | 2 | 8 | [Video Generation & Editing](categories/video-generation.md) | 2 | 5 |
+| [Linux & Low-Level Systems](categories/linux-low-level.md) | 1 | 3 | [Mobile Development](categories/mobile-development.md) | 1 | 6 |
+| [AI & Machine Learning](categories/ai-machine-learning.md) | 0 | 4 | [Audio, Voice & Music](categories/audio-music.md) | 0 | 3 |
+| [Business & Finance](categories/business-finance.md) | 0 | 4 | [Content & Marketing](categories/content-marketing.md) | 0 | 6 |
+| [Data Science & Analytics](categories/data-science.md) | 0 | 4 | [DevOps & Cloud](categories/devops-cloud.md) | 0 | 2 |
+| [Education & Research](categories/education-research.md) | 0 | 3 | [Game Development](categories/game-development.md) | 0 | 4 |
 
-## 30-second tour
+> [!TIP]
+> A zero means **no standalone verified entry yet**, not "nothing useful". Those categories still list upstream skill packs. See the full [category index](categories/README.md) and the machine-readable [`catalog/index.json`](catalog/index.json).
 
-```bash
-git clone https://github.com/kanjariyaraj/opencode-skills-hub.git
-cd opencode-skills-hub
-
-ls categories/        # browse by domain
-ls collections/       # browse by role or skill pack
-python3 scripts/validate_catalog.py
-```
-
-No build step. No third-party Python packages. Plain Markdown and JSON.
-
-## Catalog at a glance
-
-| Resources | Collections | Categories | Tests |
-| ---: | ---: | ---: | ---: |
-| **32** | **46** | **18** | **35** |
-
-Counts are produced from [`catalog/*.json`](catalog/). They describe catalog entries, not downloads, stars or upstream quality. The live breakdown is in [`reports/stats.md`](reports/stats.md).
-
-| Signal | Current state |
-| --- | --- |
-| Sources verified | 32 of 32 catalogued resources |
-| Licenses verified | 24 resources |
-| License review required | 8 resources |
-| High-risk security label | 4 resources |
-| Installation tested | 0 resources |
-| Raw inventory preserved | 111 entries (57 verified, 46 unresolved, 4 not found, 4 restricted) |
-
-> [!NOTE]
-> `0` installation tests is deliberate. Third-party resources were **not** installed on the maintainer's host during cataloging. An upstream README describing an install method is not an independent test result.
-
-## Categories
-
-| Category | Resources | Collections |
-| --- | ---: | ---: |
-| [Software Development](categories/software-development.md) | 8 | 19 |
-| [Mobile Development](categories/mobile-development.md) | 1 | 6 |
-| [Android System & Custom ROM](categories/android-system-custom-rom.md) | 2 | 4 |
-| [Linux & Low-Level Systems](categories/linux-low-level.md) | 1 | 3 |
-| [Database & Backend Infrastructure](categories/database-backend.md) | 2 | 4 |
-| [DevOps & Cloud](categories/devops-cloud.md) | 0 | 2 |
-| [Cybersecurity](categories/cybersecurity.md) | 4 | 3 |
-| [AI & Machine Learning](categories/ai-machine-learning.md) | 0 | 4 |
-| [Data Science & Analytics](categories/data-science.md) | 0 | 4 |
-| [Game Development](categories/game-development.md) | 0 | 4 |
-| [Design & UI/UX](categories/design-ui-ux.md) | 5 | 6 |
-| [Image Generation & Editing](categories/image-generation.md) | 5 | 8 |
-| [Video Generation & Editing](categories/video-generation.md) | 2 | 5 |
-| [Audio, Voice & Music](categories/audio-music.md) | 0 | 3 |
-| [Content & Marketing](categories/content-marketing.md) | 0 | 6 |
-| [Documents & Productivity](categories/documents-productivity.md) | 2 | 8 |
-| [Education & Research](categories/education-research.md) | 0 | 3 |
-| [Business & Finance](categories/business-finance.md) | 0 | 4 |
-
-A category can serve users through bundled skill packs even when it has no standalone resource entries yet. **Zero means "no standalone verified entry", not "nothing useful".**
+**Browse another way:** [by role](collections/README.md) · [by task](#find-by-task) · [by type](#resource-types) · [by license](reports/licenses.md) · [by security](reports/security-review.md) · [by verification](reports/stats.md)
 
 ## Find by task
 
@@ -146,6 +94,53 @@ A category can serve users through bundled skill packs even when it has no stand
 > [!WARNING]
 > Never use an offensive-security resource against a system without explicit written authorization. See [SECURITY.md](SECURITY.md).
 
+## Catalog at a glance
+
+| Resources | Collections | Categories | Tests |
+| ---: | ---: | ---: | ---: |
+| **32** | **46** | **18** | **45** |
+
+Counts are produced from [`catalog/*.json`](catalog/) as of 2026-11-05. They describe catalog entries, not downloads, stars or upstream quality. The live breakdown is in [`reports/stats.md`](reports/stats.md).
+
+| Signal | Current state |
+| --- | --- |
+| Sources verified | 32 of 32 catalogued resources |
+| Licenses verified | 24 resources |
+| License review required | 8 resources |
+| High-risk security label | 4 resources |
+| Installation tested | 0 resources |
+| Raw inventory preserved | 111 entries (57 verified, 46 unresolved, 4 not found, 4 restricted) |
+
+> [!NOTE]
+> `0` installation tests is deliberate. Third-party resources were **not** installed on the maintainer's host during cataloging. An upstream README describing an install method is not an independent test result.
+
+## 30-second tour
+
+```bash
+git clone https://github.com/kanjariyaraj/opencode-skills-hub.git
+cd opencode-skills-hub
+
+ls categories/        # browse by domain
+ls collections/       # browse by role or skill pack
+python3 scripts/query_catalog.py --sort name --limit 10
+```
+
+No build step. No third-party Python packages. Plain Markdown and JSON.
+
+## Why this hub exists
+
+The OpenCode ecosystem is growing faster than any person can track. Useful skills are scattered across GitHub, npm, PyPI, forums and chat threads. Search results mix real projects with abandoned experiments, copied prompts and unverified links.
+
+| The usual problem | What this hub does |
+| --- | --- |
+| Links without context | Every entry explains what it does and who it is for |
+| Unknown trust level | Source, license, maintenance and security labels are recorded |
+| Claimed testing | Installation and functional testing are marked honestly |
+| Duplicate entries | Stable IDs and a validator catch duplicates and broken references |
+| Unstructured lists | JSON catalog, schemas, generated pages and reports |
+| Lost discoveries | Unresolved entries are preserved in a raw inventory |
+| Unsafe tooling | Permission-bypass and guardrail-removal tools are excluded |
+
 ## Resource types
 
 <details>
@@ -165,6 +160,32 @@ A category can serve users through bundled skill packs even when it has no stand
 Collections describe either a **user role** (a curated mapping) or an **upstream skill pack/toolkit** (a bundle catalogued as one entry).
 
 </details>
+
+## Search, sort and filter
+
+Browse on GitHub with the pages above, or query the catalog locally. The query tool uses only the Python standard library.
+
+```bash
+# Everything in a category, A–Z
+python3 scripts/query_catalog.py --category image-generation --sort name
+
+# Plugins, riskiest first
+python3 scripts/query_catalog.py --type plugin --sort security --reverse
+
+# IDs only, for scripting
+python3 scripts/query_catalog.py --license LICENSE_REVIEW_REQUIRED --format ids
+
+# Full JSON records
+python3 scripts/query_catalog.py --search design --format json
+```
+
+| Sort by | Filter by |
+| --- | --- |
+| `name`, `id`, `type`, `category` | `--category`, `--type` |
+| `license`, `security`, `verification` | `--license`, `--security`, `--status` |
+| `source`, `last-push` | `--source-kind`, `--maintenance`, `--search` |
+
+Use `--reverse`, `--limit N` and `--format table|json|ids` to shape the output. Full options are in the [discovery guide](docs/discovery.md).
 
 ## How the catalog works
 
@@ -303,7 +324,7 @@ Do not submit invented repositories, guessed package names or unverified install
 ├── categories/               # generated category pages
 ├── collections/              # generated role and pack pages
 ├── docs/                     # methodology and guides
-├── scripts/                  # validation and generation tools
+├── scripts/                  # validation, query and generation tools
 ├── tests/                    # unittest suite
 ├── reports/                  # generated evidence reports
 ├── restricted/               # excluded tools and policy
@@ -321,6 +342,7 @@ Requirements: Python 3.10+ and Git. No third-party packages are required.
 | --- | --- |
 | `make validate` | Validate schemas, IDs, categories and references |
 | `make generate` | Regenerate indexes, category pages, collections and reports |
+| `make query` | Print resources sorted by name |
 | `make test` | Run the unit test suite |
 | `make lint` | Lint Markdown |
 | `make links` | Check local Markdown links |

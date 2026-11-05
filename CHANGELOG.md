@@ -4,6 +4,24 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- Category-first README with all 18 categories near the top, sorted by coverage.
+- Query tool for filtering and sorting the catalog: `scripts/query_catalog.py`.
+- Contributor resources: `docs/faq.md`, `docs/resource-template.md`.
+- `Makefile`, `.editorconfig`, `.gitattributes` and `.gitignore`.
+- Breadcrumbs and quick-facts blocks on generated category and collection pages.
+- Unit tests for filtering, sorting and JSON/ID output.
+
+### Changed
+
+- README rewritten for faster discovery, clearer trust signals and safer install guidance.
+- `categories/README.md` now sorts categories by resource coverage, then alphabetically.
+
+### Fixed
+
+- Removed previously committed Python bytecode and ignored future artifacts.
+
 ### Planned
 
 - Expand verified standalone coverage in DevOps, AI/ML, data science, game development, audio and business categories.
