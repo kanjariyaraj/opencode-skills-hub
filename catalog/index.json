@@ -1,0 +1,3450 @@
+{
+  "schema_version": "1.0.0",
+  "counts": {
+    "resources": 32,
+    "collections": 46,
+    "by_type": {
+      "skill": 15,
+      "agent": 3,
+      "plugin": 11,
+      "mcp": 3,
+      "command": 0,
+      "rule": 0,
+      "hook": 0,
+      "provider": 0
+    }
+  },
+  "categories": [
+    {
+      "id": "software-development",
+      "label": "Software Development",
+      "resource_count": 8,
+      "resource_ids": [
+        "devhive-backender",
+        "devhive-frontender",
+        "opencode-browser-control",
+        "opencode-plugin-gstack",
+        "qa-test-cli",
+        "superpowers-brainstorming",
+        "superpowers-systematic-debugging",
+        "superpowers-test-driven-development"
+      ]
+    },
+    {
+      "id": "mobile-development",
+      "label": "Mobile Development",
+      "resource_count": 1,
+      "resource_ids": [
+        "opencode-flutter-architect"
+      ]
+    },
+    {
+      "id": "android-system-custom-rom",
+      "label": "Android System & Custom ROM",
+      "resource_count": 2,
+      "resource_ids": [
+        "hyperdroid-skill",
+        "termux-skill"
+      ]
+    },
+    {
+      "id": "linux-low-level",
+      "label": "Linux & Low-Level Systems",
+      "resource_count": 1,
+      "resource_ids": [
+        "android-kernel-lkm"
+      ]
+    },
+    {
+      "id": "database-backend",
+      "label": "Database & Backend Infrastructure",
+      "resource_count": 2,
+      "resource_ids": [
+        "database-admin",
+        "opencode-postgres"
+      ]
+    },
+    {
+      "id": "devops-cloud",
+      "label": "DevOps & Cloud",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "resource_count": 4,
+      "resource_ids": [
+        "mrzero",
+        "open-sploit",
+        "opensploit-core",
+        "pentester-mcp"
+      ]
+    },
+    {
+      "id": "ai-machine-learning",
+      "label": "AI & Machine Learning",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "data-science",
+      "label": "Data Science & Analytics",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "game-development",
+      "label": "Game Development",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "design-ui-ux",
+      "label": "Design & UI/UX",
+      "resource_count": 5,
+      "resource_ids": [
+        "designing-canvas-art",
+        "impeccable",
+        "oh-my-design-cli",
+        "sprezzature",
+        "ui-ux-pro-max"
+      ]
+    },
+    {
+      "id": "image-generation",
+      "label": "Image Generation & Editing",
+      "resource_count": 5,
+      "resource_ids": [
+        "3d-web-skill",
+        "ai-artist",
+        "img2threejs",
+        "legnext-midjourney-skills",
+        "opencode-nanobanana"
+      ]
+    },
+    {
+      "id": "video-generation",
+      "label": "Video Generation & Editing",
+      "resource_count": 2,
+      "resource_ids": [
+        "videocut-clip",
+        "wavespeed-cli"
+      ]
+    },
+    {
+      "id": "audio-music",
+      "label": "Audio, Voice & Music",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "content-marketing",
+      "label": "Content & Marketing",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "documents-productivity",
+      "label": "Documents & Productivity",
+      "resource_count": 2,
+      "resource_ids": [
+        "duckbrain",
+        "opencode-productivity-agent"
+      ]
+    },
+    {
+      "id": "education-research",
+      "label": "Education & Research",
+      "resource_count": 0,
+      "resource_ids": []
+    },
+    {
+      "id": "business-finance",
+      "label": "Business & Finance",
+      "resource_count": 0,
+      "resource_ids": []
+    }
+  ],
+  "resources": [
+    {
+      "id": "3d-web-skill",
+      "name": "3D Web Skill",
+      "type": "skill",
+      "description": "Skill that teaches an agent to build Three.js 3D web experiences and turn reference imagery into interactive scenes.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "software-development",
+        "game-development"
+      ],
+      "tags": [
+        "threejs",
+        "3d",
+        "webgl",
+        "skill",
+        "web"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/3d-web-skill",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "npm install 3d-web-skill",
+          "Review the generated skill files before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.3.1 confirmed; no repository URL in registry metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill; no source-level audit was possible without a repository URL."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed; no public repository resolved. Skill not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.3.1",
+        "last_push": null
+      }
+    },
+    {
+      "id": "ai-artist",
+      "name": "AI Artist",
+      "type": "skill",
+      "description": "Prompt-craft skill for image models, covering style keywords, negative prompts and model-specific prompting patterns.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "design-ui-ux",
+        "content-marketing"
+      ],
+      "tags": [
+        "image",
+        "prompting",
+        "midjourney",
+        "stable-diffusion",
+        "flux",
+        "dall-e"
+      ],
+      "source": {
+        "url": "https://github.com/Stonelukas/Mouse-on-Numpad",
+        "kind": "github",
+        "documentation": "https://github.com/Stonelukas/Mouse-on-Numpad",
+        "repository": "Stonelukas/Mouse-on-Numpad"
+      },
+      "install": {
+        "instructions": [
+          "Open the upstream repository and locate the ai-artist skill.",
+          "Copy it into your OpenCode skills directory only after reviewing its contents."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Parent repository verified; the named skill was not independently executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill; not security-audited."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Parent repo and MIT license confirmed; skill-level behavior not tested. Last push 2026-02-08."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-02-08T01:42:01Z"
+      }
+    },
+    {
+      "id": "android-kernel-lkm",
+      "name": "Android Kernel LKM",
+      "type": "skill",
+      "description": "Workflow skill for Android kernel module development using kprobe and kretprobe, covering feasibility, baseline extraction, static checks and insmod testing.",
+      "primary_category": "linux-low-level",
+      "secondary_categories": [
+        "android-system-custom-rom"
+      ],
+      "tags": [
+        "android",
+        "kernel",
+        "lkm",
+        "kprobe",
+        "kretprobe",
+        "insmod"
+      ],
+      "source": {
+        "url": "https://github.com/Yunnijian/android-kernel-lkm",
+        "kind": "github",
+        "documentation": "https://github.com/Yunnijian/android-kernel-lkm",
+        "repository": "Yunnijian/android-kernel-lkm"
+      },
+      "install": {
+        "instructions": [
+          "Read the upstream SKILL.md and prerequisites before installation.",
+          "Load kernel modules only on devices you own or are authorized to modify."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "High-consequence domain: kernel modules can brick devices."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "android"
+        ],
+        "dependencies": [
+          "matching Android kernel headers",
+          "adb",
+          "insmod"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Kernel-level operations can destabilize or brick a device. License file not detected by GitHub API."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license detected. Module workflow not executed."
+      },
+      "signals": {
+        "github_stars_observed": 10,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-19T02:00:00Z"
+      }
+    },
+    {
+      "id": "database-admin",
+      "name": "database-admin",
+      "type": "plugin",
+      "description": "OpenCode plugin providing direct SQL access across MySQL, MariaDB, PostgreSQL, SQL Server and SQLite.",
+      "primary_category": "database-backend",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "sql",
+        "mysql",
+        "postgresql",
+        "mariadb",
+        "sqlite",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/database-admin",
+        "kind": "npm",
+        "documentation": "https://github.com/nyingimaina/open-code-database-admin",
+        "repository": "nyingimaina/open-code-database-admin"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g database-admin",
+          "Configure connections with least-privilege, read-only credentials where possible."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.2.1 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "database driver",
+          "database credentials"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Can execute SQL against configured databases. Use read-only accounts and never point it at production without authorization."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Query behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.2.1",
+        "last_push": "2026-03-23T10:47:30Z"
+      }
+    },
+    {
+      "id": "designing-canvas-art",
+      "name": "Designing Canvas Art",
+      "type": "skill",
+      "description": "Design-philosophy skill for producing poster and illustration assets as PNG or PDF using aesthetic and compositional principles.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "image-generation"
+      ],
+      "tags": [
+        "canvas",
+        "poster",
+        "illustration",
+        "design",
+        "png",
+        "pdf"
+      ],
+      "source": {
+        "url": "https://github.com/osmontero/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/osmontero/opencode-skills",
+        "repository": "osmontero/opencode-skills"
+      },
+      "install": {
+        "instructions": [
+          "Find the skill in the upstream repository and review it.",
+          "Copy it into your OpenCode skills directory if you accept its instructions."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Parent repository verified; named skill not independently executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "May instruct the agent to run local graphics tooling; review before use."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Parent repo and MIT license confirmed. Last push 2026-10-28."
+      },
+      "signals": {
+        "github_stars_observed": 15,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-28T11:16:33Z"
+      }
+    },
+    {
+      "id": "devhive-backender",
+      "name": "DevHive Backender",
+      "type": "agent",
+      "description": "Backend-specialist agent from DevHive for API design, server logic and data-layer implementation.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "database-backend"
+      ],
+      "tags": [
+        "backend",
+        "agent",
+        "api",
+        "devhive"
+      ],
+      "source": {
+        "url": "https://pypi.org/project/devhive/",
+        "kind": "pypi",
+        "documentation": "https://github.com/ramBlanco/devhive",
+        "repository": "ramBlanco/devhive"
+      },
+      "install": {
+        "instructions": [
+          "pip install devhive",
+          "Follow the upstream README to register agents with OpenCode."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.1.47 and GitHub repo confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3.10+"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Python package install; review dependencies and scripts before installing globally."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata and GitHub repo confirmed. Agent behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 4,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.47",
+        "last_push": "2026-11-01T15:41:18Z"
+      }
+    },
+    {
+      "id": "devhive-frontender",
+      "name": "DevHive Frontender",
+      "type": "agent",
+      "description": "Frontend-specialist agent from DevHive for UI logic and client-side implementation workflows.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "frontend",
+        "agent",
+        "ui",
+        "devhive"
+      ],
+      "source": {
+        "url": "https://pypi.org/project/devhive/",
+        "kind": "pypi",
+        "documentation": "https://github.com/ramBlanco/devhive",
+        "repository": "ramBlanco/devhive"
+      },
+      "install": {
+        "instructions": [
+          "pip install devhive",
+          "Follow the upstream README to register agents with OpenCode."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.1.47 and GitHub repo confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3.10+"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Python package install; review dependencies and scripts before installing globally."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata and GitHub repo confirmed. Agent behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 4,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.47",
+        "last_push": "2026-11-01T15:41:18Z"
+      }
+    },
+    {
+      "id": "duckbrain",
+      "name": "DuckBrain",
+      "type": "mcp",
+      "description": "DuckDB-backed MCP memory server that gives agents structured search, read and write access to Obsidian vaults.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "obsidian",
+        "memory",
+        "mcp",
+        "duckdb",
+        "notes"
+      ],
+      "source": {
+        "url": "https://pypi.org/project/duckbrain/",
+        "kind": "pypi",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "pip install duckbrain",
+          "Point it at a backed-up vault and verify write behavior before enabling writes."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.7.0 confirmed; license not declared in PyPI metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "Obsidian vault"
+        ]
+      },
+      "license": {
+        "spdx": "UNKNOWN",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Reads and writes local notes. Back up the vault and restrict write access until reviewed."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata confirmed; license unknown. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.7.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "hyperdroid-skill",
+      "name": "HyperDroid Skill",
+      "type": "skill",
+      "description": "LineageOS and custom ROM development skill covering source sync, device trees, repopick, Gerrit contributions and vendor blobs.",
+      "primary_category": "android-system-custom-rom",
+      "secondary_categories": [
+        "mobile-development",
+        "linux-low-level"
+      ],
+      "tags": [
+        "lineageos",
+        "aosp",
+        "device-tree",
+        "repopick",
+        "gerrit",
+        "custom-rom"
+      ],
+      "source": {
+        "url": "https://github.com/hyperb1iss/hyperdroid-skill",
+        "kind": "github",
+        "documentation": "https://github.com/hyperb1iss/hyperdroid-skill",
+        "repository": "hyperb1iss/hyperdroid-skill"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README for agent installation.",
+          "Confirm the target device tree and vendor blobs before building."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Installation was not executed during cataloging."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "repo",
+          "git",
+          "Android build host"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Build instructions can consume large disk space and run long build jobs; review before executing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Last push 2026-01-28; treat as low-activity."
+      },
+      "signals": {
+        "github_stars_observed": 52,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-01-28T21:48:01Z"
+      }
+    },
+    {
+      "id": "img2threejs",
+      "name": "img2threejs",
+      "type": "skill",
+      "description": "Skill that reconstructs a single reference image as a procedural, animation-ready Three.js model through staged code generation.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "software-development",
+        "game-development"
+      ],
+      "tags": [
+        "threejs",
+        "3d",
+        "image-to-3d",
+        "webgl",
+        "procedural"
+      ],
+      "source": {
+        "url": "https://github.com/img2threejs/img2threejs",
+        "kind": "github",
+        "documentation": "https://github.com/img2threejs/img2threejs",
+        "repository": "img2threejs/img2threejs"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README for the current agent installation."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Installation was not executed during cataloging."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Generates and executes project code; review generated output before deployment."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and Apache-2.0 license confirmed. Skill behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 20301,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-05T05:57:25Z"
+      }
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "type": "skill",
+      "description": "Frontend design and UX review skill focused on visual hierarchy, accessibility, typography, spacing, motion and common anti-patterns.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "ui",
+        "ux",
+        "accessibility",
+        "typography",
+        "frontend",
+        "review"
+      ],
+      "source": {
+        "url": "https://github.com/pbakaus/impeccable",
+        "kind": "github",
+        "documentation": "https://github.com/pbakaus/impeccable",
+        "repository": "pbakaus/impeccable"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README for the current installation method.",
+          "Review the skill files before enabling them in an agent."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Installation was not executed during cataloging."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill; not security-audited."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository and Apache-2.0 license confirmed via GitHub API on 2026-11-05."
+      },
+      "signals": {
+        "github_stars_observed": 103098,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-05T05:59:01Z"
+      }
+    },
+    {
+      "id": "legnext-midjourney-skills",
+      "name": "Legnext AI Skills (Midjourney API)",
+      "type": "skill",
+      "description": "Skills for integrating the Legnext Midjourney API, including image generation, variations, upscaling and credit management.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "content-marketing"
+      ],
+      "tags": [
+        "midjourney",
+        "api",
+        "image",
+        "upscale",
+        "variations"
+      ],
+      "source": {
+        "url": "https://github.com/legnext-ai/skills",
+        "kind": "github",
+        "documentation": "https://github.com/legnext-ai/skills",
+        "repository": "legnext-ai/skills"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README for setup.",
+          "Provide API credentials through environment variables; never commit them."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Requires a Legnext account and API key. Not installed or executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Legnext API key"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Third-party API integration; review credential handling and billing implications."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed; API integration not tested. Last push 2026-08-10."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-08-10T22:38:12Z"
+      }
+    },
+    {
+      "id": "mrzero",
+      "name": "MrZero",
+      "type": "plugin",
+      "description": "Agent pack for vulnerability research, attack-surface mapping and exploit development, integrating reverse-engineering and exploitation tooling.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [
+        "linux-low-level"
+      ],
+      "tags": [
+        "vulnerability-research",
+        "exploit",
+        "reverse-engineering",
+        "ghidra",
+        "metasploit"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/@bengabay94/mrzero",
+        "kind": "npm",
+        "documentation": "https://github.com/bengabay1994/MrZero",
+        "repository": "bengabay1994/MrZero"
+      },
+      "install": {
+        "instructions": [
+          "npx @bengabay94/mrzero install",
+          "Use only in an isolated lab against systems you own or are authorized to test."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.0-alpha.1 confirmed; pre-release software. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Ghidra",
+          "Metasploit"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Exploit-development tooling. Authorization required. Pre-release; expect instability."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license; alpha release. Not executed."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.0-alpha.1",
+        "last_push": "2026-02-14T11:30:23Z"
+      }
+    },
+    {
+      "id": "oh-my-design-cli",
+      "name": "oh-my-design-cli",
+      "type": "plugin",
+      "description": "CLI that adds senior product-designer workflows and brand-memory guidance to coding agents.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "design",
+        "cli",
+        "brand",
+        "product-design"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/oh-my-design-cli",
+        "kind": "npm",
+        "documentation": "https://github.com/kwakseongjae/oh-my-design",
+        "repository": "kwakseongjae/oh-my-design"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g oh-my-design-cli",
+          "Run the CLI's documented setup step."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 2.0.6 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Global npm install and CLI execution. Review before running."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API."
+      },
+      "signals": {
+        "github_stars_observed": 563,
+        "observed_at": "2026-11-05",
+        "latest_release": "2.0.6",
+        "last_push": "2026-11-04T10:37:01Z"
+      }
+    },
+    {
+      "id": "open-sploit",
+      "name": "open-sploit",
+      "type": "plugin",
+      "description": "Offensive-security agent CLI with attack skills and engagement routing for authorized penetration tests.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": [
+        "pentest",
+        "offensive",
+        "cli",
+        "agents"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/open-sploit",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "npx open-sploit",
+          "Use only in an isolated lab against explicitly authorized targets."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.2.0 confirmed; no repository URL in registry metadata. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Kali Linux or WSL2 for full tooling"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Offensive tooling. Authorization required. No source-level review was possible without a repository URL."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed. No public repository resolved; tool not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.2.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "opencode-browser-control",
+      "name": "OpenCode Browser Control",
+      "type": "mcp",
+      "description": "Playwright-powered browser automation server that controls Chrome or Edge using accessibility snapshots and element references.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "cybersecurity"
+      ],
+      "tags": [
+        "playwright",
+        "browser",
+        "automation",
+        "mcp",
+        "testing"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-browser-control",
+        "kind": "npm",
+        "documentation": "https://github.com/FileXego/opencode-browser-control",
+        "repository": "FileXego/opencode-browser-control"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g opencode-browser-control",
+          "Install a Playwright browser and review the server configuration."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.0 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Playwright",
+          "Chromium/Chrome"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Browser control can access authenticated sessions. Isolate profiles and avoid exposing credentials to untrusted sites."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Browser automation not executed."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.0",
+        "last_push": "2026-06-10T14:41:56Z"
+      }
+    },
+    {
+      "id": "opencode-flutter-architect",
+      "name": "OpenCode Flutter Architect",
+      "type": "agent",
+      "description": "Flutter-focused agent bundled with @alghanem/opencode-flutter, intended for application architecture and delivery workflows.",
+      "primary_category": "mobile-development",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "flutter",
+        "dart",
+        "agent",
+        "architecture",
+        "mobile"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/@alghanem/opencode-flutter",
+        "kind": "npm",
+        "documentation": "https://www.npmjs.com/package/@alghanem/opencode-flutter",
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "npm install -g @alghanem/opencode-flutter",
+          "Review the generated agent files before enabling them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm package metadata verified; the declared repository URL returns 404. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Flutter SDK"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Global npm install executes package install scripts. Review provenance and the package contents first."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm 0.3.3 and MIT license confirmed via npm registry on 2026-11-05. Agent behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.3.3",
+        "last_push": null
+      }
+    },
+    {
+      "id": "opencode-nanobanana",
+      "name": "OpenCode Nano Banana",
+      "type": "plugin",
+      "description": "OpenCode plugin that adds image generation and editing features, plus video-generation workflows, directly into the coding agent.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "video-generation",
+        "design-ui-ux"
+      ],
+      "tags": [
+        "image",
+        "video",
+        "generation",
+        "nano-banana",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-nanobanana",
+        "kind": "npm",
+        "documentation": "https://github.com/48Nauts-Operator/opencode-nanobanana",
+        "repository": "48Nauts-Operator/opencode-nanobanana"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g opencode-nanobanana",
+          "Configure the required provider API key through environment variables."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.3.0 confirmed; repository license NOASSERTION. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "image/video provider API key"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends prompts and media to third-party generation APIs. Review data handling and billing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm registry and GitHub repository confirmed; license not recognized. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": 6,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.3.0",
+        "last_push": "2026-01-19T17:32:50Z"
+      }
+    },
+    {
+      "id": "opencode-plugin-gstack",
+      "name": "gstack",
+      "type": "plugin",
+      "description": "OpenCode plugin that maps agent workflows to a virtual engineering team, including a QA lead and browser-testing command.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "cybersecurity"
+      ],
+      "tags": [
+        "qa",
+        "browser-testing",
+        "workflow",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-plugin-gstack",
+        "kind": "npm",
+        "documentation": "https://github.com/sjzsdu/OpencodePlugins",
+        "repository": "sjzsdu/OpencodePlugins"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g opencode-plugin-gstack",
+          "Review the exposed commands before running them against a codebase."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.1 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Browser automation can reach external sites and handle session data. Review before use."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": 62,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.1",
+        "last_push": "2026-09-22T14:41:21Z"
+      }
+    },
+    {
+      "id": "opencode-postgres",
+      "name": "OpenCode Postgres Plugin",
+      "type": "plugin",
+      "description": "Postgres query tool for OpenCode that runs SQL against configured databases with read-only safety checks.",
+      "primary_category": "database-backend",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "postgresql",
+        "sql",
+        "query",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-postgres",
+        "kind": "npm",
+        "documentation": "https://github.com/vimtor/opencode-plugins",
+        "repository": "vimtor/opencode-plugins"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g opencode-postgres",
+          "Configure a connection string through environment variables."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.0.0 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "PostgreSQL"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Database access plugin. Use least-privilege credentials and verify the read-only safeguards in the source."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Query behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 30,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.0.0",
+        "last_push": "2026-10-27T10:04:31Z"
+      }
+    },
+    {
+      "id": "opencode-productivity-agent",
+      "name": "OpenCode Productivity Agent",
+      "type": "plugin",
+      "description": "Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "business-finance"
+      ],
+      "tags": [
+        "productivity",
+        "tasks",
+        "memory",
+        "dashboard",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-productivity-agent",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "npm install -g opencode-productivity-agent",
+          "Review which third-party integrations and scopes it requests."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.1 confirmed; no repository URL in registry metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Integrations may request access to external work tools. Review OAuth scopes and data handling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed. No public repository was resolved, so source-level review was not possible."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.1",
+        "last_push": null
+      }
+    },
+    {
+      "id": "opensploit-core",
+      "name": "OpenSploit Core",
+      "type": "plugin",
+      "description": "Autonomous penetration-testing plugin that bundles offensive agents and security tooling for Docker-isolated lab environments.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": [
+        "pentest",
+        "offensive",
+        "docker",
+        "agents",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/@opensploit/core",
+        "kind": "npm",
+        "documentation": "https://github.com/silicon-works/opensploit-plugin",
+        "repository": "silicon-works/opensploit-plugin"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g @opensploit/core",
+          "Run only inside an isolated lab with explicit written authorization for the in-scope target."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.0 confirmed; install not executed. Offensive tooling."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Docker"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Bundles offensive security tooling. Never run against systems without explicit written authorization. Keep isolated."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license. Agents and tools not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.0",
+        "last_push": "2026-05-29T12:49:55Z"
+      }
+    },
+    {
+      "id": "pentester-mcp",
+      "name": "Pentester MCP",
+      "type": "mcp",
+      "description": "Authorization-gated MCP server that exposes penetration-testing tooling to MCP-capable agents.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": [
+        "pentest",
+        "mcp",
+        "security",
+        "offensive"
+      ],
+      "source": {
+        "url": "https://pypi.org/project/pentester-mcp/",
+        "kind": "pypi",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "pip install pentester-mcp",
+          "Configure it only against systems you own or have explicit written authorization to test."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.4.0 confirmed; install not executed. Offensive tooling."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "dependencies": [
+          "Python 3"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Offensive security tooling. Use only with explicit authorization and a defined in-scope target. Never scan third-party systems."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata confirmed; license declared as MIT. Tool behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.4.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "qa-test-cli",
+      "name": "QA Test CLI",
+      "type": "plugin",
+      "description": "CLI that scaffolds multi-stage QA skills and methodology references into an OpenCode skills directory.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "qa",
+        "testing",
+        "cli",
+        "scaffolding"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/qa-test-cli",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "npx qa-test init",
+          "Inspect the files it writes before enabling them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.11 confirmed; declared repository URL returns 404. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Scaffolding tool writes into the user's skills directory. Review generated files."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed; no reachable repository, so source-level review was not possible."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.11",
+        "last_push": null
+      }
+    },
+    {
+      "id": "sprezzature",
+      "name": "Sprezzature",
+      "type": "skill",
+      "description": "Design-system skill collection covering colors, typography, accessibility, UI, UX, audio subtitles, vision alt text and figures.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "content-marketing",
+        "image-generation"
+      ],
+      "tags": [
+        "design-system",
+        "accessibility",
+        "typography",
+        "audio",
+        "vision",
+        "skill"
+      ],
+      "source": {
+        "url": "https://pypi.org/project/sprezzature/",
+        "kind": "pypi",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": [
+          "pip install sprezzature",
+          "Follow the package documentation to register the skills."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 1.6.0 confirmed; license not declared in PyPI metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3"
+        ]
+      },
+      "license": {
+        "spdx": "UNKNOWN",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill collection; license unreviewed."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata confirmed; license unknown. Skills not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.6.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "superpowers-brainstorming",
+      "name": "Superpowers: Brainstorming",
+      "type": "skill",
+      "description": "Process skill that explores intent, requirements and design before implementation begins.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "planning",
+        "requirements",
+        "design",
+        "process"
+      ],
+      "source": {
+        "url": "https://github.com/obra/superpowers",
+        "kind": "github",
+        "documentation": "https://github.com/obra/superpowers",
+        "repository": "obra/superpowers"
+      },
+      "install": {
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Plugin installation not executed in this session."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only process skill; not security-audited here."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
+      },
+      "signals": {
+        "github_stars_observed": 312573,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-03T23:24:58Z"
+      }
+    },
+    {
+      "id": "superpowers-systematic-debugging",
+      "name": "Superpowers: Systematic Debugging",
+      "type": "skill",
+      "description": "Process skill that enforces hypothesis-driven root-cause analysis before proposing bug fixes.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "debugging",
+        "root-cause",
+        "process",
+        "testing"
+      ],
+      "source": {
+        "url": "https://github.com/obra/superpowers",
+        "kind": "github",
+        "documentation": "https://github.com/obra/superpowers",
+        "repository": "obra/superpowers"
+      },
+      "install": {
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Plugin installation not executed in this session."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only process skill; not security-audited here."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
+      },
+      "signals": {
+        "github_stars_observed": 312573,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-03T23:24:58Z"
+      }
+    },
+    {
+      "id": "superpowers-test-driven-development",
+      "name": "Superpowers: Test-Driven Development",
+      "type": "skill",
+      "description": "Process skill that requires writing and running failing tests before implementation code is written.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "tdd",
+        "testing",
+        "process",
+        "quality"
+      ],
+      "source": {
+        "url": "https://github.com/obra/superpowers",
+        "kind": "github",
+        "documentation": "https://github.com/obra/superpowers",
+        "repository": "obra/superpowers"
+      },
+      "install": {
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Plugin installation not executed in this session."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only process skill; not security-audited here."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
+      },
+      "signals": {
+        "github_stars_observed": 312573,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-03T23:24:58Z"
+      }
+    },
+    {
+      "id": "termux-skill",
+      "name": "Termux Skill",
+      "type": "skill",
+      "description": "Skill that lets an agent control an Android device through the Termux API for automation and pre-flash preparation.",
+      "primary_category": "android-system-custom-rom",
+      "secondary_categories": [
+        "mobile-development"
+      ],
+      "tags": [
+        "termux",
+        "android",
+        "automation",
+        "skill",
+        "device"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/termux-skill",
+        "kind": "npm",
+        "documentation": "https://github.com/itskreisler/termux-skill",
+        "repository": "itskreisler/termux-skill"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g termux-skill",
+          "Install the Termux:API app and review the permissions it grants."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.3.0 confirmed; license CC-BY-NC-4.0 (non-commercial). Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "android",
+          "linux"
+        ],
+        "dependencies": [
+          "Termux",
+          "Termux:API"
+        ]
+      },
+      "license": {
+        "spdx": "CC-BY-NC-4.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Grants device-control capabilities through Termux. Review the exact API calls before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Last push 2026-07-12; non-commercial license."
+      },
+      "signals": {
+        "github_stars_observed": 7,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.3.0",
+        "last_push": "2026-07-12T22:27:31Z"
+      }
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "UI/UX Pro Max",
+      "type": "skill",
+      "description": "Design-intelligence skill that provides visual styles, palettes, font pairings, charts and UI guidance for landing pages, dashboards and SaaS products.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development",
+        "image-generation"
+      ],
+      "tags": [
+        "ui",
+        "ux",
+        "design-system",
+        "palette",
+        "typography",
+        "charts"
+      ],
+      "source": {
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "github",
+        "documentation": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "repository": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README for the current agent-specific installation method.",
+          "Review files before copying anything into ~/.config/opencode/skills/."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Installation was not executed during cataloging."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill; no installation audit was performed. Content may instruct the agent to run commands."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository and MIT license confirmed via GitHub API on 2026-11-05. Skill behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 145342,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-04T13:06:04Z"
+      }
+    },
+    {
+      "id": "videocut-clip",
+      "name": "Videocut Clip",
+      "type": "skill",
+      "description": "Video trimming skill that turns confirmed cut decisions into FFmpeg operations and produces subtitle files.",
+      "primary_category": "video-generation",
+      "secondary_categories": [
+        "audio-music"
+      ],
+      "tags": [
+        "video",
+        "ffmpeg",
+        "trim",
+        "subtitles",
+        "srt"
+      ],
+      "source": {
+        "url": "https://github.com/zrt-ai-lab/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/zrt-ai-lab/opencode-skills",
+        "repository": "zrt-ai-lab/opencode-skills"
+      },
+      "install": {
+        "instructions": [
+          "Locate the videocut-clip skill in the upstream repository.",
+          "Review the FFmpeg commands before running them on valuable media."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Parent repository verified; skill not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "ffmpeg"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Runs FFmpeg file operations; confirm input/output paths to avoid overwriting source media."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Parent repo confirmed; no recognized license detected. Skill not executed."
+      },
+      "signals": {
+        "github_stars_observed": 296,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-07-22T03:42:01Z"
+      }
+    },
+    {
+      "id": "wavespeed-cli",
+      "name": "WaveSpeed CLI",
+      "type": "plugin",
+      "description": "CLI and agent integration for running image, video, audio and 3D generation models through the WaveSpeed platform.",
+      "primary_category": "video-generation",
+      "secondary_categories": [
+        "image-generation",
+        "audio-music"
+      ],
+      "tags": [
+        "image",
+        "video",
+        "audio",
+        "3d",
+        "cli",
+        "generation"
+      ],
+      "source": {
+        "url": "https://www.npmjs.com/package/@wavespeed/cli",
+        "kind": "npm",
+        "documentation": "https://github.com/WaveSpeedAI/wavespeed-cli",
+        "repository": "WaveSpeedAI/wavespeed-cli"
+      },
+      "install": {
+        "instructions": [
+          "npm install -g @wavespeed/cli",
+          "Configure a WaveSpeed API key through environment variables."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.4.27 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "WaveSpeed API key"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Paid third-party API. Review billing, data handling and credential storage."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Generation not executed."
+      },
+      "signals": {
+        "github_stars_observed": 26,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.4.27",
+        "last_push": "2026-11-03T16:01:42Z"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "agent-ml-skills",
+      "name": "agent-ml-skills",
+      "kind": "skill-pack",
+      "description": "Production-oriented ML and data-science skills covering exploratory analysis, scikit-learn pipelines, PyTorch training loops, RAG, fine-tuning and model serving.",
+      "audience": "ML engineers and data scientists",
+      "categories": [
+        "ai-machine-learning",
+        "data-science"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://www.npmjs.com/package/agent-ml-skills",
+        "kind": "npm",
+        "documentation": "https://github.com/param087/agent-ml-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm 0.1.0 and GitHub repository confirmed; MIT license. Skills not executed."
+      }
+    },
+    {
+      "id": "agentic-bug-hunter",
+      "name": "Agentic Bug Hunter",
+      "kind": "skill-pack",
+      "description": "Bug-bounty workflow pack with recon, hunting and reporting skills for authorized HackerOne and Bugcrowd programs.",
+      "audience": "Authorized bug-bounty researchers",
+      "categories": [
+        "cybersecurity"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/awarexone/Agentic-Bug-Hunter",
+        "kind": "github",
+        "documentation": "https://github.com/awarexone/Agentic-Bug-Hunter"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Offensive workflow; authorization required."
+      }
+    },
+    {
+      "id": "aniruddhaadak80-skills",
+      "name": "aniruddhaadak80/skills",
+      "kind": "skill-pack",
+      "description": "Broad professional skill pack spanning science, finance, legal, product, business and marketing workflows.",
+      "audience": "Business and operations teams",
+      "categories": [
+        "business-finance",
+        "content-marketing",
+        "documents-productivity"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/aniruddhaadak80/skills",
+        "kind": "github",
+        "documentation": "https://github.com/aniruddhaadak80/skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "charlieviettq-awesome-agent-skill",
+      "name": "charlieviettq/awesome-agent-skill",
+      "kind": "skill-pack",
+      "description": "Portable skill collection with persona bundles for data science, AI engineering, research and finance workflows.",
+      "audience": "Researchers and knowledge workers",
+      "categories": [
+        "ai-machine-learning",
+        "data-science",
+        "education-research",
+        "business-finance"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/charlieviettq/awesome-agent-skill",
+        "kind": "github",
+        "documentation": "https://github.com/charlieviettq/awesome-agent-skill"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill count not independently verified."
+      }
+    },
+    {
+      "id": "chendongqi-opb-skills",
+      "name": "chendongqi/OPB-Skills",
+      "kind": "skill-pack",
+      "description": "One-person-business skill pack covering product, R&D, design, marketing, operations, finance and legal workflows.",
+      "audience": "Founders and solo operators",
+      "categories": [
+        "business-finance",
+        "content-marketing",
+        "documents-productivity"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/chendongqi/OPB-Skills",
+        "kind": "github",
+        "documentation": "https://github.com/chendongqi/OPB-Skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license; last push 2026-02-11."
+      }
+    },
+    {
+      "id": "civiltekk-skills",
+      "name": "civiltekk-skills",
+      "kind": "skill-pack",
+      "description": "Skill and MCP configuration bundle including document conversion, browser automation, market data and image-generation servers.",
+      "audience": "Generalist users",
+      "categories": [
+        "documents-productivity",
+        "software-development",
+        "image-generation"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/darellchua2/civiltekk-skills",
+        "kind": "github",
+        "documentation": "https://github.com/darellchua2/civiltekk-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and Apache-2.0 license confirmed. Bundled MCP servers not audited."
+      }
+    },
+    {
+      "id": "everything-game-dev-code",
+      "name": "MRCalderon3D/everything-game-dev-code",
+      "kind": "skill-pack",
+      "description": "Multi-engine game-development scaffold with agents, commands and skills for Unity, Unreal, Godot and HTML targets.",
+      "audience": "Game developers",
+      "categories": [
+        "game-development",
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/MRCalderon3D/everything-game-dev-code",
+        "kind": "github",
+        "documentation": "https://github.com/MRCalderon3D/everything-game-dev-code"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "farmage-opencode-skills",
+      "name": "farmage/opencode-skills",
+      "kind": "skill-pack",
+      "description": "Large language and framework skill pack covering Python, TypeScript, Go, Rust, React, Next.js, Vue, Django, FastAPI, Laravel and Rails, plus API, GraphQL and microservice guidance.",
+      "audience": "Software engineers",
+      "categories": [
+        "software-development",
+        "database-backend",
+        "devops-cloud"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/farmage/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/farmage/opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository, MIT license and recent activity confirmed via GitHub API."
+      }
+    },
+    {
+      "id": "ffhub-ffmpeg",
+      "name": "ffhub-ffmpeg",
+      "kind": "skill-pack",
+      "description": "Video and audio processing skill that uses a cloud FFmpeg API for convert, compress, trim, resize and GIF workflows.",
+      "audience": "Video editors and content creators",
+      "categories": [
+        "video-generation",
+        "audio-music"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/ffhub-io/ffhub-ffmpeg",
+        "kind": "github",
+        "documentation": "https://github.com/ffhub-io/ffhub-ffmpeg"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license. Cloud API usage and billing not reviewed."
+      }
+    },
+    {
+      "id": "gamedev-agent-skills",
+      "name": "delta120S/gamedev-agent-skills",
+      "kind": "skill-pack",
+      "description": "Unity-focused agent skills distilled from production experience, covering compile triage, console forensics, terrain pipelines and mobile quality tiers.",
+      "audience": "Unity developers",
+      "categories": [
+        "game-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/delta120S/gamedev-agent-skills",
+        "kind": "github",
+        "documentation": "https://github.com/delta120S/gamedev-agent-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "grand151-awesome-opencode-skills",
+      "name": "grand151/awesome-opencode-skills",
+      "kind": "skill-pack",
+      "description": "Curated OpenCode skill list organized by data, document processing, development, creative media and security.",
+      "audience": "Generalist users",
+      "categories": [
+        "software-development",
+        "documents-productivity",
+        "image-generation"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/grand151/awesome-opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/grand151/awesome-opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license; last push 2025-12-29."
+      }
+    },
+    {
+      "id": "hcachild-opencode-skills",
+      "name": "Hcachild/opencode-skills",
+      "kind": "skill-pack",
+      "description": "Personal skill collection with Flutter, React Native and broad productivity coverage.",
+      "audience": "Mobile and generalist developers",
+      "categories": [
+        "mobile-development",
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/Hcachild/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/Hcachild/opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed; no stars observed."
+      }
+    },
+    {
+      "id": "hossamyoussof-opencode-config",
+      "name": "HossamYoussof/opencode-config",
+      "kind": "toolkit",
+      "description": "Personal OpenCode configuration bundling MCP servers, agent presets and a cross-platform installer.",
+      "audience": "Users who want a preconfigured setup",
+      "categories": [
+        "documents-productivity",
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/HossamYoussof/opencode-config",
+        "kind": "github",
+        "documentation": "https://github.com/HossamYoussof/opencode-config"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license. Installer not executed."
+      }
+    },
+    {
+      "id": "jshsakura-awesome-opencode-skills",
+      "name": "jshsakura/awesome-opencode-skills",
+      "kind": "skill-pack",
+      "description": "Collection of Codex-derived OpenCode subagents and skills covering API design, frontend, backend, full-stack and mobile roles.",
+      "audience": "Generalist developers",
+      "categories": [
+        "software-development",
+        "mobile-development",
+        "design-ui-ux"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/jshsakura/awesome-opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/jshsakura/awesome-opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill count not independently verified."
+      }
+    },
+    {
+      "id": "kedbin-relearning-flow",
+      "name": "kedbin/relearning-flow",
+      "kind": "skill-pack",
+      "description": "Content-to-audio learning pipeline that condenses material into a script and produces narrated audio, useful for study and accessibility workflows.",
+      "audience": "Learners and educators",
+      "categories": [
+        "audio-music",
+        "education-research",
+        "content-marketing"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/kedbin/relearning-flow",
+        "kind": "github",
+        "documentation": "https://github.com/kedbin/relearning-flow"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license; last push 2026-01-03."
+      }
+    },
+    {
+      "id": "luongnv89-awesome-skills",
+      "name": "luongnv89/awesome-skills",
+      "kind": "skill-pack",
+      "description": "Universal agent skill collection intended to work across OpenCode, Claude Code and other harnesses.",
+      "audience": "Generalist users",
+      "categories": [
+        "software-development",
+        "documents-productivity"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/luongnv89/awesome-skills",
+        "kind": "github",
+        "documentation": "https://github.com/luongnv89/awesome-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed; last push 2026-01-23."
+      }
+    },
+    {
+      "id": "mouse-on-numpad-skills",
+      "name": "Stonelukas/Mouse-on-Numpad",
+      "kind": "skill-pack",
+      "description": "Creative skill collection that includes AI image-prompting workflows such as ai-artist.",
+      "audience": "Image creators",
+      "categories": [
+        "image-generation",
+        "design-ui-ux"
+      ],
+      "resources": [
+        "ai-artist"
+      ],
+      "source": {
+        "url": "https://github.com/Stonelukas/Mouse-on-Numpad",
+        "kind": "github",
+        "documentation": "https://github.com/Stonelukas/Mouse-on-Numpad"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed; last push 2026-02-08."
+      }
+    },
+    {
+      "id": "naodeng-awesome-qa-skills",
+      "name": "naodeng/awesome-qa-skills",
+      "kind": "skill-pack",
+      "description": "AI-native QA and testing skill collection covering API, UI, performance, regression and LLM testing.",
+      "audience": "QA engineers and testers",
+      "categories": [
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/naodeng/awesome-qa-skills",
+        "kind": "github",
+        "documentation": "https://github.com/naodeng/awesome-qa-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license detected. Skill count not independently verified."
+      }
+    },
+    {
+      "id": "opencode-agent-kit",
+      "name": "opencode-agent-kit",
+      "kind": "toolkit",
+      "description": "Agent kit focused on Android Jetpack Compose, navigation, Play Billing, Flutter and Dart development patterns.",
+      "audience": "Android and Flutter developers",
+      "categories": [
+        "mobile-development",
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-agent-kit",
+        "kind": "npm",
+        "documentation": "https://github.com/defuj/opencode-agent-kit"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "npm 1.3.144 and GitHub repository confirmed; MIT license. Not installed."
+      }
+    },
+    {
+      "id": "opencode-game-studio",
+      "name": "OpenCode Game Studio",
+      "kind": "skill-pack",
+      "description": "Game-development skill and agent pack with director, designer, programming and engine-specialist roles for Godot, Unity, Unreal and GameMaker.",
+      "audience": "Game developers",
+      "categories": [
+        "game-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/TraftG/opencode-game-studio",
+        "kind": "github",
+        "documentation": "https://github.com/TraftG/opencode-game-studio"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Agent quality not assessed."
+      }
+    },
+    {
+      "id": "opencode-termux",
+      "name": "Hope2333/opencode-termux",
+      "kind": "toolkit",
+      "description": "Native Android build of OpenCode using a Bionic executable, intended to run the agent directly on-device.",
+      "audience": "Android power users and ROM developers",
+      "categories": [
+        "android-system-custom-rom",
+        "mobile-development"
+      ],
+      "resources": [
+        "termux-skill"
+      ],
+      "source": {
+        "url": "https://github.com/Hope2333/opencode-termux",
+        "kind": "github",
+        "documentation": "https://github.com/Hope2333/opencode-termux"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. APK/build artifacts not tested."
+      }
+    },
+    {
+      "id": "openkit",
+      "name": "openkit",
+      "kind": "toolkit",
+      "description": "Configurable framework of toggleable tools, skills and references for OpenCode, including frontend and backend specialists.",
+      "audience": "Users who want a modular OpenCode setup",
+      "categories": [
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/jviniciusb/openkit",
+        "kind": "github",
+        "documentation": "https://github.com/jviniciusb/openkit"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "oywjun-opencode-kernel-skills",
+      "name": "oywjun/opencode-skills",
+      "kind": "skill-pack",
+      "description": "OpenCode skills and MCP configuration aimed at Android and Linux kernel development.",
+      "audience": "Kernel engineers",
+      "categories": [
+        "linux-low-level",
+        "android-system-custom-rom"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/oywjun/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/oywjun/opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license; last push 2026-01-14."
+      }
+    },
+    {
+      "id": "pkuxkxjason-skills",
+      "name": "pkuxkxjason/skills",
+      "kind": "skill-pack",
+      "description": "Content and video skill collection including article-to-video and vertical sketch-video workflows.",
+      "audience": "Content creators",
+      "categories": [
+        "video-generation",
+        "content-marketing"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/pkuxkxjason/skills",
+        "kind": "github",
+        "documentation": "https://github.com/pkuxkxjason/skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license."
+      }
+    },
+    {
+      "id": "podo-design-agent-skills",
+      "name": "podo/design-agent-skills",
+      "kind": "skill-pack",
+      "description": "Design skill catalogue covering UI craft, motion, Figma workflows, accessibility, data visualization and user research.",
+      "audience": "Designers and frontend engineers",
+      "categories": [
+        "design-ui-ux",
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/podo/design-agent-skills",
+        "kind": "github",
+        "documentation": "https://github.com/podo/design-agent-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "role-ai-engineer",
+      "name": "AI Engineer",
+      "kind": "role",
+      "description": "Resources for ML, RAG, agent and data-science workflows.",
+      "audience": "AI and ML engineers",
+      "categories": [
+        "ai-machine-learning",
+        "data-science"
+      ],
+      "resources": [
+        "agent-ml-skills",
+        "charlieviettq-awesome-agent-skill",
+        "duckbrain"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-android-developer",
+      "name": "Android Developer",
+      "kind": "role",
+      "description": "Resources for Android app development, device automation and low-level Android work.",
+      "audience": "Android developers",
+      "categories": [
+        "mobile-development",
+        "android-system-custom-rom"
+      ],
+      "resources": [
+        "opencode-agent-kit",
+        "termux-skill",
+        "android-kernel-lkm",
+        "opencode-termux"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-backend-developer",
+      "name": "Backend Developer",
+      "kind": "role",
+      "description": "Resources for API, service and database implementation.",
+      "audience": "Backend developers",
+      "categories": [
+        "software-development",
+        "database-backend"
+      ],
+      "resources": [
+        "farmage-opencode-skills",
+        "devhive-backender",
+        "database-admin",
+        "opencode-postgres",
+        "agent-ml-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-content-creator",
+      "name": "Content Creator",
+      "kind": "role",
+      "description": "Resources for writing, social content, image assets and video repurposing.",
+      "audience": "Content creators and marketers",
+      "categories": [
+        "content-marketing",
+        "image-generation",
+        "video-generation"
+      ],
+      "resources": [
+        "zrt-ai-lab-opencode-skills",
+        "pkuxkxjason-skills",
+        "aniruddhaadak80-skills",
+        "charlieviettq-awesome-agent-skill",
+        "ui-ux-pro-max"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-custom-rom-developer",
+      "name": "Custom ROM Developer",
+      "kind": "role",
+      "description": "Resources for AOSP and LineageOS building, device trees and on-device automation.",
+      "audience": "Custom ROM developers",
+      "categories": [
+        "android-system-custom-rom",
+        "linux-low-level"
+      ],
+      "resources": [
+        "hyperdroid-skill",
+        "android-kernel-lkm",
+        "opencode-termux",
+        "termux-skill",
+        "oywjun-opencode-kernel-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-cybersecurity-researcher",
+      "name": "Cybersecurity Researcher",
+      "kind": "role",
+      "description": "Defensive and authorized offensive resources. Every offensive entry requires explicit written authorization and a defined in-scope target.",
+      "audience": "Security researchers",
+      "categories": [
+        "cybersecurity"
+      ],
+      "resources": [
+        "pentester-mcp",
+        "agentic-bug-hunter",
+        "opencode-browser-control",
+        "superpowers-systematic-debugging"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Authorization required. Inclusion is not a safety guarantee."
+      }
+    },
+    {
+      "id": "role-flutter-developer",
+      "name": "Flutter Developer",
+      "kind": "role",
+      "description": "Resources for Flutter and Dart application development.",
+      "audience": "Flutter developers",
+      "categories": [
+        "mobile-development"
+      ],
+      "resources": [
+        "opencode-flutter-architect",
+        "opencode-agent-kit",
+        "hcachild-opencode-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-frontend-developer",
+      "name": "Frontend Developer",
+      "kind": "role",
+      "description": "Resources for UI engineering, design systems, frontend review and design polish.",
+      "audience": "Frontend developers",
+      "categories": [
+        "software-development",
+        "design-ui-ux"
+      ],
+      "resources": [
+        "farmage-opencode-skills",
+        "jshsakura-awesome-opencode-skills",
+        "ui-ux-pro-max",
+        "impeccable",
+        "oh-my-design-cli",
+        "opencode-browser-control"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-fullstack-developer",
+      "name": "Full-Stack Developer",
+      "kind": "role",
+      "description": "Resources for building and shipping web applications across frontend, backend and database layers.",
+      "audience": "Full-stack developers",
+      "categories": [
+        "software-development",
+        "database-backend"
+      ],
+      "resources": [
+        "farmage-opencode-skills",
+        "jshsakura-awesome-opencode-skills",
+        "openkit",
+        "devhive-frontender",
+        "devhive-backender",
+        "database-admin",
+        "opencode-plugin-gstack"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement or a security guarantee."
+      }
+    },
+    {
+      "id": "role-game-developer",
+      "name": "Game Developer",
+      "kind": "role",
+      "description": "Resources for Unity, Unreal, Godot and 3D asset workflows.",
+      "audience": "Game developers",
+      "categories": [
+        "game-development",
+        "image-generation"
+      ],
+      "resources": [
+        "opencode-game-studio",
+        "everything-game-dev-code",
+        "gamedev-agent-skills",
+        "img2threejs",
+        "3d-web-skill"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-kernel-engineer",
+      "name": "Kernel Engineer",
+      "kind": "role",
+      "description": "Resources for Linux and Android kernel module development and low-level debugging.",
+      "audience": "Kernel engineers",
+      "categories": [
+        "linux-low-level"
+      ],
+      "resources": [
+        "android-kernel-lkm",
+        "oywjun-opencode-kernel-skills",
+        "farmage-opencode-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-productivity-user",
+      "name": "Productivity-Focused User",
+      "kind": "role",
+      "description": "Resources for task management, memory, document processing and personal knowledge management.",
+      "audience": "Knowledge workers",
+      "categories": [
+        "documents-productivity",
+        "business-finance"
+      ],
+      "resources": [
+        "duckbrain",
+        "opencode-productivity-agent",
+        "civiltekk-skills",
+        "hossamyoussof-opencode-config"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-researcher",
+      "name": "Researcher & Student",
+      "kind": "role",
+      "description": "Resources for literature work, notes, data analysis and learning workflows.",
+      "audience": "Researchers and students",
+      "categories": [
+        "education-research",
+        "documents-productivity",
+        "data-science"
+      ],
+      "resources": [
+        "duckbrain",
+        "charlieviettq-awesome-agent-skill",
+        "agent-ml-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-ui-ux-designer",
+      "name": "UI/UX Designer",
+      "kind": "role",
+      "description": "Resources for design systems, visual review, design-to-code and creative assets.",
+      "audience": "Designers",
+      "categories": [
+        "design-ui-ux",
+        "image-generation"
+      ],
+      "resources": [
+        "ui-ux-pro-max",
+        "impeccable",
+        "podo-design-agent-skills",
+        "saurabhnemade-open-design",
+        "oh-my-design-cli",
+        "sprezzature",
+        "designing-canvas-art"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "role-video-editor",
+      "name": "Video Editor & Creator",
+      "kind": "role",
+      "description": "Resources for video generation, FFmpeg processing, captions, recaps and short-form content.",
+      "audience": "Video editors and creators",
+      "categories": [
+        "video-generation",
+        "audio-music",
+        "content-marketing"
+      ],
+      "resources": [
+        "zrt-ai-lab-opencode-skills",
+        "videocut-clip",
+        "ffhub-ffmpeg",
+        "opencode-nanobanana",
+        "wavespeed-cli",
+        "pkuxkxjason-skills"
+      ],
+      "source": null,
+      "verification": {
+        "status": [
+          "DISCOVERED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Curated mapping. Inclusion is not an endorsement."
+      }
+    },
+    {
+      "id": "saurabhnemade-open-design",
+      "name": "saurabhnemade/open-design",
+      "kind": "skill-pack",
+      "description": "Local-first design skill collection with brand-grade design systems for web and mobile prototypes, images and video.",
+      "audience": "Designers",
+      "categories": [
+        "design-ui-ux",
+        "image-generation"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/saurabhnemade/open-design",
+        "kind": "github",
+        "documentation": "https://github.com/saurabhnemade/open-design"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and Apache-2.0 license confirmed."
+      }
+    },
+    {
+      "id": "sickn33-agentic-awesome-skills",
+      "name": "sickn33/agentic-awesome-skills",
+      "kind": "skill-pack",
+      "description": "Very large community skill library with broad coverage of web, DevOps, TypeScript, Node.js and related engineering disciplines.",
+      "audience": "Generalist developers",
+      "categories": [
+        "software-development",
+        "devops-cloud",
+        "cybersecurity"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/sickn33/agentic-awesome-skills",
+        "kind": "github",
+        "documentation": "https://github.com/sickn33/agentic-awesome-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed. Skill count and individual quality not audited."
+      }
+    },
+    {
+      "id": "steamedfish-skills",
+      "name": "SteamedFish/skills",
+      "kind": "skill-pack",
+      "description": "OpenCode skill catalog distributed for browsing and consumption by agents.",
+      "audience": "Generalist users",
+      "categories": [
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/SteamedFish/skills",
+        "kind": "github",
+        "documentation": "https://github.com/SteamedFish/skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed."
+      }
+    },
+    {
+      "id": "thearchitectit-awesome-opencode-skills",
+      "name": "TheArchitectit/awesome-opencode-skills",
+      "kind": "skill-pack",
+      "description": "Curated OpenCode skills and workflow resources for customizing agent behaviour.",
+      "audience": "Generalist users",
+      "categories": [
+        "software-development"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/TheArchitectit/awesome-opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/TheArchitectit/awesome-opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license."
+      }
+    },
+    {
+      "id": "tokifyi-awesome-agent-skills",
+      "name": "tokifyi/awesome-agent-skills-1",
+      "kind": "skill-pack",
+      "description": "Large curated agent-skill collection advertised as compatible with OpenCode and other coding agents.",
+      "audience": "Generalist users",
+      "categories": [
+        "software-development",
+        "ai-machine-learning"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/tokifyi/awesome-agent-skills-1",
+        "kind": "github",
+        "documentation": "https://github.com/tokifyi/awesome-agent-skills-1"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository and MIT license confirmed; skill count not independently verified."
+      }
+    },
+    {
+      "id": "zrt-ai-lab-opencode-skills",
+      "name": "zrt-ai-lab/opencode-skills",
+      "kind": "skill-pack",
+      "description": "Creative skill library featuring video generation, image generation, video editing and natural-language data querying.",
+      "audience": "Content creators and developers",
+      "categories": [
+        "video-generation",
+        "image-generation",
+        "database-backend"
+      ],
+      "resources": [],
+      "source": {
+        "url": "https://github.com/zrt-ai-lab/opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/zrt-ai-lab/opencode-skills"
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Repository confirmed; no recognized license. Individual skills not executed."
+      }
+    }
+  ]
+}
