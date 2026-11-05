@@ -11,7 +11,7 @@ Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1
 | Generated index drift | PASS — 67 files checked, 0 stale |
 | Generated report drift | PASS — 5 reports checked, 0 stale |
 | Local Markdown links | PASS — 0 broken |
-| Unit tests | PASS — 35 tests |
+| Unit tests | PASS — 45 tests |
 | Markdown lint | PASS — 108 files, 0 errors |
 | External URL probe (soft) | PASS — 79 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
 
@@ -33,7 +33,7 @@ $ python3 scripts/check_links.py
 Local links checked. Broken local: 0; broken external: 0.
 
 $ python3 -m unittest discover -s tests -v
-Ran 35 tests in 0.275s
+Ran 45 tests in 0.295s
 OK
 
 $ npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
