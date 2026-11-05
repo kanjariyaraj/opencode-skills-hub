@@ -8,6 +8,7 @@ Stdlib-only Python tooling.
 | `check_links.py` | Check local Markdown links; optionally probe external catalog URLs |
 | `generate_indexes.py` | Generate `catalog/index.json`, category pages and collection pages |
 | `generate_reports.py` | Generate statistics, missing-source, license, compatibility and security reports |
+| `query_catalog.py` | Filter, sort and print catalog resources as a table, JSON or IDs |
 
 ## Common commands
 
@@ -21,6 +22,8 @@ python3 scripts/generate_indexes.py
 python3 scripts/generate_indexes.py --check
 python3 scripts/generate_reports.py
 python3 scripts/generate_reports.py --check
+python3 scripts/query_catalog.py --category image-generation --sort name
+python3 scripts/query_catalog.py --license LICENSE_REVIEW_REQUIRED --format ids
 ```
 
 ## Exit codes

@@ -12,6 +12,7 @@ python3 -m unittest discover -s tests -v
 - link checking: local Markdown links and escaping the repository
 - index generation: deterministic output, category pages, collection pages, `--check`
 - report generation: statistics and reports, `--check`
+- query tool: filtering, sorting, JSON/ID rendering and CLI limits
 
 ## Fixtures
 

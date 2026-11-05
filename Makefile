@@ -1,12 +1,13 @@
 PYTHON ?= python3
 MDLINT ?= npx --yes markdownlint-cli2@0.13.0
 
-.PHONY: help validate generate test lint links network-links check all clean
+.PHONY: help validate generate query test lint links network-links check all clean
 
 help:
 	@printf '%s\n' \
 		'make validate       Validate schemas, IDs, categories and references' \
 		'make generate       Regenerate index, category pages, collections and reports' \
+		'make query          Print resources sorted by name' \
 		'make test           Run the unit test suite' \
 		'make lint           Lint Markdown (downloads markdownlint-cli2 via npx)' \
 		'make links          Check local Markdown links' \
@@ -20,6 +21,9 @@ validate:
 generate:
 	$(PYTHON) scripts/generate_indexes.py
 	$(PYTHON) scripts/generate_reports.py
+
+query:
+	$(PYTHON) scripts/query_catalog.py --sort name
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
