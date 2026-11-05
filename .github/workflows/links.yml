@@ -1,0 +1,29 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  network-links:
+    name: Probe external catalog URLs
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check local links
+        run: python scripts/check_links.py
+
+      - name: Probe external links (informational)
+        run: python scripts/check_links.py --network --all-links --soft --timeout 20 --workers 6

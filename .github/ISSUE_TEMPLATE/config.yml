@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/kanjariyaraj/opencode-skills-hub/security/policy
+    about: Please report security issues privately, not in a public issue.
+  - name: Contribution guide
+    url: https://github.com/kanjariyaraj/opencode-skills-hub/blob/main/CONTRIBUTING.md
+    about: Read this before submitting a resource.
