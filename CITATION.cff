@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this catalog in research or tooling, please cite it as below."
+title: "OpenCode Skills Hub"
+abstract: "A structured, searchable and evidence-based catalog of skills, agents, plugins, MCP servers, commands, rules, hooks, providers and workflow collections for OpenCode."
+version: "0.1.0"
+date-released: "2026-11-05"
+license: "MIT"
+repository-code: "https://github.com/kanjariyaraj/opencode-skills-hub"
+url: "https://github.com/kanjariyaraj/opencode-skills-hub"
+type: software
+authors:
+  - family-names: "Kanzariya"
+    given-names: "Raj"
+    alias: "kanjariyaraj"
+    website: "https://github.com/kanjariyaraj"
+keywords:
+  - opencode
+  - ai-agents
+  - skills
+  - plugins
+  - mcp
+  - catalog
+  - developer-tools
