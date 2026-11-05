@@ -177,10 +177,16 @@ def build_categories_readme(taxonomy: dict, resources: list[dict], collections: 
         "",
         f"**{len(taxonomy['categories'])} categories** · **{len(resources)} catalogued resources** · **{len(collections)} collections**",
         "",
+        "Sorted by catalog coverage (resources descending), then alphabetically.",
+        "",
         "| Category | Resources | Collections |",
         "| --- | ---: | ---: |",
     ]
-    for category in taxonomy["categories"]:
+    ordered = sorted(
+        taxonomy["categories"],
+        key=lambda item: (-by_category.get(item["id"], 0), item["label"].casefold()),
+    )
+    for category in ordered:
         lines.append(
             f"| [{md_escape(category['label'])}]({category['id']}.md) | "
             f"{by_category.get(category['id'], 0)} | {pack_counts.get(category['id'], 0)} |"
