@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kanjariyaraj/opencode-skills-hub/schemas/catalog.schema.json",
+  "title": "OpenCode Skills Hub Catalog File",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "resource_type", "resources"],
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "resource_type": {
+      "type": "string",
+      "enum": ["skill", "agent", "plugin", "mcp", "command", "rule", "hook", "provider"]
+    },
+    "resources": {
+      "type": "array",
+      "items": { "$ref": "resource.schema.json" }
+    }
+  }
+}

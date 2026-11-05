@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0.0",
+  "resource_type": "plugin",
+  "resources": [
+    {
+      "id": "opencode-nanobanana",
+      "name": "OpenCode Nano Banana",
+      "type": "plugin",
+      "description": "OpenCode plugin that adds image generation and editing features, plus video-generation workflows, directly into the coding agent.",
+      "primary_category": "image-generation",
+      "secondary_categories": ["video-generation", "design-ui-ux"],
+      "tags": ["image", "video", "generation", "nano-banana", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-nanobanana",
+        "kind": "npm",
+        "documentation": "https://github.com/48Nauts-Operator/opencode-nanobanana",
+        "repository": "48Nauts-Operator/opencode-nanobanana"
+      },
+      "install": {
+        "instructions": ["npm install -g opencode-nanobanana", "Configure the required provider API key through environment variables."],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.3.0 confirmed; repository license NOASSERTION. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js", "image/video provider API key"]
+      },
+      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends prompts and media to third-party generation APIs. Review data handling and billing."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm registry and GitHub repository confirmed; license not recognized. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": 6,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.3.0",
+        "last_push": "2026-01-19T17:32:50Z"
+      }
+    },
+    {
+      "id": "database-admin",
+      "name": "database-admin",
+      "type": "plugin",
+      "description": "OpenCode plugin providing direct SQL access across MySQL, MariaDB, PostgreSQL, SQL Server and SQLite.",
+      "primary_category": "database-backend",
+      "secondary_categories": ["software-development"],
+      "tags": ["sql", "mysql", "postgresql", "mariadb", "sqlite", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/database-admin",
+        "kind": "npm",
+        "documentation": "https://github.com/nyingimaina/open-code-database-admin",
+        "repository": "nyingimaina/open-code-database-admin"
+      },
+      "install": {
+        "instructions": ["npm install -g database-admin", "Configure connections with least-privilege, read-only credentials where possible."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.2.1 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js", "database driver", "database credentials"]
+      },
+      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Can execute SQL against configured databases. Use read-only accounts and never point it at production without authorization."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Query behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.2.1",
+        "last_push": "2026-03-23T10:47:30Z"
+      }
+    },
+    {
+      "id": "opencode-postgres",
+      "name": "OpenCode Postgres Plugin",
+      "type": "plugin",
+      "description": "Postgres query tool for OpenCode that runs SQL against configured databases with read-only safety checks.",
+      "primary_category": "database-backend",
+      "secondary_categories": ["software-development"],
+      "tags": ["postgresql", "sql", "query", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-postgres",
+        "kind": "npm",
+        "documentation": "https://github.com/vimtor/opencode-plugins",
+        "repository": "vimtor/opencode-plugins"
+      },
+      "install": {
+        "instructions": ["npm install -g opencode-postgres", "Configure a connection string through environment variables."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.0.0 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js", "PostgreSQL"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Database access plugin. Use least-privilege credentials and verify the read-only safeguards in the source."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Query behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": 30,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.0.0",
+        "last_push": "2026-10-27T10:04:31Z"
+      }
+    },
+    {
+      "id": "opencode-plugin-gstack",
+      "name": "gstack",
+      "type": "plugin",
+      "description": "OpenCode plugin that maps agent workflows to a virtual engineering team, including a QA lead and browser-testing command.",
+      "primary_category": "software-development",
+      "secondary_categories": ["cybersecurity"],
+      "tags": ["qa", "browser-testing", "workflow", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-plugin-gstack",
+        "kind": "npm",
+        "documentation": "https://github.com/sjzsdu/OpencodePlugins",
+        "repository": "sjzsdu/OpencodePlugins"
+      },
+      "install": {
+        "instructions": ["npm install -g opencode-plugin-gstack", "Review the exposed commands before running them against a codebase."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.1 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js"]
+      },
+      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Browser automation can reach external sites and handle session data. Review before use."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": 62,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.1",
+        "last_push": "2026-09-22T14:41:21Z"
+      }
+    },
+    {
+      "id": "oh-my-design-cli",
+      "name": "oh-my-design-cli",
+      "type": "plugin",
+      "description": "CLI that adds senior product-designer workflows and brand-memory guidance to coding agents.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": ["software-development"],
+      "tags": ["design", "cli", "brand", "product-design"],
+      "source": {
+        "url": "https://www.npmjs.com/package/oh-my-design-cli",
+        "kind": "npm",
+        "documentation": "https://github.com/kwakseongjae/oh-my-design",
+        "repository": "kwakseongjae/oh-my-design"
+      },
+      "install": {
+        "instructions": ["npm install -g oh-my-design-cli", "Run the CLI's documented setup step."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 2.0.6 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Global npm install and CLI execution. Review before running."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API."
+      },
+      "signals": {
+        "github_stars_observed": 563,
+        "observed_at": "2026-11-05",
+        "latest_release": "2.0.6",
+        "last_push": "2026-11-04T10:37:01Z"
+      }
+    },
+    {
+      "id": "opencode-productivity-agent",
+      "name": "OpenCode Productivity Agent",
+      "type": "plugin",
+      "description": "Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": ["business-finance"],
+      "tags": ["productivity", "tasks", "memory", "dashboard", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-productivity-agent",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": ["npm install -g opencode-productivity-agent", "Review which third-party integrations and scopes it requests."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.1 confirmed; no repository URL in registry metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Integrations may request access to external work tools. Review OAuth scopes and data handling."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed. No public repository was resolved, so source-level review was not possible."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.1",
+        "last_push": null
+      }
+    },
+    {
+      "id": "wavespeed-cli",
+      "name": "WaveSpeed CLI",
+      "type": "plugin",
+      "description": "CLI and agent integration for running image, video, audio and 3D generation models through the WaveSpeed platform.",
+      "primary_category": "video-generation",
+      "secondary_categories": ["image-generation", "audio-music"],
+      "tags": ["image", "video", "audio", "3d", "cli", "generation"],
+      "source": {
+        "url": "https://www.npmjs.com/package/@wavespeed/cli",
+        "kind": "npm",
+        "documentation": "https://github.com/WaveSpeedAI/wavespeed-cli",
+        "repository": "WaveSpeedAI/wavespeed-cli"
+      },
+      "install": {
+        "instructions": ["npm install -g @wavespeed/cli", "Configure a WaveSpeed API key through environment variables."],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.4.27 confirmed; install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js", "WaveSpeed API key"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Paid third-party API. Review billing, data handling and credential storage."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Generation not executed."
+      },
+      "signals": {
+        "github_stars_observed": 26,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.4.27",
+        "last_push": "2026-11-03T16:01:42Z"
+      }
+    },
+    {
+      "id": "qa-test-cli",
+      "name": "QA Test CLI",
+      "type": "plugin",
+      "description": "CLI that scaffolds multi-stage QA skills and methodology references into an OpenCode skills directory.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": ["qa", "testing", "cli", "scaffolding"],
+      "source": {
+        "url": "https://www.npmjs.com/package/qa-test-cli",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": ["npx qa-test init", "Inspect the files it writes before enabling them."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.11 confirmed; declared repository URL returns 404. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Scaffolding tool writes into the user's skills directory. Review generated files."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed; no reachable repository, so source-level review was not possible."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.11",
+        "last_push": null
+      }
+    },
+    {
+      "id": "opensploit-core",
+      "name": "OpenSploit Core",
+      "type": "plugin",
+      "description": "Autonomous penetration-testing plugin that bundles offensive agents and security tooling for Docker-isolated lab environments.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": ["pentest", "offensive", "docker", "agents", "plugin"],
+      "source": {
+        "url": "https://www.npmjs.com/package/@opensploit/core",
+        "kind": "npm",
+        "documentation": "https://github.com/silicon-works/opensploit-plugin",
+        "repository": "silicon-works/opensploit-plugin"
+      },
+      "install": {
+        "instructions": ["npm install -g @opensploit/core", "Run only inside an isolated lab with explicit written authorization for the in-scope target."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.2.0 confirmed; install not executed. Offensive tooling."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux"],
+        "dependencies": ["Node.js", "Docker"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Bundles offensive security tooling. Never run against systems without explicit written authorization. Keep isolated."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license. Agents and tools not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.2.0",
+        "last_push": "2026-05-29T12:49:55Z"
+      }
+    },
+    {
+      "id": "open-sploit",
+      "name": "open-sploit",
+      "type": "plugin",
+      "description": "Offensive-security agent CLI with attack skills and engagement routing for authorized penetration tests.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": ["pentest", "offensive", "cli", "agents"],
+      "source": {
+        "url": "https://www.npmjs.com/package/open-sploit",
+        "kind": "npm",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": ["npx open-sploit", "Use only in an isolated lab against explicitly authorized targets."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 1.2.0 confirmed; no repository URL in registry metadata. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux"],
+        "dependencies": ["Node.js", "Kali Linux or WSL2 for full tooling"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Offensive tooling. Authorization required. No source-level review was possible without a repository URL."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm registry metadata confirmed. No public repository resolved; tool not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "1.2.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "mrzero",
+      "name": "MrZero",
+      "type": "plugin",
+      "description": "Agent pack for vulnerability research, attack-surface mapping and exploit development, integrating reverse-engineering and exploitation tooling.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": ["linux-low-level"],
+      "tags": ["vulnerability-research", "exploit", "reverse-engineering", "ghidra", "metasploit"],
+      "source": {
+        "url": "https://www.npmjs.com/package/@bengabay94/mrzero",
+        "kind": "npm",
+        "documentation": "https://github.com/bengabay1994/MrZero",
+        "repository": "bengabay1994/MrZero"
+      },
+      "install": {
+        "instructions": ["npx @bengabay94/mrzero install", "Use only in an isolated lab against systems you own or are authorized to test."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.0-alpha.1 confirmed; pre-release software. Not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos"],
+        "dependencies": ["Node.js", "Ghidra", "Metasploit"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Exploit-development tooling. Authorization required. Pre-release; expect instability."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed; MIT license; alpha release. Not executed."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.0-alpha.1",
+        "last_push": "2026-02-14T11:30:23Z"
+      }
+    }
+  ]
+}

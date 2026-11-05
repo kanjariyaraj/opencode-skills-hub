@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kanjariyaraj/opencode-skills-hub/schemas/collection.schema.json",
+  "title": "OpenCode Skills Hub Collection",
+  "description": "A role-based collection or a multi-resource skill pack.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "kind", "description", "categories", "resources", "verification"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+    "name": { "type": "string", "minLength": 2, "maxLength": 120 },
+    "kind": {
+      "type": "string",
+      "enum": ["role", "skill-pack", "toolkit"]
+    },
+    "description": { "type": "string", "minLength": 20, "maxLength": 600 },
+    "audience": { "type": ["string", "null"] },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "resources": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+      "uniqueItems": true
+    },
+    "source": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["url", "kind"],
+      "properties": {
+        "url": { "type": "string" },
+        "kind": { "type": "string", "enum": ["github", "npm", "pypi", "docs", "website", "unknown"] },
+        "documentation": { "type": ["string", "null"] }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "date", "notes"],
+      "properties": {
+        "status": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

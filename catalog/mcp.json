@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "resource_type": "mcp",
+  "resources": [
+    {
+      "id": "pentester-mcp",
+      "name": "Pentester MCP",
+      "type": "mcp",
+      "description": "Authorization-gated MCP server that exposes penetration-testing tooling to MCP-capable agents.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [],
+      "tags": ["pentest", "mcp", "security", "offensive"],
+      "source": {
+        "url": "https://pypi.org/project/pentester-mcp/",
+        "kind": "pypi",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": ["pip install pentester-mcp", "Configure it only against systems you own or have explicit written authorization to test."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.4.0 confirmed; install not executed. Offensive tooling."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos"],
+        "dependencies": ["Python 3"]
+      },
+      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "security": {
+        "level": "HIGH RISK",
+        "notes": "Offensive security tooling. Use only with explicit authorization and a defined in-scope target. Never scan third-party systems."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata confirmed; license declared as MIT. Tool behavior not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.4.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "duckbrain",
+      "name": "DuckBrain",
+      "type": "mcp",
+      "description": "DuckDB-backed MCP memory server that gives agents structured search, read and write access to Obsidian vaults.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": ["education-research"],
+      "tags": ["obsidian", "memory", "mcp", "duckdb", "notes"],
+      "source": {
+        "url": "https://pypi.org/project/duckbrain/",
+        "kind": "pypi",
+        "documentation": null,
+        "repository": null
+      },
+      "install": {
+        "instructions": ["pip install duckbrain", "Point it at a backed-up vault and verify write behavior before enabling writes."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "PyPI 0.7.0 confirmed; license not declared in PyPI metadata. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Python 3", "Obsidian vault"]
+      },
+      "license": { "spdx": "UNKNOWN", "status": "LICENSE_REVIEW_REQUIRED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Reads and writes local notes. Back up the vault and restrict write access until reviewed."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "PyPI metadata confirmed; license unknown. Functionality not executed."
+      },
+      "signals": {
+        "github_stars_observed": null,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.7.0",
+        "last_push": null
+      }
+    },
+    {
+      "id": "opencode-browser-control",
+      "name": "OpenCode Browser Control",
+      "type": "mcp",
+      "description": "Playwright-powered browser automation server that controls Chrome or Edge using accessibility snapshots and element references.",
+      "primary_category": "software-development",
+      "secondary_categories": ["cybersecurity"],
+      "tags": ["playwright", "browser", "automation", "mcp", "testing"],
+      "source": {
+        "url": "https://www.npmjs.com/package/opencode-browser-control",
+        "kind": "npm",
+        "documentation": "https://github.com/FileXego/opencode-browser-control",
+        "repository": "FileXego/opencode-browser-control"
+      },
+      "install": {
+        "instructions": ["npm install -g opencode-browser-control", "Install a Playwright browser and review the server configuration."],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "npm 0.1.0 confirmed; repository license not detected. Install not executed."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": ["linux", "macos", "windows"],
+        "dependencies": ["Node.js", "Playwright", "Chromium/Chrome"]
+      },
+      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Browser control can access authenticated sessions. Isolate profiles and avoid exposing credentials to untrusted sites."
+      },
+      "verification": {
+        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "date": "2026-11-05",
+        "notes": "npm and GitHub repository confirmed. Browser automation not executed."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": "0.1.0",
+        "last_push": "2026-06-10T14:41:56Z"
+      }
+    }
+  ]
+}

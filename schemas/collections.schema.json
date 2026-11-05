@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kanjariyaraj/opencode-skills-hub/schemas/collections.schema.json",
+  "title": "OpenCode Skills Hub Collections File",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "collections"],
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "collections": {
+      "type": "array",
+      "items": { "$ref": "collection.schema.json" }
+    }
+  }
+}

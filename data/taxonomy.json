@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-05",
+  "categories": [
+    {
+      "id": "software-development",
+      "label": "Software Development",
+      "description": "Web, backend, full-stack, API, language and framework resources.",
+      "subcategories": ["frontend", "backend", "fullstack", "api", "languages", "frameworks", "architecture"],
+      "related": ["database-backend", "devops-cloud", "design-ui-ux", "game-development"]
+    },
+    {
+      "id": "mobile-development",
+      "label": "Mobile Development",
+      "description": "Flutter, React Native, Android, iOS and cross-platform app development.",
+      "subcategories": ["flutter", "react-native", "android", "ios", "ui", "testing", "release"],
+      "related": ["android-system-custom-rom", "design-ui-ux", "software-development"]
+    },
+    {
+      "id": "android-system-custom-rom",
+      "label": "Android System & Custom ROM",
+      "description": "AOSP, LineageOS, device trees, recoveries, Termux and device automation.",
+      "subcategories": ["aosp", "lineageos", "device-trees", "recovery", "termux", "reverse-engineering"],
+      "related": ["linux-low-level", "mobile-development", "cybersecurity"]
+    },
+    {
+      "id": "linux-low-level",
+      "label": "Linux & Low-Level Systems",
+      "description": "Kernel, modules, drivers, firmware, embedded systems and GPU kernels.",
+      "subcategories": ["kernel", "kernel-modules", "drivers", "embedded", "gpu", "firmware"],
+      "related": ["android-system-custom-rom", "cybersecurity"]
+    },
+    {
+      "id": "database-backend",
+      "label": "Database & Backend Infrastructure",
+      "description": "SQL and NoSQL databases, query tools, migrations, auth and messaging.",
+      "subcategories": ["postgresql", "mysql", "sqlite", "mongodb", "redis", "query-tools", "auth"],
+      "related": ["software-development", "devops-cloud", "data-science"]
+    },
+    {
+      "id": "devops-cloud",
+      "label": "DevOps & Cloud",
+      "description": "Docker, Kubernetes, Terraform, CI/CD, observability and platform engineering.",
+      "subcategories": ["containers", "kubernetes", "iac", "ci-cd", "observability", "cloud"],
+      "related": ["database-backend", "cybersecurity", "software-development"]
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "description": "Defensive security, SAST/DAST, threat modeling, and authorized offensive research.",
+      "subcategories": ["defensive", "appsec", "sast", "pentest", "reverse-engineering", "malware-analysis"],
+      "related": ["devops-cloud", "linux-low-level", "android-system-custom-rom"]
+    },
+    {
+      "id": "ai-machine-learning",
+      "label": "AI & Machine Learning",
+      "description": "LLM applications, agents, RAG, fine-tuning, evaluation and MLOps.",
+      "subcategories": ["llm", "agents", "rag", "fine-tuning", "evaluation", "mlops", "computer-vision"],
+      "related": ["data-science", "software-development", "content-marketing"]
+    },
+    {
+      "id": "data-science",
+      "label": "Data Science & Analytics",
+      "description": "Exploratory analysis, statistics, pipelines, visualization and data engineering.",
+      "subcategories": ["analysis", "statistics", "pipelines", "visualization", "data-engineering"],
+      "related": ["ai-machine-learning", "database-backend", "education-research"]
+    },
+    {
+      "id": "game-development",
+      "label": "Game Development",
+      "description": "Unity, Unreal, Godot, gameplay systems, art pipelines and release QA.",
+      "subcategories": ["unity", "unreal", "godot", "gameplay", "3d-art", "qa"],
+      "related": ["software-development", "design-ui-ux", "image-generation"]
+    },
+    {
+      "id": "design-ui-ux",
+      "label": "Design & UI/UX",
+      "description": "Design systems, visual hierarchy, accessibility, motion and design-to-code.",
+      "subcategories": ["design-systems", "ux", "accessibility", "typography", "motion", "prototyping"],
+      "related": ["image-generation", "software-development", "content-marketing"]
+    },
+    {
+      "id": "image-generation",
+      "label": "Image Generation & Editing",
+      "description": "Text-to-image, editing, upscaling, SVG and visual asset generation.",
+      "subcategories": ["text-to-image", "editing", "upscaling", "svg", "3d"],
+      "related": ["video-generation", "design-ui-ux", "content-marketing"]
+    },
+    {
+      "id": "video-generation",
+      "label": "Video Generation & Editing",
+      "description": "Text-to-video, FFmpeg workflows, captions, recaps and video automation.",
+      "subcategories": ["text-to-video", "editing", "ffmpeg", "subtitles", "automation"],
+      "related": ["image-generation", "audio-music", "content-marketing"]
+    },
+    {
+      "id": "audio-music",
+      "label": "Audio, Voice & Music",
+      "description": "Text-to-speech, transcription, noise reduction, music and podcast production.",
+      "subcategories": ["tts", "stt", "music", "voiceover", "audio-editing"],
+      "related": ["video-generation", "content-marketing", "education-research"]
+    },
+    {
+      "id": "content-marketing",
+      "label": "Content & Marketing",
+      "description": "Writing, SEO, social media, email, scripts and content operations.",
+      "subcategories": ["writing", "seo", "social", "email", "scripts"],
+      "related": ["design-ui-ux", "video-generation", "business-finance"]
+    },
+    {
+      "id": "documents-productivity",
+      "label": "Documents & Productivity",
+      "description": "PDF/DOCX/PPTX/XLSX processing, notes, knowledge management and automation.",
+      "subcategories": ["documents", "spreadsheets", "notes", "automation", "knowledge-management"],
+      "related": ["education-research", "business-finance", "content-marketing"]
+    },
+    {
+      "id": "education-research",
+      "label": "Education & Research",
+      "description": "Literature review, paper reading, scientific writing, tutoring and learning flows.",
+      "subcategories": ["research", "papers", "writing", "tutoring", "courses"],
+      "related": ["data-science", "documents-productivity", "audio-music"]
+    },
+    {
+      "id": "business-finance",
+      "label": "Business & Finance",
+      "description": "Market research, product management, finance workflows and business docs.",
+      "subcategories": ["research", "product", "finance", "crm", "operations"],
+      "related": ["content-marketing", "documents-productivity", "data-science"]
+    }
+  ]
+}
