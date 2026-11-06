@@ -35,11 +35,11 @@
 
 <!-- markdownlint-enable MD041 -->
 
-A structured, searchable and evidence-based catalog of **skills, agents, plugins, MCP servers, commands, rules, hooks, providers and workflow collections** for [OpenCode](https://opencode.ai).
+A structured, searchable and evidence-based catalog of **skills, agents, plugins, MCP servers, themes, commands, rules, hooks, providers and workflow collections** for [OpenCode](https://opencode.ai).
 
 Every catalogued resource has a stable ID, a category, a source, a license status, a security label and a verification record. Entries that could not be verified stay in a separate raw inventory instead of being presented as working software.
 
-**Browse:** [categories](#browse-categories) · [task index](#find-by-task) · [role collections](collections/README.md) · [resource types](#resource-types) · **Trust:** [verification](docs/verification.md) · [security](SECURITY.md) · [licenses](reports/licenses.md) · **Project:** [contributing](CONTRIBUTING.md) · [roadmap](ROADMAP.md) · [FAQ](docs/faq.md)
+**Browse:** [categories](#browse-categories) · [task index](#find-by-task) · [role collections](collections/README.md) · [resource types](#resource-types) · **Trust:** [verification](docs/verification.md) · [security](SECURITY.md) · [licenses](reports/LICENSE_REPORT.md) · [quality](reports/QUALITY_SCORECARD.md) · **Project:** [contributing](CONTRIBUTING.md) · [roadmap](ROADMAP.md) · [FAQ](docs/faq.md)
 
 > [!IMPORTANT]
 > This is a **verification-first catalog**, not a link dump and not an endorsement. A listed resource is not guaranteed to be safe, compatible or maintained. Upstream claims are kept separate from independently observed facts.
@@ -76,18 +76,18 @@ All **18 categories**, sorted by catalog coverage (resources descending), then a
 
 | Category | Resources | Collections | Category | Resources | Collections |
 | --- | ---: | ---: | --- | ---: | ---: |
-| [Software Development](categories/software-development.md) | 8 | 19 | [Design & UI/UX](categories/design-ui-ux.md) | 5 | 6 |
-| [Image Generation & Editing](categories/image-generation.md) | 5 | 8 | [Cybersecurity](categories/cybersecurity.md) | 4 | 3 |
+| [Software Development](categories/software-development.md) | 39 | 19 | [AI & Machine Learning](categories/ai-machine-learning.md) | 21 | 4 |
+| [Design & UI/UX](categories/design-ui-ux.md) | 19 | 6 | [Documents & Productivity](categories/documents-productivity.md) | 8 | 8 |
+| [Cybersecurity](categories/cybersecurity.md) | 7 | 3 | [Image Generation & Editing](categories/image-generation.md) | 6 | 8 |
+| [Video Generation & Editing](categories/video-generation.md) | 5 | 5 | [Data Science & Analytics](categories/data-science.md) | 3 | 4 |
 | [Android System & Custom ROM](categories/android-system-custom-rom.md) | 2 | 4 | [Database & Backend Infrastructure](categories/database-backend.md) | 2 | 4 |
-| [Documents & Productivity](categories/documents-productivity.md) | 2 | 8 | [Video Generation & Editing](categories/video-generation.md) | 2 | 5 |
-| [Linux & Low-Level Systems](categories/linux-low-level.md) | 1 | 3 | [Mobile Development](categories/mobile-development.md) | 1 | 6 |
-| [AI & Machine Learning](categories/ai-machine-learning.md) | 0 | 4 | [Audio, Voice & Music](categories/audio-music.md) | 0 | 3 |
-| [Business & Finance](categories/business-finance.md) | 0 | 4 | [Content & Marketing](categories/content-marketing.md) | 0 | 6 |
-| [Data Science & Analytics](categories/data-science.md) | 0 | 4 | [DevOps & Cloud](categories/devops-cloud.md) | 0 | 2 |
-| [Education & Research](categories/education-research.md) | 0 | 3 | [Game Development](categories/game-development.md) | 0 | 4 |
+| [DevOps & Cloud](categories/devops-cloud.md) | 2 | 2 | [Education & Research](categories/education-research.md) | 2 | 3 |
+| [Linux & Low-Level Systems](categories/linux-low-level.md) | 2 | 3 | [Audio, Voice & Music](categories/audio-music.md) | 1 | 3 |
+| [Business & Finance](categories/business-finance.md) | 1 | 4 | [Content & Marketing](categories/content-marketing.md) | 1 | 6 |
+| [Game Development](categories/game-development.md) | 1 | 4 | [Mobile Development](categories/mobile-development.md) | 1 | 6 |
 
 > [!TIP]
-> A zero means **no standalone verified entry yet**, not "nothing useful". Those categories still list upstream skill packs. See the full [category index](categories/README.md) and the machine-readable [`catalog/index.json`](catalog/index.json).
+Every category now has at least one standalone catalogued resource. Collections are listed separately and can cover more than one category. See the full [category index](categories/README.md) and the machine-readable [`catalog/index.json`](catalog/index.json).
 
 **Browse another way:** [by role](collections/README.md) · [by task](#find-by-task) · [by type](#resource-types) · [by license](reports/licenses.md) · [by security](reports/security-review.md) · [by verification](reports/stats.md)
 
@@ -122,26 +122,26 @@ All **18 categories**, sorted by catalog coverage (resources descending), then a
 
 | Resources | Collections | Categories | Tests |
 | ---: | ---: | ---: | ---: |
-| **32** | **46** | **18** | **51** |
+| **123** | **46** | **18** | **55** |
 
-Counts are produced from [`catalog/*.json`](catalog/) as of 2026-11-05. They describe catalog entries, not downloads, stars or upstream quality. The live breakdown is in [`reports/stats.md`](reports/stats.md).
+Counts are produced from [`catalog/*.json`](catalog/) as of 2026-11-05. They describe catalog entries, not downloads, stars or upstream quality. The live breakdown is in [`reports/stats.md`](reports/stats.md); discovery and quality evidence is in the [reports index](reports/README.md).
 
 | Signal | Current state |
 | --- | --- |
-| Sources verified | 32 of 32 catalogued resources |
-| Licenses verified | 24 resources |
-| License review required | 8 resources |
+| Sources verified | 123 of 123 catalogued resources |
+| Licenses verified | 107 resources |
+| License review required | 16 resources |
 | High-risk security label | 4 resources |
-| Installation tested | 0 resources |
-| Raw inventory preserved | 111 entries (57 verified, 46 unresolved, 4 not found, 4 restricted) |
+| Installation tested | 3 resources in isolated Docker (see [installation tests](tests/installation/README.md)) |
+| Raw inventory preserved | 202 entries (148 verified, 46 unresolved, 4 not found, 4 restricted) |
 
 > [!NOTE]
-> `0` installation tests is deliberate. Third-party resources were **not** installed on the maintainer's host during cataloging. An upstream README describing an install method is not an independent test result.
+> Third-party resources are **not** installed on the maintainer's host. A passing Docker smoke test is not a security audit or a functional test. The harness and evidence are in [`tests/installation/`](tests/installation/README.md) and [`reports/installation-results.md`](reports/installation-results.md).
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/coverage-dark.svg">
-    <img src="assets/coverage-light.svg" alt="Bar chart of verified catalog entries per category, led by Software Development with 8, Design and Image Generation with 5, and Cybersecurity with 4." width="100%">
+    <img src="assets/coverage-light.svg" alt="Bar chart of verified catalog entries per category, led by Software Development with 39, AI and Machine Learning with 21, Design and UI/UX with 19, and Documents and Productivity with 8." width="100%">
   </picture>
   <br>
   <sub>Generated from <code>catalog/*.json</code>. Counts are entries, not popularity or quality.</sub>
@@ -177,7 +177,7 @@ The OpenCode ecosystem is growing faster than any person can track. Useful skill
 ## Resource types
 
 <details>
-<summary><strong>All eight catalogued types</strong></summary>
+<summary><strong>All nine catalogued types</strong></summary>
 
 | Type | Meaning |
 | --- | --- |
@@ -185,6 +185,7 @@ The OpenCode ecosystem is growing faster than any person can track. Useful skill
 | **Agent** | A specialist persona or workflow role. |
 | **Plugin** | Code that extends OpenCode itself. |
 | **MCP server** | A Model Context Protocol server exposing tools or data. |
+| **Theme** | A color theme JSON for the OpenCode terminal interface. |
 | **Command** | A named workflow triggered from the agent. |
 | **Rule** | Persistent behavioural guidance. |
 | **Hook** | An event-driven automation. |

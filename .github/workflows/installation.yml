@@ -1,0 +1,41 @@
+name: Installation smoke tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      case:
+        description: "Case id, or 'all'"
+        required: true
+        default: "all"
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    name: Isolated Docker smoke tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run selected cases
+        run: |
+          if [ "${{ inputs.case }}" = "all" ]; then
+            python scripts/run_installation_tests.py --all --yes
+          else
+            python scripts/run_installation_tests.py --case "${{ inputs.case }}" --yes
+          fi
+
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: installation-results
+          path: reports/installation-results.*

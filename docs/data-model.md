@@ -10,6 +10,7 @@ The catalog is plain JSON so that GitHub Markdown, scripts, CLIs and a future we
 | `catalog/agents.json` | Agent definitions or specialist roles |
 | `catalog/plugins.json` | OpenCode plugins and CLIs |
 | `catalog/mcp.json` | MCP servers |
+| `catalog/themes.json` | OpenCode color themes |
 | `catalog/commands.json` | Commands |
 | `catalog/rules.json` | Rules |
 | `catalog/hooks.json` | Hooks |

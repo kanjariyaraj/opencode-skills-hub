@@ -35,6 +35,9 @@ jobs:
       - name: Verify reports are current
         run: python scripts/generate_reports.py --check
 
+      - name: Verify expansion reports are current
+        run: python scripts/generate_expansion_reports.py --check
+
       - name: Verify generated assets are current
         run: python scripts/generate_assets.py --check
 

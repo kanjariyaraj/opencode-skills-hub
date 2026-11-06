@@ -16,19 +16,19 @@ This roadmap is a direction, not a promise. Priorities favor trust and usefulnes
 
 ## Phase 2 — Coverage and verification depth
 
-- [ ] Add verified standalone entries for DevOps & Cloud
-- [ ] Add verified standalone entries for AI/ML and data science
-- [ ] Add verified standalone entries for game development
-- [ ] Add verified standalone entries for audio and business workflows
+- [x] Add verified standalone entries for DevOps & Cloud
+- [x] Add verified standalone entries for AI/ML and data science
+- [x] Add verified standalone entries for game development
+- [x] Add verified standalone entries for audio and business workflows
 - [ ] Resolve the highest-value `SOURCE_UNRESOLVED` entries
 - [ ] Add license review notes for every `LICENSE_REVIEW_REQUIRED` entry
 - [ ] Add a maintainer-reviewed subset labelled `REVIEWED`
 
 ## Phase 3 — Isolated testing
 
-- [ ] Define a container-based test harness for low-risk resources
-- [ ] Record installation evidence for a small, reviewed subset
-- [ ] Add `INSTALLATION_TESTED` only where evidence exists
+- [x] Define a container-based test harness for low-risk resources
+- [x] Record installation evidence for a small, reviewed subset
+- [x] Add `INSTALLATION_TESTED` only where evidence exists
 - [ ] Add a rollback and uninstall verification step
 
 ## Phase 4 — Discovery experience

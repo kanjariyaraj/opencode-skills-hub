@@ -1,7 +1,7 @@
 PYTHON ?= python3
 MDLINT ?= npx --yes markdownlint-cli2@0.13.0
 
-.PHONY: help validate generate assets query test lint links network-links check all clean
+.PHONY: help validate generate assets query test lint links network-links install-test install-list check all clean
 
 help:
 	@printf '%s\n' \
@@ -13,6 +13,8 @@ help:
 		'make lint           Lint Markdown (downloads markdownlint-cli2 via npx)' \
 		'make links          Check local Markdown links' \
 		'make network-links  Probe external catalog URLs (slow, informational)' \
+		'make install-list   List isolated installation test cases' \
+		'make install-test   Run isolated Docker installation tests (explicit)' \
 		'make check          Validate, check drift, test and link-check' \
 		'make all            Generate, then run the full check'
 
@@ -22,6 +24,7 @@ validate:
 generate:
 	$(PYTHON) scripts/generate_indexes.py
 	$(PYTHON) scripts/generate_reports.py
+	$(PYTHON) scripts/generate_expansion_reports.py
 	$(PYTHON) scripts/generate_assets.py
 
 assets:
@@ -42,10 +45,17 @@ links:
 network-links:
 	$(PYTHON) scripts/check_links.py --network --all-links --soft
 
+install-list:
+	$(PYTHON) scripts/run_installation_tests.py --list
+
+install-test:
+	$(PYTHON) scripts/run_installation_tests.py --all --yes
+
 check:
 	$(PYTHON) scripts/validate_catalog.py
 	$(PYTHON) scripts/generate_indexes.py --check
 	$(PYTHON) scripts/generate_reports.py --check
+	$(PYTHON) scripts/generate_expansion_reports.py --check
 	$(PYTHON) scripts/generate_assets.py --check
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) scripts/check_links.py

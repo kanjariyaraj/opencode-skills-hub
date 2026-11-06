@@ -1,20 +1,22 @@
 # Test Results
 
 Date: 2026-11-05
-Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1
+Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1, Docker 29.9.2
 
 ## Summary
 
 | Check | Result |
 | --- | --- |
-| Catalog validation | PASS — 32 resources, 46 collections, 0 errors, 2 expected warnings |
+| Catalog validation | PASS — 123 resources, 46 collections, 0 errors, 2 expected warnings |
 | Generated index drift | PASS — 67 files checked, 0 stale |
 | Generated report drift | PASS — 5 reports checked, 0 stale |
+| Expansion report drift | PASS — 10 reports checked, 0 stale |
 | Generated asset drift | PASS — 4 assets checked, 0 stale |
+| Unit tests | PASS — 55 tests |
 | Local Markdown links | PASS — 0 broken |
-| Unit tests | PASS — 51 tests |
-| Markdown lint | PASS — 109 files, 0 errors |
-| External URL probe (soft) | PASS — 74 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
+| Markdown lint | PASS — 121 files, 0 errors |
+| External URL probe (soft) | PASS — 170 URLs probed, 0 hard-broken; npm returned 403 to automated requests |
+| Isolated installation smoke tests | PASS — 4/4 cases; 3 resources promoted to `INSTALLATION_TESTED` |
 
 ## Commands and output
 
@@ -22,13 +24,16 @@ Environment: Ubuntu 26.04.1 LTS, Python 3.14.4, Node v24.22.1
 $ python3 scripts/validate_catalog.py
 WARN  catalog: source URL shared by superpowers-brainstorming, superpowers-systematic-debugging, superpowers-test-driven-development: https://github.com/obra/superpowers
 WARN  catalog: source URL shared by devhive-backender, devhive-frontender: https://pypi.org/project/devhive/
-Checked 32 resources and 46 collections: 0 error(s), 2 warning(s).
+Checked 123 resources and 46 collections: 0 error(s), 2 warning(s).
 
 $ python3 scripts/generate_indexes.py --check
 Checked 67 generated file(s); 0 stale.
 
 $ python3 scripts/generate_reports.py --check
 Checked 5 report(s); 0 stale.
+
+$ python3 scripts/generate_expansion_reports.py --check
+Checked 10 expansion report(s); 0 stale.
 
 $ python3 scripts/generate_assets.py --check
 Checked 4 asset(s); 0 stale.
@@ -37,42 +42,32 @@ $ python3 scripts/check_links.py
 Local links checked. Broken local: 0; broken external: 0.
 
 $ python3 -m unittest discover -s tests -v
-Ran 51 tests in 0.308s
+Ran 55 tests in 0.319s
 OK
 
 $ npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
-Linting: 109 file(s)
+Linting: 121 file(s)
 Summary: 0 error(s)
-
-$ python3 scripts/check_links.py --network --all-links --soft --timeout 8 --workers 12
-Probed 74 external URL(s).
-Local links checked. Broken local: 0; broken external: 0.
 ```
 
-## Notes
+## Installation tests
 
-- The two validation warnings are expected: one upstream repository provides three distinct skills, and one PyPI package provides two distinct agents. The validator reports shared sources without failing.
-- npm blocks automated HEAD/GET requests with HTTP 403. This is recorded as a soft warning, not a broken link. Package existence was verified separately through the npm registry.
-- No upstream resource was installed or executed. Functional testing of upstream resources is `NOT_TESTED`.
-- Markdown lint excludes `.github/ISSUE_TEMPLATE/**` because those files are YAML issue forms, not Markdown documents.
+Run with `python3 scripts/run_installation_tests.py --all --yes`. Each case runs in a disposable Docker container with a temporary work directory, no host config mount, dropped capabilities and `no-new-privileges`.
 
-## Honest limitations
+| Case | Resource | Status | Duration | Pinned |
+| --- | --- | --- | ---: | --- |
+| `theme-catppuccin` | `catppuccin-opencode` | PASS | 6.0s | commit `d5f4096` |
+| `cli-design-md-generator` | `design-md-generator` | PASS | 6.7s | commit `41477cb` |
+| `npm-skill-creator` | `opencode-skill-creator` | PASS | 34.5s | npm `0.3.6` |
+| `plugin-opencode-websearch` | `opencode-websearch` | PASS | 277.8s | OpenCode `1.18.33`, plugin `0.7.1` |
 
-- Catalog validation proves data consistency, not upstream correctness.
-- External URL probing proves reachability at one point in time, not ongoing availability.
-- Passing tests do not imply that any catalogued resource is safe or compatible with a specific OpenCode version.
+`design-md-generator` was exercised in preview (`--list`) mode only, so its catalog entry remains `NOT_TESTED`. The other three cases installed the pinned artifact and passed their smoke assertions.
 
-## Reproduce
+Full output: [`installation-results.md`](installation-results.md) and [`installation-results.json`](installation-results.json).
 
-```bash
-python3 scripts/validate_catalog.py
-python3 scripts/generate_indexes.py --check
-python3 scripts/generate_reports.py --check
-python3 scripts/generate_assets.py --check
-python3 scripts/check_links.py
-python3 -m unittest discover -s tests -v
-npx --yes markdownlint-cli2@0.13.0 "**/*.md" "#node_modules" "#**/.github/ISSUE_TEMPLATE/**"
-python3 scripts/check_links.py --network --all-links --soft
-```
+## Not executed
 
-The same non-network checks are available as `make check`.
+- Functional or model-dependent behavior for any resource.
+- Authentication/OAuth consent flows.
+- TUI interactions, browser automation and microphone capture.
+- Source-code security audits.

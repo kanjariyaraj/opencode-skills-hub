@@ -11,6 +11,9 @@ This directory explains how the catalog is built, verified and maintained.
 | [Resource template](resource-template.md) | Copy-ready JSON entry and submission checklist |
 | [FAQ](faq.md) | Common questions about verification, counts and safety |
 | [Maintainer guide](maintainer-guide.md) | Release, regeneration and review workflow |
+| [Installation tests](../tests/installation/README.md) | Isolated Docker harness and evidence rules |
+| [Test report](../reports/TEST_REPORT.md) | Current static and installation results |
+| [Quality scorecard](../reports/QUALITY_SCORECARD.md) | Self-assessment, scores and remaining gaps |
 | [Website plan](website.md) | Future static website architecture |
 | [Security policy](../SECURITY.md) | Reporting and review policy |
 | [Contributing](../CONTRIBUTING.md) | How to add or correct a resource |

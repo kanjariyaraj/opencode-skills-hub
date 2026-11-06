@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Pinned, isolated smoke tests for catalogued resources. Each case runs in a disposable Docker container with no host mounts other than a temporary work directory.",
+  "cases": [
+    {
+      "id": "theme-catppuccin",
+      "resource_id": "catppuccin-opencode",
+      "description": "Fetch a pinned Catppuccin commit, validate every theme JSON, and place the files in an isolated OpenCode themes directory.",
+      "image": "node:24",
+      "pinned": "d5f409632e6294762925fae869ad0c96dc17cd8e",
+      "timeout_seconds": 240,
+      "script": "set -euo pipefail; git init -q repo; cd repo; git remote add origin https://github.com/catppuccin/opencode.git; git fetch -q --depth 1 origin d5f409632e6294762925fae869ad0c96dc17cd8e; git checkout -q FETCH_HEAD; test -d themes; mkdir -p /work/home/.config/opencode/themes; count=0; while IFS= read -r -d '' f; do node -e 'JSON.parse(require(\"fs\").readFileSync(process.argv[1],\"utf8\"))' \"$f\"; cp \"$f\" \"/work/home/.config/opencode/themes/$(basename \"$f\")\"; count=$((count+1)); done < <(find themes -name '*.json' -print0); echo \"INSTALLED_THEMES=$count\"; test \"$count\" -gt 0"
+    },
+    {
+      "id": "cli-design-md-generator",
+      "resource_id": "design-md-generator",
+      "description": "Run the pinned design-md-generator installer in preview mode.",
+      "image": "node:24-bookworm-slim",
+      "pinned": "41477cb3b75d74bd45a310087e5b1e094d54b88f",
+      "timeout_seconds": 300,
+      "script": "set -euo pipefail; npm_config_yes=true npx --yes 'github:Vann4799/design-md-generator#41477cb3b75d74bd45a310087e5b1e094d54b88f' --list; test -d /work/home"
+    },
+    {
+      "id": "npm-skill-creator",
+      "resource_id": "opencode-skill-creator",
+      "description": "Install the pinned npm package globally and confirm the CLI is on PATH.",
+      "image": "node:24-bookworm-slim",
+      "pinned": "0.3.6",
+      "timeout_seconds": 240,
+      "script": "set -euo pipefail; npm install -g --no-fund --no-audit opencode-skill-creator@0.3.6; command -v opencode-skill-creator; npm ls -g --depth=0 opencode-skill-creator"
+    },
+    {
+      "id": "plugin-opencode-websearch",
+      "resource_id": "opencode-websearch",
+      "description": "Install a pinned OpenCode plugin through the OpenCode CLI in a temporary HOME.",
+      "image": "node:24-bookworm-slim",
+      "pinned": "opencode-ai 1.18.33 + opencode-websearch 0.7.1",
+      "timeout_seconds": 900,
+      "script": "set -euo pipefail; npm install -g --no-fund --no-audit opencode-ai@1.18.33; opencode --version; opencode plugin opencode-websearch@0.7.1 --global; grep -q 'opencode-websearch' /work/home/.config/opencode/opencode.json || grep -q 'opencode-websearch' /work/home/.config/opencode/opencode.jsonc; echo PLUGIN_CONFIGURED",
+      "memory": "2g"
+    }
+  ]
+}

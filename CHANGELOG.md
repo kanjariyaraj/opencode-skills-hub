@@ -6,6 +6,15 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ### Added
 
+- 91 verified ecosystem resources: 50 plugins, 24 skills, 8 MCP servers, 8 themes and 1 agent.
+- New `theme` resource type, `catalog/themes.json`, schema support and nine-type documentation.
+- Theme-aware catalog expansion from GitHub API discovery: 757 unique repositories reviewed.
+- Expansion reports: discovery, additions, duplicates, verification, licenses, security, coverage, tests and quality scorecard.
+- Isolated Docker installation harness (`scripts/run_installation_tests.py`) with pinned cases and evidence.
+- Four installation smoke tests; three resources promoted to `INSTALLATION_TESTED`.
+- Manual GitHub Actions workflow for installation tests.
+- Tests for installation-case safety and pinning.
+- Website readiness audit and MVP implementation plan.
 - Category-first README with all 18 categories near the top, sorted by coverage.
 - Query tool for filtering and sorting the catalog: `scripts/query_catalog.py`.
 - Contributor resources: `docs/faq.md`, `docs/resource-template.md`.
@@ -27,10 +36,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ### Planned
 
-- Expand verified standalone coverage in DevOps, AI/ML, data science, game development, audio and business categories.
-- Add isolated installation testing for selected low-risk resources.
+- Expand verified standalone coverage in audio, content, business and game development categories.
+- Add functional tests and source-code security audits for high-trust resources.
 - Add a schema-driven static website with search and filters.
-- Add scheduled source re-verification.
+- Add scheduled source re-verification and license drift detection.
 
 ## [0.1.0] - 2026-11-05
 

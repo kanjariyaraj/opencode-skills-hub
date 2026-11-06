@@ -78,3 +78,14 @@ For a cloned skill: remove the directory you created.
 For configuration: restore the backup you made before editing.
 
 Always back up configuration before enabling a new resource.
+
+## Isolated installation tests
+
+The repository includes a Docker-based harness for a small number of pinned cases:
+
+```bash
+python3 scripts/run_installation_tests.py --list
+python3 scripts/run_installation_tests.py --case theme-catppuccin --yes
+```
+
+The harness uses a temporary work directory, never mounts `~/.config/opencode`, drops Linux capabilities and enables `no-new-privileges`. It cannot test model calls, OAuth screens, TUI interactions or security. See [`tests/installation/README.md`](../tests/installation/README.md) for the rules and [`reports/installation-results.md`](../reports/installation-results.md) for the latest evidence.
