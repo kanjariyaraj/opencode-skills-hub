@@ -1,0 +1,1344 @@
+{
+  "date": "2026-11-05",
+  "added": 91,
+  "by_type": {
+    "skill": 24,
+    "agent": 1,
+    "mcp": 8,
+    "theme": 8,
+    "plugin": 50
+  },
+  "by_category": {
+    "video-generation": 3,
+    "game-development": 1,
+    "documents-productivity": 6,
+    "design-ui-ux": 14,
+    "education-research": 2,
+    "data-science": 3,
+    "software-development": 31,
+    "linux-low-level": 1,
+    "cybersecurity": 3,
+    "image-generation": 1,
+    "business-finance": 1,
+    "content-marketing": 1,
+    "ai-machine-learning": 21,
+    "devops-cloud": 2,
+    "audio-music": 1
+  },
+  "entries": [
+    {
+      "id": "papercut-explainer",
+      "name": "Papercut Explainer",
+      "type": "skill",
+      "category": "video-generation",
+      "repo": "0xS4N4TG/papercut-explainer",
+      "stars": 133,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "unity-skills",
+      "name": "Unity Skills",
+      "type": "skill",
+      "category": "game-development",
+      "repo": "Besty0728/Unity-Skills",
+      "stars": 1923,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "ppt-image-first",
+      "name": "PPT Image First",
+      "type": "skill",
+      "category": "documents-productivity",
+      "repo": "NyxTides/ppt-image-first",
+      "stars": 1233,
+      "license": "Apache-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "design-md-generator",
+      "name": "Design MD Generator",
+      "type": "skill",
+      "category": "design-ui-ux",
+      "repo": "Vann4799/design-md-generator",
+      "stars": 2,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "deep-research-skills",
+      "name": "Deep Research Skills",
+      "type": "skill",
+      "category": "education-research",
+      "repo": "Weizhena/Deep-Research-skills",
+      "stars": 2500,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "swiftui-design-skill",
+      "name": "SwiftUI Design Skill",
+      "type": "skill",
+      "category": "design-ui-ux",
+      "repo": "Wholiver/swiftui-design-skill",
+      "stars": 204,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "ispan-data-science-cookbooks",
+      "name": "iSpan Data Science Cookbooks",
+      "type": "skill",
+      "category": "data-science",
+      "repo": "Zenobia000/iSpan_python-FE_DM-cookbooks",
+      "stars": 68,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "marimo-opencode-skill",
+      "name": "Marimo OpenCode Skill",
+      "type": "skill",
+      "category": "data-science",
+      "repo": "adrunkhuman/marimo-opencode-skill",
+      "stars": 5,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-skill-creator",
+      "name": "OpenCode Skill Creator",
+      "type": "skill",
+      "category": "software-development",
+      "repo": "antongulin/opencode-skill-creator",
+      "stars": 192,
+      "license": "Apache-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "quarkus-skill",
+      "name": "Quarkus Skill",
+      "type": "skill",
+      "category": "software-development",
+      "repo": "b6k-dev/quarkus-skill",
+      "stars": 14,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "aur-skills",
+      "name": "AUR Skills",
+      "type": "skill",
+      "category": "linux-low-level",
+      "repo": "enihcam/aur-skills",
+      "stars": 6,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "architecture-diagram-skill",
+      "name": "Architecture Diagram Skill",
+      "type": "skill",
+      "category": "design-ui-ux",
+      "repo": "konraddzbik/architecture-diagram-skill",
+      "stars": 149,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "open-document-skills",
+      "name": "Open Document Skills",
+      "type": "skill",
+      "category": "documents-productivity",
+      "repo": "leiverkus/open-document-skills",
+      "stars": 3,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "ctf-skills",
+      "name": "CTF Skills",
+      "type": "skill",
+      "category": "cybersecurity",
+      "repo": "ljagiello/ctf-skills",
+      "stars": 3621,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "artcraft-skills",
+      "name": "ArtCraft Skills",
+      "type": "skill",
+      "category": "image-generation",
+      "repo": "midasmatterhorn/artcraft-skills",
+      "stars": 63,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "obsidian-knowledge-workflow",
+      "name": "Obsidian Knowledge Workflow",
+      "type": "skill",
+      "category": "documents-productivity",
+      "repo": "r007b34r/opencode-obsidian-knowledge-workflow",
+      "stars": 13,
+      "license": "Apache-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "osint-skill",
+      "name": "OSINT Skill",
+      "type": "skill",
+      "category": "cybersecurity",
+      "repo": "smixs/osint-skill",
+      "stars": 157,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "spec-forge",
+      "name": "Spec Forge",
+      "type": "skill",
+      "category": "software-development",
+      "repo": "tercel/spec-forge",
+      "stars": 10,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-academic-research",
+      "name": "OpenCode Academic Research",
+      "type": "skill",
+      "category": "education-research",
+      "repo": "timpara/opencode-academic-research",
+      "stars": 84,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "rust-agentic-skills",
+      "name": "Rust Agentic Skills",
+      "type": "skill",
+      "category": "software-development",
+      "repo": "udapy/rust-agentic-skills",
+      "stars": 58,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "minimax-h3-opencode-skills",
+      "name": "MiniMax H3 OpenCode Skills",
+      "type": "skill",
+      "category": "video-generation",
+      "repo": "unknowlei/minimax-h3-opencode-skills",
+      "stars": 131,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "superpm",
+      "name": "superPM",
+      "type": "skill",
+      "category": "business-finance",
+      "repo": "konglong87/superPM",
+      "stars": 86,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "daisywriter",
+      "name": "DaisyWriter",
+      "type": "skill",
+      "category": "content-marketing",
+      "repo": "ricky-theseus/DaisyWriter",
+      "stars": 71,
+      "license": "GPL-3.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "heditor",
+      "name": "heditor",
+      "type": "skill",
+      "category": "video-generation",
+      "repo": "pycodebr/heditor",
+      "stars": 107,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "python-expert-agent",
+      "name": "Python Expert Agent",
+      "type": "agent",
+      "category": "software-development",
+      "repo": "amrahman90/python-expert-agent",
+      "stars": 23,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-mcp-server",
+      "name": "OpenCode MCP",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "AlaeddineMessadi/opencode-mcp",
+      "stars": 161,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "ast-grep-mcp",
+      "name": "ast-grep MCP",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "ThinkDonk/ast-grep-mcp",
+      "stars": 0,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "codesearch-mcp",
+      "name": "CodeSearch",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "flupkede/codesearch",
+      "stars": 101,
+      "license": "Apache-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "osint-mcp",
+      "name": "OSINT MCP",
+      "type": "mcp",
+      "category": "cybersecurity",
+      "repo": "n5za/osint-mcp",
+      "stars": 8,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "ai-sessions-mcp",
+      "name": "AI Sessions MCP",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "yoavf/ai-sessions-mcp",
+      "stars": 31,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "sense-mcp",
+      "name": "Sense",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "luuuc/sense",
+      "stars": 45,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "ogham-mcp",
+      "name": "Ogham MCP",
+      "type": "mcp",
+      "category": "software-development",
+      "repo": "ogham-mcp/ogham-mcp",
+      "stars": 116,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "figma-mcp",
+      "name": "Figma MCP",
+      "type": "mcp",
+      "category": "design-ui-ux",
+      "repo": "gberaudo/opencode-mcp-figma",
+      "stars": 98,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "catppuccin-opencode",
+      "name": "Catppuccin for OpenCode",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "catppuccin/opencode",
+      "stars": 19,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "dracula-theme",
+      "name": "Dracula Theme",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "dracula/opencode",
+      "stars": 4,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "UNMAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-light-themes",
+      "name": "OpenCode Light Themes",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "fatihtoprakk/opencode-light-themes",
+      "stars": 8,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "synthwave-themes",
+      "name": "Synthwave Themes",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "magimetal/synthwave-themes",
+      "stars": 106,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "ayu-theme",
+      "name": "Ayu Theme",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "postrednik/opencode-ayu-theme",
+      "stars": 58,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-vscode-themes",
+      "name": "OpenCode VS Code Themes",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "regen45t/opencode-vscode-themes",
+      "stars": 8,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "poimandres-theme",
+      "name": "Poimandres Theme",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "ajaxdude/opencode-ai-poimandres-theme",
+      "stars": 16,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "moonlight-theme",
+      "name": "Moonlight Theme",
+      "type": "theme",
+      "category": "design-ui-ux",
+      "repo": "brunogabriel/opencode-moonlight-theme",
+      "stars": 18,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-simple-memory",
+      "name": "OpenCode Simple Memory",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "ApplauseLab/opencode-plugin-simple-memory",
+      "stars": 148,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-plugin-otel",
+      "name": "OpenCode OpenTelemetry",
+      "type": "plugin",
+      "category": "devops-cloud",
+      "repo": "DEVtheOPS/opencode-plugin-otel",
+      "stars": 153,
+      "license": "MPL-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "subagent-magazine",
+      "name": "SubAgent Magazine",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "Hotakus/opencode-subagent-magazine",
+      "stars": 136,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "morph-fast-apply",
+      "name": "Morph Fast Apply",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "JRedeker/opencode-morph-fast-apply",
+      "stars": 170,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-llm-proxy",
+      "name": "OpenCode LLM Proxy",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "KochC/opencode-llm-proxy",
+      "stars": 86,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-rag",
+      "name": "OpenCodeRAG",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "MrDoe/OpenCodeRAG",
+      "stars": 62,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opentoken",
+      "name": "OpenToken",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "MrGray17/opentoken",
+      "stars": 167,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-auto-resume",
+      "name": "OpenCode Auto Resume",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "Mte90/opencode-auto-resume",
+      "stars": 127,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "antigravity-auth",
+      "name": "Antigravity Auth",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "NoeFabris/opencode-antigravity-auth",
+      "stars": 10997,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "openspec-plugin",
+      "name": "OpenSpec Plugin",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "Octane0411/opencode-plugin-openspec",
+      "stars": 167,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "dynamic-context-pruning",
+      "name": "Dynamic Context Pruning",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "Tarquinen/opencode-dynamic-context-pruning",
+      "stars": 4468,
+      "license": "AGPL-3.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-parser",
+      "name": "OpenCode Parser",
+      "type": "plugin",
+      "category": "documents-productivity",
+      "repo": "TejasS1233/opencode-parser",
+      "stars": 71,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-mercato",
+      "name": "OpenCode Mercato",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "ThomasSanna/opencode-mercato",
+      "stars": 1,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "message-bridge",
+      "name": "Message Bridge",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "YuanG1944/message-bridge-opencode-plugin",
+      "stars": 148,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "dir-tree-tui",
+      "name": "Dir Tree TUI",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "aihaipeng/opencode-dir-tree-tui",
+      "stars": 27,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-see-image",
+      "name": "OpenCode See Image",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "alfaoz/opencode-see-image",
+      "stars": 94,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-wakatime",
+      "name": "OpenCode WakaTime",
+      "type": "plugin",
+      "category": "documents-productivity",
+      "repo": "angristan/opencode-wakatime",
+      "stars": 206,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "mermaid-renderer",
+      "name": "Mermaid Renderer",
+      "type": "plugin",
+      "category": "design-ui-ux",
+      "repo": "anis-dr/opencode-mermaid-renderer",
+      "stars": 47,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-failover",
+      "name": "OpenCode Failover",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "bulutmuf/opencode-failover",
+      "stars": 52,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "ralph-loop",
+      "name": "Ralph Loop",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "charfeng1/opencode-ralph-loop",
+      "stars": 111,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-websearch",
+      "name": "OpenCode Websearch",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "emilsvennesson/opencode-websearch",
+      "stars": 74,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-rules",
+      "name": "OpenCode Rules",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "frap129/opencode-rules",
+      "stars": 119,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-telegram",
+      "name": "OpenCode Telegram",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "gkhantyln/opencode-telegram",
+      "stars": 1,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "claude-auth",
+      "name": "Claude Auth",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "griffinmartin/opencode-claude-auth",
+      "stars": 1323,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-synced",
+      "name": "OpenCode Synced",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "iHildy/opencode-synced",
+      "stars": 168,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-senses",
+      "name": "OpenCode Senses",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "itsmeadarsh2008/opencode-senses",
+      "stars": 94,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "gemini-auth",
+      "name": "Gemini Auth",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "jenslys/opencode-gemini-auth",
+      "stars": 1772,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-charts",
+      "name": "OpenCode Charts",
+      "type": "plugin",
+      "category": "data-science",
+      "repo": "joe-broadhead/opencode-charts",
+      "stars": 1,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "history-search",
+      "name": "History Search",
+      "type": "plugin",
+      "category": "documents-productivity",
+      "repo": "joeyism/opencode-history-search",
+      "stars": 131,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "opencode-multiplexer",
+      "name": "OpenCode Multiplexer",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "joeyism/opencode-multiplexer",
+      "stars": 31,
+      "license": "Apache-2.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "claude-code-plugin",
+      "name": "Claude Code Plugin",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "khalilgharbaoui/opencode-claude-code-plugin",
+      "stars": 122,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "theme-studio",
+      "name": "Theme Studio",
+      "type": "plugin",
+      "category": "design-ui-ux",
+      "repo": "kkugot/opencode-theme-studio",
+      "stars": 32,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED"
+      ]
+    },
+    {
+      "id": "claude-memory",
+      "name": "Claude Memory",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "kuitos/opencode-claude-memory",
+      "stars": 78,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "langfuse-observability",
+      "name": "Langfuse Observability",
+      "type": "plugin",
+      "category": "devops-cloud",
+      "repo": "langfuse/opencode-observability-plugin",
+      "stars": 35,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-vim",
+      "name": "OpenCode Vim",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "leohenon/opencode-vim-plugin",
+      "stars": 30,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-execsa",
+      "name": "OpenCode Execsa",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "lkonga/opencode-execsa",
+      "stars": 118,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-sessions",
+      "name": "OpenCode Sessions",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "malhashemi/opencode-sessions",
+      "stars": 180,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "UNMAINTAINED"
+      ]
+    },
+    {
+      "id": "model-router",
+      "name": "OpenCode Model Router",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "marco-jardim/opencode-model-router",
+      "stars": 149,
+      "license": "GPL-3.0",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-browser",
+      "name": "OpenCode Browser",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "michaljach/opencode-browser",
+      "stars": 113,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "cache-stats",
+      "name": "Cache Stats",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "nmdra/opencode-cache-stats",
+      "stars": 26,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "openai-codex-auth",
+      "name": "OpenAI Codex Auth",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "numman-ali/opencode-openai-codex-auth",
+      "stars": 2205,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "laya-drift",
+      "name": "Laya Drift",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "pythongiant/laya-drift",
+      "stars": 17,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "cmd-provider",
+      "name": "OpenCode Command Provider",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "rashidrazak/opencode-cmd-provider",
+      "stars": 133,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-voice",
+      "name": "OpenCode Voice",
+      "type": "plugin",
+      "category": "audio-music",
+      "repo": "renjfk/opencode-voice",
+      "stars": 93,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "working-memory",
+      "name": "OpenCode Working Memory",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "sdwolf4103/opencode-working-memory",
+      "stars": 198,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-supermemory",
+      "name": "OpenCode Supermemory",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "supermemoryai/opencode-supermemory",
+      "stars": 1654,
+      "license": "NOASSERTION",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_REVIEW_REQUIRED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-mem",
+      "name": "OpenCode Mem",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "tickernelz/opencode-mem",
+      "stars": 1824,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-plusplus",
+      "name": "OpenCode++",
+      "type": "plugin",
+      "category": "software-development",
+      "repo": "whut09/opencode-plusplus",
+      "stars": 113,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "models-discovery",
+      "name": "OpenCode Models Discovery",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "yuhp/opencode-models-discovery",
+      "stars": 205,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    },
+    {
+      "id": "opencode-litellm",
+      "name": "OpenCode LiteLLM",
+      "type": "plugin",
+      "category": "ai-machine-learning",
+      "repo": "yuseferi/opencode-litellm",
+      "stars": 104,
+      "license": "MIT",
+      "status": [
+        "SOURCE_VERIFIED",
+        "LICENSE_VERIFIED",
+        "MAINTAINED"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "file": "opencode_in_name_description_readme.json",
+      "query": "opencode in:name,description,readme",
+      "results": 100,
+      "total_count": 269381
+    },
+    {
+      "file": "topic_opencode.json",
+      "query": "topic:opencode",
+      "results": 100,
+      "total_count": 10997
+    },
+    {
+      "file": "opencode_agent_in_name_description.json",
+      "query": "opencode agent in:name,description",
+      "results": 100,
+      "total_count": 10905
+    },
+    {
+      "file": "opencode_plugin_in_name_description.json",
+      "query": "opencode plugin in:name,description",
+      "results": 100,
+      "total_count": 5441
+    },
+    {
+      "file": "opencode_skills_in_name_description.json",
+      "query": "opencode skills in:name,description",
+      "results": 100,
+      "total_count": 4880
+    },
+    {
+      "file": "opencode_mcp_in_name_description.json",
+      "query": "opencode mcp in:name,description",
+      "results": 100,
+      "total_count": 2312
+    },
+    {
+      "file": "topic_opencode-plugin.json",
+      "query": "topic:opencode-plugin",
+      "results": 100,
+      "total_count": 1598
+    },
+    {
+      "file": "opencode_theme_in_name_description.json",
+      "query": "opencode theme in:name,description",
+      "results": 100,
+      "total_count": 283
+    },
+    {
+      "file": "topic_opencode-skills.json",
+      "query": "topic:opencode-skills",
+      "results": 100,
+      "total_count": 252
+    },
+    {
+      "file": "topic_opencode-mcp.json",
+      "query": "topic:opencode-mcp",
+      "results": 2,
+      "total_count": 2
+    }
+  ],
+  "observed_at": "2026-11-05",
+  "unique_repositories": 757,
+  "repositories_with_opencode_signals": 675
+}

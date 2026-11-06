@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 1 | 2 | 1 | 2 |
+| 2 | 3 | 1 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -19,14 +19,17 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Android Kernel LKM](https://github.com/Yunnijian/android-kernel-lkm) | skill | Workflow skill for Android kernel module development using kprobe and kretprobe, covering feasibility, baseline extraction, static checks and insmod testing. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
+| [AUR Skills](https://github.com/enihcam/aur-skills) | skill | Agent skills for Arch Linux AUR packaging, including PKGBUILD creation, makepkg builds, submission and audit. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [HyperDroid Skill](https://github.com/hyperb1iss/hyperdroid-skill) | skill | LineageOS and custom ROM development skill covering source sync, device trees, repopick, Gerrit contributions and vendor blobs. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
 | [MrZero](https://www.npmjs.com/package/@bengabay94/mrzero) | plugin | Agent pack for vulnerability research, attack-surface mapping and exploit development, integrating reverse-engineering and exploitation tooling. | npm | MIT | HIGH RISK | source verified, license verified, security review required |
+| [Rust Agentic Skills](https://github.com/udapy/rust-agentic-skills) | skill | Modular Rust engineering skills that turn general-purpose agents into a constraint-based Rust development team. | github | MIT | REVIEW REQUIRED | source verified, license verified |
 
 ## Skills
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Android Kernel LKM](https://github.com/Yunnijian/android-kernel-lkm) | skill | Workflow skill for Android kernel module development using kprobe and kretprobe, covering feasibility, baseline extraction, static checks and insmod testing. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
+| [AUR Skills](https://github.com/enihcam/aur-skills) | skill | Agent skills for Arch Linux AUR packaging, including PKGBUILD creation, makepkg builds, submission and audit. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

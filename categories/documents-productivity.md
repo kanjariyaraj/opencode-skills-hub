@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 2 | 0 | 6 | 2 |
+| 8 | 10 | 6 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -18,14 +18,41 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [AI Sessions MCP](https://github.com/yoavf/ai-sessions-mcp) | mcp | MCP server for searching and retrieving AI coding sessions from Claude Code, Gemini CLI and other local tools. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Claude Memory](https://github.com/kuitos/opencode-claude-memory) | plugin | Plugin that shares Claude Code-compatible Markdown memory files between Claude Code and OpenCode. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [DaisyWriter](https://github.com/ricky-theseus/DaisyWriter) | skill | AI writing toolkit for web novels, short stories and technical blogs, with publishing and cover-generation helpers. | github | GPL-3.0 | REVIEW REQUIRED | source verified, license verified |
+| [Deep Research Skills](https://github.com/Weizhena/Deep-Research-skills) | skill | Structured deep-research skills with human-in-the-loop checkpoints for research planning, source collection and synthesis. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [DuckBrain](https://pypi.org/project/duckbrain/) | mcp | DuckDB-backed MCP memory server that gives agents structured search, read and write access to Obsidian vaults. | pypi | UNKNOWN | REVIEW REQUIRED | source verified, license review required |
+| [History Search](https://github.com/joeyism/opencode-history-search) | plugin | Plugin and CLI for searching OpenCode conversation history with keyword, regex and fuzzy matching. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [Message Bridge](https://github.com/YuanG1944/message-bridge-opencode-plugin) | plugin | Bridge plugin that connects OpenCode to a Lark bot for message-driven coding workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [Obsidian Knowledge Workflow](https://github.com/r007b34r/opencode-obsidian-knowledge-workflow) | skill | Seven skills for an Obsidian-based knowledge workflow, including inbox triage, linking and an Obsidian MCP setup. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
+| [Open Document Skills](https://github.com/leiverkus/open-document-skills) | skill | Agent skills and stdlib-only scripts for creating and editing OpenDocument files (ODT, ODP, ODS, ODG). | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode Academic Research](https://github.com/timpara/opencode-academic-research) | skill | OpenCode port of an academic-research skill suite with four skills, slash commands and a multi-agent research pipeline. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required, active |
+| [OpenCode Parser](https://github.com/TejasS1233/opencode-parser) | plugin | File-parsing plugin for PDF, DOCX, XLSX, PPTX, images, EPUB, HTML and Markdown inputs. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [OpenCode Productivity Agent](https://www.npmjs.com/package/opencode-productivity-agent) | plugin | Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode Telegram](https://github.com/gkhantyln/opencode-telegram) | plugin | Telegram bridge that lets users drive an OpenCode coding agent from chat. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode Voice](https://github.com/renjfk/opencode-voice) | plugin | Speech-to-text and text-to-speech plugin for OpenCode with local Whisper and Piper support. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode WakaTime](https://github.com/angristan/opencode-wakatime) | plugin | WakaTime integration that tracks time spent in OpenCode coding sessions. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [PPT Image First](https://github.com/NyxTides/ppt-image-first) | skill | Conversation-first skill that turns a rough presentation request into an image-first PPTX deck with staged content and style previews. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
+| [Spec Forge](https://github.com/tercel/spec-forge) | skill | Specification-generation skill suite for PRDs, SRS documents, technical designs and test plans using industry templates. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [superPM](https://github.com/konglong87/superPM) | skill | Product-management skill framework covering discovery, prioritisation, MVP planning and delivery workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Obsidian Knowledge Workflow](https://github.com/r007b34r/opencode-obsidian-knowledge-workflow) | skill | Seven skills for an Obsidian-based knowledge workflow, including inbox triage, linking and an Obsidian MCP setup. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
+| [Open Document Skills](https://github.com/leiverkus/open-document-skills) | skill | Agent skills and stdlib-only scripts for creating and editing OpenDocument files (ODT, ODP, ODS, ODG). | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [PPT Image First](https://github.com/NyxTides/ppt-image-first) | skill | Conversation-first skill that turns a rough presentation request into an image-first PPTX deck with staged content and style previews. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
 
 ## Plugins
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [History Search](https://github.com/joeyism/opencode-history-search) | plugin | Plugin and CLI for searching OpenCode conversation history with keyword, regex and fuzzy matching. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode Parser](https://github.com/TejasS1233/opencode-parser) | plugin | File-parsing plugin for PDF, DOCX, XLSX, PPTX, images, EPUB, HTML and Markdown inputs. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [OpenCode Productivity Agent](https://www.npmjs.com/package/opencode-productivity-agent) | plugin | Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode WakaTime](https://github.com/angristan/opencode-wakatime) | plugin | WakaTime integration that tracks time spent in OpenCode coding sessions. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## MCP Servers
 

@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 4 | 2 | 2 | 1 |
+| 7 | 2 | 2 | 1 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -18,12 +18,22 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [CTF Skills](https://github.com/ljagiello/ctf-skills) | skill | Agent skills for CTF challenges covering web exploitation, binary pwn, cryptography, reverse engineering and forensics. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [gstack](https://www.npmjs.com/package/opencode-plugin-gstack) | plugin | OpenCode plugin that maps agent workflows to a virtual engineering team, including a QA lead and browser-testing command. | npm | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
 | [MrZero](https://www.npmjs.com/package/@bengabay94/mrzero) | plugin | Agent pack for vulnerability research, attack-surface mapping and exploit development, integrating reverse-engineering and exploitation tooling. | npm | MIT | HIGH RISK | source verified, license verified, security review required |
 | [open-sploit](https://www.npmjs.com/package/open-sploit) | plugin | Offensive-security agent CLI with attack skills and engagement routing for authorized penetration tests. | npm | MIT | HIGH RISK | source verified, license verified, security review required |
 | [OpenCode Browser Control](https://www.npmjs.com/package/opencode-browser-control) | mcp | Playwright-powered browser automation server that controls Chrome or Edge using accessibility snapshots and element references. | npm | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
 | [OpenSploit Core](https://www.npmjs.com/package/@opensploit/core) | plugin | Autonomous penetration-testing plugin that bundles offensive agents and security tooling for Docker-isolated lab environments. | npm | MIT | HIGH RISK | source verified, license verified, security review required |
+| [OSINT MCP](https://github.com/n5za/osint-mcp) | mcp | 86-tool OSINT MCP server with evidence graphs, image analysis and reverse-search workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OSINT Skill](https://github.com/smixs/osint-skill) | skill | OSINT skill that guides agents from a name or selector to a structured open-source intelligence report. | github | MIT | REVIEW REQUIRED | source verified, license verified |
 | [Pentester MCP](https://pypi.org/project/pentester-mcp/) | mcp | Authorization-gated MCP server that exposes penetration-testing tooling to MCP-capable agents. | pypi | MIT | HIGH RISK | source verified, license verified, security review required |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [CTF Skills](https://github.com/ljagiello/ctf-skills) | skill | Agent skills for CTF challenges covering web exploitation, binary pwn, cryptography, reverse engineering and forensics. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OSINT Skill](https://github.com/smixs/osint-skill) | skill | OSINT skill that guides agents from a name or selector to a structured open-source intelligence report. | github | MIT | REVIEW REQUIRED | source verified, license verified |
 
 ## Plugins
 
@@ -37,6 +47,7 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [OSINT MCP](https://github.com/n5za/osint-mcp) | mcp | 86-tool OSINT MCP server with evidence graphs, image analysis and reverse-search workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [Pentester MCP](https://pypi.org/project/pentester-mcp/) | mcp | Authorization-gated MCP server that exposes penetration-testing tooling to MCP-capable agents. | pypi | MIT | HIGH RISK | source verified, license verified, security review required |
 
 ## Skill packs and toolkits

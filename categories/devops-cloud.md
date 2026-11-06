@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 0 | 2 | 0 |
+| 2 | 5 | 2 | 0 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -14,7 +14,24 @@ Counts reflect structured catalog entries, not popularity or upstream quality. A
 
 ## Recommended starting points
 
-No catalogued resource has this category as its primary or secondary category yet. See the collections below and the [contribution guide](../CONTRIBUTING.md) to add one.
+Start with the entries marked *source verified* and *license verified*. Every entry keeps upstream claims separate from independent verification.
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [AUR Skills](https://github.com/enihcam/aur-skills) | skill | Agent skills for Arch Linux AUR packaging, including PKGBUILD creation, makepkg builds, submission and audit. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Langfuse Observability](https://github.com/langfuse/opencode-observability-plugin) | plugin | Plugin that sends OpenCode session traces and generations to Langfuse. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode Failover](https://github.com/bulutmuf/opencode-failover) | plugin | Plugin that automatically rotates provider API keys and fails over between them. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode LLM Proxy](https://github.com/KochC/opencode-llm-proxy) | plugin | Local LLM gateway that exposes OpenCode-backed models through OpenAI-, Anthropic- and Gemini-compatible APIs. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode OpenTelemetry](https://github.com/DEVtheOPS/opencode-plugin-otel) | plugin | OpenTelemetry plugin that exports OpenCode session telemetry over OTLP/gRPC or HTTP. | github | MPL-2.0 | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode Synced](https://github.com/iHildy/opencode-synced) | plugin | Plugin that syncs OpenCode global configuration between machines using a Git-backed store. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode++](https://github.com/whut09/opencode-plusplus) | plugin | Windows-first reliability harness for OpenCode Desktop with context, edit-boundary and evidence gates. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Plugins
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Langfuse Observability](https://github.com/langfuse/opencode-observability-plugin) | plugin | Plugin that sends OpenCode session traces and generations to Langfuse. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode OpenTelemetry](https://github.com/DEVtheOPS/opencode-plugin-otel) | plugin | OpenTelemetry plugin that exports OpenCode session telemetry over OTLP/gRPC or HTTP. | github | MPL-2.0 | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

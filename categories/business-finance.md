@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 1 | 3 | 1 |
+| 1 | 2 | 3 | 1 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -18,7 +18,15 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [OpenCode Mercato](https://github.com/ThomasSanna/opencode-mercato) | plugin | OpenCode V2 TUI marketplace plugin for browsing and installing cataloged plugins. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [OpenCode Productivity Agent](https://www.npmjs.com/package/opencode-productivity-agent) | plugin | Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
+| [superPM](https://github.com/konglong87/superPM) | skill | Product-management skill framework covering discovery, prioritisation, MVP planning and delivery workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [superPM](https://github.com/konglong87/superPM) | skill | Product-management skill framework covering discovery, prioritisation, MVP planning and delivery workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

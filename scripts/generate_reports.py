@@ -31,10 +31,10 @@ CATALOG_DIR = ROOT / "catalog"
 DATA_DIR = ROOT / "data"
 REPORTS_DIR = ROOT / "reports"
 
-RESOURCE_TYPES = ["skill", "agent", "plugin", "mcp", "command", "rule", "hook", "provider"]
+RESOURCE_TYPES = ["skill", "agent", "plugin", "mcp", "theme", "command", "rule", "hook", "provider"]
 TYPE_LABELS = {
     "skill": "Skills", "agent": "Agents", "plugin": "Plugins", "mcp": "MCP Servers",
-    "command": "Commands", "rule": "Rules", "hook": "Hooks", "provider": "Providers",
+    "theme": "Themes", "command": "Commands", "rule": "Rules", "hook": "Hooks", "provider": "Providers",
 }
 
 

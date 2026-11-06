@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 2 | 1 | 2 | 2 |
+| 2 | 2 | 2 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -21,6 +21,7 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | [database-admin](https://www.npmjs.com/package/database-admin) | plugin | OpenCode plugin providing direct SQL access across MySQL, MariaDB, PostgreSQL, SQL Server and SQLite. | npm | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
 | [DevHive Backender](https://pypi.org/project/devhive/) | agent | Backend-specialist agent from DevHive for API design, server logic and data-layer implementation. | pypi | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [OpenCode Postgres Plugin](https://www.npmjs.com/package/opencode-postgres) | plugin | Postgres query tool for OpenCode that runs SQL against configured databases with read-only safety checks. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
+| [Quarkus Skill](https://github.com/b6k-dev/quarkus-skill) | skill | Quarkus platform reference skill with documentation and installation guidance for AI coding assistants. | github | MIT | REVIEW REQUIRED | source verified, license verified |
 
 ## Plugins
 

@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 2 | 3 | 1 |
+| 1 | 2 | 3 | 1 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -20,6 +20,13 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | --- | --- | --- | --- | --- | --- | --- |
 | [3D Web Skill](https://www.npmjs.com/package/3d-web-skill) | skill | Skill that teaches an agent to build Three.js 3D web experiences and turn reference imagery into interactive scenes. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
 | [img2threejs](https://github.com/img2threejs/img2threejs) | skill | Skill that reconstructs a single reference image as a procedural, animation-ready Three.js model through staged code generation. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified, active |
+| [Unity Skills](https://github.com/Besty0728/Unity-Skills) | skill | AI automation skills for Unity covering scenes, assets, editor operations and build workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Unity Skills](https://github.com/Besty0728/Unity-Skills) | skill | AI automation skills for Unity covering scenes, assets, editor operations and build workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

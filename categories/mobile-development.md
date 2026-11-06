@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 1 | 2 | 4 | 2 |
+| 1 | 3 | 4 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -20,6 +20,7 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | --- | --- | --- | --- | --- | --- | --- |
 | [HyperDroid Skill](https://github.com/hyperb1iss/hyperdroid-skill) | skill | LineageOS and custom ROM development skill covering source sync, device trees, repopick, Gerrit contributions and vendor blobs. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
 | [OpenCode Flutter Architect](https://www.npmjs.com/package/@alghanem/opencode-flutter) | agent | Flutter-focused agent bundled with @alghanem/opencode-flutter, intended for application architecture and delivery workflows. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
+| [SwiftUI Design Skill](https://github.com/Wholiver/swiftui-design-skill) | skill | SwiftUI front-end design skill with six rules aimed at preventing generic AI-generated interfaces. | github | MIT | REVIEW REQUIRED | source verified, license verified |
 | [Termux Skill](https://www.npmjs.com/package/termux-skill) | skill | Skill that lets an agent control an Android device through the Termux API for automation and pre-flash preparation. | npm | CC-BY-NC-4.0 | REVIEW REQUIRED | source verified, license verified, low activity |
 
 ## Agents

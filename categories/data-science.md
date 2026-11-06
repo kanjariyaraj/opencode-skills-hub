@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 0 | 2 | 2 |
+| 3 | 0 | 2 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -14,7 +14,26 @@ Counts reflect structured catalog entries, not popularity or upstream quality. A
 
 ## Recommended starting points
 
-No catalogued resource has this category as its primary or secondary category yet. See the collections below and the [contribution guide](../CONTRIBUTING.md) to add one.
+Start with the entries marked *source verified* and *license verified*. Every entry keeps upstream claims separate from independent verification.
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [iSpan Data Science Cookbooks](https://github.com/Zenobia000/iSpan_python-FE_DM-cookbooks) | skill | Research-first data-science skill cookbooks covering exploratory analysis, feature engineering and modelling workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Marimo OpenCode Skill](https://github.com/adrunkhuman/marimo-opencode-skill) | skill | Skill that keeps coding agents on marimo's reactive-notebook model and prevents common Jupyter-style mistakes. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode Charts](https://github.com/joe-broadhead/opencode-charts) | plugin | Plugin that renders deterministic Vega-Lite, Vega and ECharts charts for OpenCode outputs. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [iSpan Data Science Cookbooks](https://github.com/Zenobia000/iSpan_python-FE_DM-cookbooks) | skill | Research-first data-science skill cookbooks covering exploratory analysis, feature engineering and modelling workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Marimo OpenCode Skill](https://github.com/adrunkhuman/marimo-opencode-skill) | skill | Skill that keeps coding agents on marimo's reactive-notebook model and prevents common Jupyter-style mistakes. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+
+## Plugins
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [OpenCode Charts](https://github.com/joe-broadhead/opencode-charts) | plugin | Plugin that renders deterministic Vega-Lite, Vega and ECharts charts for OpenCode outputs. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

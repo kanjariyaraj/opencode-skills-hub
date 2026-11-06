@@ -8,8 +8,17 @@
       "type": "plugin",
       "description": "OpenCode plugin that adds image generation and editing features, plus video-generation workflows, directly into the coding agent.",
       "primary_category": "image-generation",
-      "secondary_categories": ["video-generation", "design-ui-ux"],
-      "tags": ["image", "video", "generation", "nano-banana", "plugin"],
+      "secondary_categories": [
+        "video-generation",
+        "design-ui-ux"
+      ],
+      "tags": [
+        "image",
+        "video",
+        "generation",
+        "nano-banana",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/opencode-nanobanana",
         "kind": "npm",
@@ -17,23 +26,39 @@
         "repository": "48Nauts-Operator/opencode-nanobanana"
       },
       "install": {
-        "instructions": ["npm install -g opencode-nanobanana", "Configure the required provider API key through environment variables."],
+        "instructions": [
+          "npm install -g opencode-nanobanana",
+          "Configure the required provider API key through environment variables."
+        ],
         "requires_api_key": true,
         "tested": "NOT_TESTED",
         "notes": "npm 0.3.0 confirmed; repository license NOASSERTION. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "image/video provider API key"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "image/video provider API key"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Sends prompts and media to third-party generation APIs. Review data handling and billing."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm registry and GitHub repository confirmed; license not recognized. Functionality not executed."
       },
@@ -50,8 +75,17 @@
       "type": "plugin",
       "description": "OpenCode plugin providing direct SQL access across MySQL, MariaDB, PostgreSQL, SQL Server and SQLite.",
       "primary_category": "database-backend",
-      "secondary_categories": ["software-development"],
-      "tags": ["sql", "mysql", "postgresql", "mariadb", "sqlite", "plugin"],
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "sql",
+        "mysql",
+        "postgresql",
+        "mariadb",
+        "sqlite",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/database-admin",
         "kind": "npm",
@@ -59,23 +93,40 @@
         "repository": "nyingimaina/open-code-database-admin"
       },
       "install": {
-        "instructions": ["npm install -g database-admin", "Configure connections with least-privilege, read-only credentials where possible."],
+        "instructions": [
+          "npm install -g database-admin",
+          "Configure connections with least-privilege, read-only credentials where possible."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 1.2.1 confirmed; repository license not detected. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "database driver", "database credentials"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "database driver",
+          "database credentials"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Can execute SQL against configured databases. Use read-only accounts and never point it at production without authorization."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed. Query behavior not executed."
       },
@@ -92,8 +143,15 @@
       "type": "plugin",
       "description": "Postgres query tool for OpenCode that runs SQL against configured databases with read-only safety checks.",
       "primary_category": "database-backend",
-      "secondary_categories": ["software-development"],
-      "tags": ["postgresql", "sql", "query", "plugin"],
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "postgresql",
+        "sql",
+        "query",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/opencode-postgres",
         "kind": "npm",
@@ -101,23 +159,39 @@
         "repository": "vimtor/opencode-plugins"
       },
       "install": {
-        "instructions": ["npm install -g opencode-postgres", "Configure a connection string through environment variables."],
+        "instructions": [
+          "npm install -g opencode-postgres",
+          "Configure a connection string through environment variables."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 1.0.0 confirmed; install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "PostgreSQL"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "PostgreSQL"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Database access plugin. Use least-privilege credentials and verify the read-only safeguards in the source."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Query behavior not executed."
       },
@@ -134,8 +208,15 @@
       "type": "plugin",
       "description": "OpenCode plugin that maps agent workflows to a virtual engineering team, including a QA lead and browser-testing command.",
       "primary_category": "software-development",
-      "secondary_categories": ["cybersecurity"],
-      "tags": ["qa", "browser-testing", "workflow", "plugin"],
+      "secondary_categories": [
+        "cybersecurity"
+      ],
+      "tags": [
+        "qa",
+        "browser-testing",
+        "workflow",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/opencode-plugin-gstack",
         "kind": "npm",
@@ -143,23 +224,38 @@
         "repository": "sjzsdu/OpencodePlugins"
       },
       "install": {
-        "instructions": ["npm install -g opencode-plugin-gstack", "Review the exposed commands before running them against a codebase."],
+        "instructions": [
+          "npm install -g opencode-plugin-gstack",
+          "Review the exposed commands before running them against a codebase."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.1.1 confirmed; repository license not detected. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Browser automation can reach external sites and handle session data. Review before use."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed. Functionality not executed."
       },
@@ -176,8 +272,15 @@
       "type": "plugin",
       "description": "CLI that adds senior product-designer workflows and brand-memory guidance to coding agents.",
       "primary_category": "design-ui-ux",
-      "secondary_categories": ["software-development"],
-      "tags": ["design", "cli", "brand", "product-design"],
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "design",
+        "cli",
+        "brand",
+        "product-design"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/oh-my-design-cli",
         "kind": "npm",
@@ -185,23 +288,39 @@
         "repository": "kwakseongjae/oh-my-design"
       },
       "install": {
-        "instructions": ["npm install -g oh-my-design-cli", "Run the CLI's documented setup step."],
+        "instructions": [
+          "npm install -g oh-my-design-cli",
+          "Run the CLI's documented setup step."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 2.0.6 confirmed; install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Global npm install and CLI execution. Review before running."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed; MIT license via GitHub API."
       },
@@ -218,8 +337,16 @@
       "type": "plugin",
       "description": "Productivity plugin adding task, memory and dashboard workflows with integrations for common work tools.",
       "primary_category": "documents-productivity",
-      "secondary_categories": ["business-finance"],
-      "tags": ["productivity", "tasks", "memory", "dashboard", "plugin"],
+      "secondary_categories": [
+        "business-finance"
+      ],
+      "tags": [
+        "productivity",
+        "tasks",
+        "memory",
+        "dashboard",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/opencode-productivity-agent",
         "kind": "npm",
@@ -227,23 +354,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["npm install -g opencode-productivity-agent", "Review which third-party integrations and scopes it requests."],
+        "instructions": [
+          "npm install -g opencode-productivity-agent",
+          "Review which third-party integrations and scopes it requests."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.2.1 confirmed; no repository URL in registry metadata. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Integrations may request access to external work tools. Review OAuth scopes and data handling."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
         "date": "2026-11-05",
         "notes": "npm registry metadata confirmed. No public repository was resolved, so source-level review was not possible."
       },
@@ -260,8 +402,18 @@
       "type": "plugin",
       "description": "CLI and agent integration for running image, video, audio and 3D generation models through the WaveSpeed platform.",
       "primary_category": "video-generation",
-      "secondary_categories": ["image-generation", "audio-music"],
-      "tags": ["image", "video", "audio", "3d", "cli", "generation"],
+      "secondary_categories": [
+        "image-generation",
+        "audio-music"
+      ],
+      "tags": [
+        "image",
+        "video",
+        "audio",
+        "3d",
+        "cli",
+        "generation"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/@wavespeed/cli",
         "kind": "npm",
@@ -269,23 +421,40 @@
         "repository": "WaveSpeedAI/wavespeed-cli"
       },
       "install": {
-        "instructions": ["npm install -g @wavespeed/cli", "Configure a WaveSpeed API key through environment variables."],
+        "instructions": [
+          "npm install -g @wavespeed/cli",
+          "Configure a WaveSpeed API key through environment variables."
+        ],
         "requires_api_key": true,
         "tested": "NOT_TESTED",
         "notes": "npm 0.4.27 confirmed; install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "WaveSpeed API key"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "WaveSpeed API key"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Paid third-party API. Review billing, data handling and credential storage."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed; MIT license via GitHub API. Generation not executed."
       },
@@ -303,7 +472,12 @@
       "description": "CLI that scaffolds multi-stage QA skills and methodology references into an OpenCode skills directory.",
       "primary_category": "software-development",
       "secondary_categories": [],
-      "tags": ["qa", "testing", "cli", "scaffolding"],
+      "tags": [
+        "qa",
+        "testing",
+        "cli",
+        "scaffolding"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/qa-test-cli",
         "kind": "npm",
@@ -311,23 +485,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["npx qa-test init", "Inspect the files it writes before enabling them."],
+        "instructions": [
+          "npx qa-test init",
+          "Inspect the files it writes before enabling them."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.2.11 confirmed; declared repository URL returns 404. Not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Scaffolding tool writes into the user's skills directory. Review generated files."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
         "date": "2026-11-05",
         "notes": "npm registry metadata confirmed; no reachable repository, so source-level review was not possible."
       },
@@ -345,7 +534,13 @@
       "description": "Autonomous penetration-testing plugin that bundles offensive agents and security tooling for Docker-isolated lab environments.",
       "primary_category": "cybersecurity",
       "secondary_categories": [],
-      "tags": ["pentest", "offensive", "docker", "agents", "plugin"],
+      "tags": [
+        "pentest",
+        "offensive",
+        "docker",
+        "agents",
+        "plugin"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/@opensploit/core",
         "kind": "npm",
@@ -353,23 +548,38 @@
         "repository": "silicon-works/opensploit-plugin"
       },
       "install": {
-        "instructions": ["npm install -g @opensploit/core", "Run only inside an isolated lab with explicit written authorization for the in-scope target."],
+        "instructions": [
+          "npm install -g @opensploit/core",
+          "Run only inside an isolated lab with explicit written authorization for the in-scope target."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.2.0 confirmed; install not executed. Offensive tooling."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux"],
-        "dependencies": ["Node.js", "Docker"]
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Docker"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "HIGH RISK",
         "notes": "Bundles offensive security tooling. Never run against systems without explicit written authorization. Keep isolated."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed; MIT license. Agents and tools not executed."
       },
@@ -387,7 +597,12 @@
       "description": "Offensive-security agent CLI with attack skills and engagement routing for authorized penetration tests.",
       "primary_category": "cybersecurity",
       "secondary_categories": [],
-      "tags": ["pentest", "offensive", "cli", "agents"],
+      "tags": [
+        "pentest",
+        "offensive",
+        "cli",
+        "agents"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/open-sploit",
         "kind": "npm",
@@ -395,23 +610,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["npx open-sploit", "Use only in an isolated lab against explicitly authorized targets."],
+        "instructions": [
+          "npx open-sploit",
+          "Use only in an isolated lab against explicitly authorized targets."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 1.2.0 confirmed; no repository URL in registry metadata. Not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux"],
-        "dependencies": ["Node.js", "Kali Linux or WSL2 for full tooling"]
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Kali Linux or WSL2 for full tooling"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "HIGH RISK",
         "notes": "Offensive tooling. Authorization required. No source-level review was possible without a repository URL."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm registry metadata confirmed. No public repository resolved; tool not executed."
       },
@@ -428,8 +658,16 @@
       "type": "plugin",
       "description": "Agent pack for vulnerability research, attack-surface mapping and exploit development, integrating reverse-engineering and exploitation tooling.",
       "primary_category": "cybersecurity",
-      "secondary_categories": ["linux-low-level"],
-      "tags": ["vulnerability-research", "exploit", "reverse-engineering", "ghidra", "metasploit"],
+      "secondary_categories": [
+        "linux-low-level"
+      ],
+      "tags": [
+        "vulnerability-research",
+        "exploit",
+        "reverse-engineering",
+        "ghidra",
+        "metasploit"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/@bengabay94/mrzero",
         "kind": "npm",
@@ -437,23 +675,40 @@
         "repository": "bengabay1994/MrZero"
       },
       "install": {
-        "instructions": ["npx @bengabay94/mrzero install", "Use only in an isolated lab against systems you own or are authorized to test."],
+        "instructions": [
+          "npx @bengabay94/mrzero install",
+          "Use only in an isolated lab against systems you own or are authorized to test."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.1.0-alpha.1 confirmed; pre-release software. Not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos"],
-        "dependencies": ["Node.js", "Ghidra", "Metasploit"]
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Ghidra",
+          "Metasploit"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "HIGH RISK",
         "notes": "Exploit-development tooling. Authorization required. Pre-release; expect instability."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed; MIT license; alpha release. Not executed."
       },
@@ -462,6 +717,3194 @@
         "observed_at": "2026-11-05",
         "latest_release": "0.1.0-alpha.1",
         "last_push": "2026-02-14T11:30:23Z"
+      }
+    },
+    {
+      "id": "opencode-simple-memory",
+      "name": "OpenCode Simple Memory",
+      "type": "plugin",
+      "description": "Persistent-memory plugin that lets OpenCode retain project context across sessions.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "memory",
+        "persistence",
+        "context",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://github.com/ApplauseLab/opencode-plugin-simple-memory",
+        "kind": "github",
+        "documentation": "https://github.com/ApplauseLab/opencode-plugin-simple-memory",
+        "repository": "ApplauseLab/opencode-plugin-simple-memory"
+      },
+      "install": {
+        "instructions": [
+          "Add `@knikolov/opencode-plugin-simple-memory` to the plugin/plugins array in your OpenCode config and restart.",
+          "Review the plugin's storage location and retention behavior before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "The README package scope differs from the GitHub organization name. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 148,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-09-22T21:46:49Z"
+      }
+    },
+    {
+      "id": "opencode-plugin-otel",
+      "name": "OpenCode OpenTelemetry",
+      "type": "plugin",
+      "description": "OpenTelemetry plugin that exports OpenCode session telemetry over OTLP/gRPC or HTTP.",
+      "primary_category": "devops-cloud",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "telemetry",
+        "otlp"
+      ],
+      "source": {
+        "url": "https://github.com/DEVtheOPS/opencode-plugin-otel",
+        "kind": "github",
+        "documentation": "https://github.com/DEVtheOPS/opencode-plugin-otel",
+        "repository": "DEVtheOPS/opencode-plugin-otel"
+      },
+      "install": {
+        "instructions": [
+          "Add `@devtheops/opencode-plugin-otel` to the OpenCode plugin configuration and configure an OTLP endpoint.",
+          "Review which session data is exported and where it is stored."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "OTLP collector"
+        ]
+      },
+      "license": {
+        "spdx": "MPL-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends session telemetry to a configured collector. Review the payload, endpoint and retention policy."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 153,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.1",
+        "last_push": "2026-10-06T00:41:59Z"
+      }
+    },
+    {
+      "id": "subagent-magazine",
+      "name": "SubAgent Magazine",
+      "type": "plugin",
+      "description": "OpenCode TUI plugin that visualizes sub-agent activity in a real-time sidebar.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "tui",
+        "subagents",
+        "monitoring",
+        "sidebar"
+      ],
+      "source": {
+        "url": "https://github.com/Hotakus/opencode-subagent-magazine",
+        "kind": "github",
+        "documentation": "https://github.com/Hotakus/opencode-subagent-magazine",
+        "repository": "Hotakus/opencode-subagent-magazine"
+      },
+      "install": {
+        "instructions": [
+          "Run `npm install -g opencode-subagent-magazine@latest`, then add `opencode-subagent-magazine@latest` to the TUI plugin configuration.",
+          "The README warns not to install it with `opencode plugin add` because it is a TUI plugin."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Bilingual English/Chinese README. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 136,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-08T20:11:42Z"
+      }
+    },
+    {
+      "id": "morph-fast-apply",
+      "name": "Morph Fast Apply",
+      "type": "plugin",
+      "description": "Plugin that applies lazy edit markers through Morph's Fast Apply API for faster code edits.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "editing",
+        "morph",
+        "fast-apply",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://github.com/JRedeker/opencode-morph-fast-apply",
+        "kind": "github",
+        "documentation": "https://github.com/JRedeker/opencode-morph-fast-apply",
+        "repository": "JRedeker/opencode-morph-fast-apply"
+      },
+      "install": {
+        "instructions": [
+          "Add `github:JRedeker/opencode-morph-fast-apply#v1.12.0` to the OpenCode plugin configuration.",
+          "Configure a Morph API key as described in the README."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Morph API key"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends code snippets to Morph's API for edit application. Review data handling, billing and provider terms."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 170,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.12.0",
+        "last_push": "2026-11-03T20:19:46Z"
+      }
+    },
+    {
+      "id": "opencode-llm-proxy",
+      "name": "OpenCode LLM Proxy",
+      "type": "plugin",
+      "description": "Local LLM gateway that exposes OpenCode-backed models through OpenAI-, Anthropic- and Gemini-compatible APIs.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "devops-cloud"
+      ],
+      "tags": [
+        "llm",
+        "proxy",
+        "gateway",
+        "api"
+      ],
+      "source": {
+        "url": "https://github.com/KochC/opencode-llm-proxy",
+        "kind": "github",
+        "documentation": "https://github.com/KochC/opencode-llm-proxy",
+        "repository": "KochC/opencode-llm-proxy"
+      },
+      "install": {
+        "instructions": [
+          "Install with `npm install opencode-llm-proxy`, then enable `opencode-llm-proxy` in the OpenCode plugin configuration.",
+          "Review the local listening address and authentication before exposing the proxy."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Runs a local model gateway that may hold provider credentials. Bind it to localhost and review access controls."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 86,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.11.2",
+        "last_push": "2026-10-29T00:26:13Z"
+      }
+    },
+    {
+      "id": "opencode-rag",
+      "name": "OpenCodeRAG",
+      "type": "plugin",
+      "description": "Retrieval-augmented code search plugin with semantic search, memory and shell guard features.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "rag",
+        "semantic-search",
+        "memory",
+        "code-search"
+      ],
+      "source": {
+        "url": "https://github.com/MrDoe/OpenCodeRAG",
+        "kind": "github",
+        "documentation": "https://github.com/MrDoe/OpenCodeRAG",
+        "repository": "MrDoe/OpenCodeRAG"
+      },
+      "install": {
+        "instructions": [
+          "Run `npm install -g opencode-rag-plugin`, then run `opencode-rag setup` and restart OpenCode.",
+          "Review the embedding provider and index storage settings before indexing a repository."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Indexes source code and may send embeddings to a remote provider. Review storage, provider and secret-exclusion settings."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 62,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.13.3",
+        "last_push": "2026-11-04T14:53:03Z"
+      }
+    },
+    {
+      "id": "opentoken",
+      "name": "OpenToken",
+      "type": "plugin",
+      "description": "Token-saving companion plugin that compresses command output and tool results before they reach the model.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "tokens",
+        "compression",
+        "output",
+        "cost"
+      ],
+      "source": {
+        "url": "https://github.com/MrGray17/opentoken",
+        "kind": "github",
+        "documentation": "https://github.com/MrGray17/opentoken",
+        "repository": "MrGray17/opentoken"
+      },
+      "install": {
+        "instructions": [
+          "Install with `npm i -g @mrgray17/opentoken`; the plugin auto-loads in OpenCode.",
+          "Review the compression rules before using them on security-sensitive output."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Rewrites and compresses shell output before it reaches the model. Check that security-relevant output is not hidden."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 167,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.2.0",
+        "last_push": "2026-05-29T23:09:03Z"
+      }
+    },
+    {
+      "id": "opencode-auto-resume",
+      "name": "OpenCode Auto Resume",
+      "type": "plugin",
+      "description": "Plugin that retries or resumes OpenCode work after model timeouts and transient errors.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "retry",
+        "resume",
+        "timeout",
+        "reliability"
+      ],
+      "source": {
+        "url": "https://github.com/Mte90/opencode-auto-resume",
+        "kind": "github",
+        "documentation": "https://github.com/Mte90/opencode-auto-resume",
+        "repository": "Mte90/opencode-auto-resume"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-auto-resume` to the plugin/plugins array in `opencode.jsonc` and restart.",
+          "Review the retry limits and error handling before enabling it globally."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Automatically retries failed model calls. Review retry limits to avoid unexpected provider charges."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 127,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.2.4",
+        "last_push": "2026-11-05T10:09:41Z"
+      }
+    },
+    {
+      "id": "antigravity-auth",
+      "name": "Antigravity Auth",
+      "type": "plugin",
+      "description": "OAuth plugin that lets OpenCode use Google Antigravity models with an Antigravity account.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "auth",
+        "oauth",
+        "google",
+        "antigravity"
+      ],
+      "source": {
+        "url": "https://github.com/NoeFabris/opencode-antigravity-auth",
+        "kind": "github",
+        "documentation": "https://github.com/NoeFabris/opencode-antigravity-auth",
+        "repository": "NoeFabris/opencode-antigravity-auth"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-antigravity-auth@2.1.2` to the plugin/plugins array in your OpenCode config.",
+          "Review the OAuth flow and Google's terms before using third-party client access."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Google Antigravity account"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Handles OAuth credentials for a Google account. Review token storage and Google's terms; the plugin is unofficial."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 10997,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.1.2",
+        "last_push": "2026-10-27T17:25:30Z"
+      }
+    },
+    {
+      "id": "openspec-plugin",
+      "name": "OpenSpec Plugin",
+      "type": "plugin",
+      "description": "Plugin that integrates OpenSpec and adds a dedicated planning/specification agent to OpenCode.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "openspec",
+        "planning",
+        "architecture",
+        "agent"
+      ],
+      "source": {
+        "url": "https://github.com/Octane0411/opencode-plugin-openspec",
+        "kind": "github",
+        "documentation": "https://github.com/Octane0411/opencode-plugin-openspec",
+        "repository": "Octane0411/opencode-plugin-openspec"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-plugin-openspec` to the `plugin` array in your OpenCode config; OpenCode fetches it on restart.",
+          "Review the added agent configuration before using it on a project."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 167,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.1.4",
+        "last_push": "2026-03-24T08:21:37Z"
+      }
+    },
+    {
+      "id": "dynamic-context-pruning",
+      "name": "Dynamic Context Pruning",
+      "type": "plugin",
+      "description": "Plugin that prunes stale conversation context to reduce token usage while preserving relevant history.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "context",
+        "tokens",
+        "pruning",
+        "compaction"
+      ],
+      "source": {
+        "url": "https://github.com/Tarquinen/opencode-dynamic-context-pruning",
+        "kind": "github",
+        "documentation": "https://github.com/Tarquinen/opencode-dynamic-context-pruning",
+        "repository": "Tarquinen/opencode-dynamic-context-pruning"
+      },
+      "install": {
+        "instructions": [
+          "Install with `opencode plugin add @tarquinen/opencode-dcp@latest` or add the package to your plugin configuration.",
+          "Review the pruning rules before using them on long-running sessions."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "AGPL-3.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Modifies conversation context before model calls. Verify that important instructions are not pruned."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 4468,
+        "observed_at": "2026-11-05",
+        "latest_release": "v3.2.0",
+        "last_push": "2026-09-25T03:17:20Z"
+      }
+    },
+    {
+      "id": "opencode-parser",
+      "name": "OpenCode Parser",
+      "type": "plugin",
+      "description": "File-parsing plugin for PDF, DOCX, XLSX, PPTX, images, EPUB, HTML and Markdown inputs.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "pdf",
+        "docx",
+        "xlsx",
+        "parsing",
+        "documents"
+      ],
+      "source": {
+        "url": "https://github.com/TejasS1233/opencode-parser",
+        "kind": "github",
+        "documentation": "https://github.com/TejasS1233/opencode-parser",
+        "repository": "TejasS1233/opencode-parser"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-parser` to the OpenCode plugin configuration, or run `opencode plugin opencode-parser -g`.",
+          "Review the parser dependencies before opening untrusted documents."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Parses untrusted documents inside the agent runtime. Keep parser dependencies patched and sandbox risky files."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 71,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.1",
+        "last_push": "2026-09-29T09:18:34Z"
+      }
+    },
+    {
+      "id": "opencode-mercato",
+      "name": "OpenCode Mercato",
+      "type": "plugin",
+      "description": "OpenCode V2 TUI marketplace plugin for browsing and installing cataloged plugins.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "business-finance"
+      ],
+      "tags": [
+        "marketplace",
+        "tui",
+        "catalog",
+        "plugins"
+      ],
+      "source": {
+        "url": "https://github.com/ThomasSanna/opencode-mercato",
+        "kind": "github",
+        "documentation": "https://github.com/ThomasSanna/opencode-mercato",
+        "repository": "ThomasSanna/opencode-mercato"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin opencode-mercato`, or follow the README for the V2 installation method.",
+          "Review any plugin before installing it from the marketplace."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Marketplace plugin can install or enable other plugins. Review the source of anything it installs."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.2.1",
+        "last_push": "2026-08-17T13:22:48Z"
+      }
+    },
+    {
+      "id": "message-bridge",
+      "name": "Message Bridge",
+      "type": "plugin",
+      "description": "Bridge plugin that connects OpenCode to a Lark bot for message-driven coding workflows.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "lark",
+        "bot",
+        "bridge",
+        "messaging"
+      ],
+      "source": {
+        "url": "https://github.com/YuanG1944/message-bridge-opencode-plugin",
+        "kind": "github",
+        "documentation": "https://github.com/YuanG1944/message-bridge-opencode-plugin",
+        "repository": "YuanG1944/message-bridge-opencode-plugin"
+      },
+      "install": {
+        "instructions": [
+          "Install with `npm install message-bridge-opencode-plugin` and add it to the OpenCode plugin configuration.",
+          "Configure the Lark app credentials and review the bot's workspace permissions."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Lark app credentials"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Connects a chat bot to a coding agent. Restrict bot access and review message logging and workspace permissions."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 148,
+        "observed_at": "2026-11-05",
+        "latest_release": "release-02-09",
+        "last_push": "2026-02-27T15:33:13Z"
+      }
+    },
+    {
+      "id": "dir-tree-tui",
+      "name": "Dir Tree TUI",
+      "type": "plugin",
+      "description": "File-tree sidebar for OpenCode with Git status indicators and custom ignore rules.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "tui",
+        "file-tree",
+        "git",
+        "sidebar"
+      ],
+      "source": {
+        "url": "https://github.com/aihaipeng/opencode-dir-tree-tui",
+        "kind": "github",
+        "documentation": "https://github.com/aihaipeng/opencode-dir-tree-tui",
+        "repository": "aihaipeng/opencode-dir-tree-tui"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin add opencode-dir-tree-tui` or add the package to your OpenCode config.",
+          "Review the ignore rules before using it on a repository with sensitive paths."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 27,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.5.1",
+        "last_push": "2026-10-10T18:46:12Z"
+      }
+    },
+    {
+      "id": "opencode-see-image",
+      "name": "OpenCode See Image",
+      "type": "plugin",
+      "description": "Plugin that routes images to a vision-capable model so non-vision models can inspect them.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "image-generation"
+      ],
+      "tags": [
+        "vision",
+        "images",
+        "multimodal",
+        "routing"
+      ],
+      "source": {
+        "url": "https://github.com/alfaoz/opencode-see-image",
+        "kind": "github",
+        "documentation": "https://github.com/alfaoz/opencode-see-image",
+        "repository": "alfaoz/opencode-see-image"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin opencode-see-image --global`, or add `opencode-see-image` to the plugin configuration.",
+          "Configure a vision-capable model as described in the README."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends images to a configured vision model. Review provider data handling and image privacy."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 94,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-03T09:59:48Z"
+      }
+    },
+    {
+      "id": "opencode-wakatime",
+      "name": "OpenCode WakaTime",
+      "type": "plugin",
+      "description": "WakaTime integration that tracks time spent in OpenCode coding sessions.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "wakatime",
+        "time-tracking",
+        "productivity",
+        "metrics"
+      ],
+      "source": {
+        "url": "https://github.com/angristan/opencode-wakatime",
+        "kind": "github",
+        "documentation": "https://github.com/angristan/opencode-wakatime",
+        "repository": "angristan/opencode-wakatime"
+      },
+      "install": {
+        "instructions": [
+          "Install the plugin with `npm i -g opencode-wakatime`, then add `opencode-wakatime` to your config and restart.",
+          "Install `wakatime-cli` and authenticate it before expecting metrics."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "wakatime-cli"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends coding activity metadata to WakaTime. Review the account, project-name leakage and telemetry settings."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 206,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.4.0",
+        "last_push": "2026-09-27T11:03:12Z"
+      }
+    },
+    {
+      "id": "mermaid-renderer",
+      "name": "Mermaid Renderer",
+      "type": "plugin",
+      "description": "Plugin that renders Mermaid diagrams as ASCII art inside OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "mermaid",
+        "diagrams",
+        "ascii",
+        "rendering"
+      ],
+      "source": {
+        "url": "https://github.com/anis-dr/opencode-mermaid-renderer",
+        "kind": "github",
+        "documentation": "https://github.com/anis-dr/opencode-mermaid-renderer",
+        "repository": "anis-dr/opencode-mermaid-renderer"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-mermaid-renderer@0.0.1` to the OpenCode plugin configuration and restart.",
+          "Review the plugin code before enabling it; the project is early-stage."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 47,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-02-03T19:15:17Z"
+      }
+    },
+    {
+      "id": "opencode-failover",
+      "name": "OpenCode Failover",
+      "type": "plugin",
+      "description": "Plugin that automatically rotates provider API keys and fails over between them.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "devops-cloud"
+      ],
+      "tags": [
+        "failover",
+        "api-keys",
+        "rotation",
+        "reliability"
+      ],
+      "source": {
+        "url": "https://github.com/bulutmuf/opencode-failover",
+        "kind": "github",
+        "documentation": "https://github.com/bulutmuf/opencode-failover",
+        "repository": "bulutmuf/opencode-failover"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin opencode-failover` or add `opencode-failover` to the plugin configuration.",
+          "Define the key rotation order and review where credentials are stored."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Provider API keys"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Handles multiple provider API keys and switches between them. Review secret storage and billing impact."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 52,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.7",
+        "last_push": "2026-10-10T10:54:09Z"
+      }
+    },
+    {
+      "id": "ralph-loop",
+      "name": "Ralph Loop",
+      "type": "plugin",
+      "description": "Minimal auto-continuation plugin that keeps an OpenCode task running until completion.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "automation",
+        "loop",
+        "continuation",
+        "reliability"
+      ],
+      "source": {
+        "url": "https://github.com/charfeng1/opencode-ralph-loop",
+        "kind": "github",
+        "documentation": "https://github.com/charfeng1/opencode-ralph-loop",
+        "repository": "charfeng1/opencode-ralph-loop"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-ralph-loop` to the OpenCode plugin configuration and restart.",
+          "Set clear stop conditions to avoid unbounded loops and token spend."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Auto-continues agent work. Set stop conditions and monitor token usage."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 111,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.0.10",
+        "last_push": "2026-09-08T05:49:23Z"
+      }
+    },
+    {
+      "id": "opencode-websearch",
+      "name": "OpenCode Websearch",
+      "type": "plugin",
+      "description": "Model-native web-search plugin that uses the active provider's built-in search capability.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "web-search",
+        "search",
+        "provider",
+        "plugin"
+      ],
+      "source": {
+        "url": "https://github.com/emilsvennesson/opencode-websearch",
+        "kind": "github",
+        "documentation": "https://github.com/emilsvennesson/opencode-websearch",
+        "repository": "emilsvennesson/opencode-websearch"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin add opencode-websearch`, or add the package to your plugin configuration.",
+          "Confirm that your provider supports native search and review its data handling."
+        ],
+        "requires_api_key": false,
+        "tested": "INSTALLATION_TESTED",
+        "notes": "Installed in an isolated Docker container on 2026-11-05; see reports/installation-results.md."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends search queries through the configured model provider. Review provider terms and query privacy."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED",
+          "INSTALLATION_TESTED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. The pinned OpenCode plugin was installed through the OpenCode CLI in an isolated container with a temporary HOME, and the plugin entry was confirmed in the generated config. Runtime search behavior was not exercised. Evidence: reports/installation-results.md."
+      },
+      "signals": {
+        "github_stars_observed": 74,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.7.1",
+        "last_push": "2026-10-25T18:02:46Z"
+      }
+    },
+    {
+      "id": "opencode-rules",
+      "name": "OpenCode Rules",
+      "type": "plugin",
+      "description": "Plugin that discovers Markdown rule files and injects them into agent context, similar to Cursor rules.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "rules",
+        "context",
+        "cursor",
+        "prompts"
+      ],
+      "source": {
+        "url": "https://github.com/frap129/opencode-rules",
+        "kind": "github",
+        "documentation": "https://github.com/frap129/opencode-rules",
+        "repository": "frap129/opencode-rules"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin opencode-rules@latest --global`, or add `opencode-rules` to the plugin configuration.",
+          "Place rule files in the documented rules directory and review them before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Injects local rule files into model context. Review rules for secrets or unintended instructions."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 119,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.0",
+        "last_push": "2026-10-27T19:38:51Z"
+      }
+    },
+    {
+      "id": "opencode-telegram",
+      "name": "OpenCode Telegram",
+      "type": "plugin",
+      "description": "Telegram bridge that lets users drive an OpenCode coding agent from chat.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "telegram",
+        "bot",
+        "remote",
+        "chat"
+      ],
+      "source": {
+        "url": "https://github.com/gkhantyln/opencode-telegram",
+        "kind": "github",
+        "documentation": "https://github.com/gkhantyln/opencode-telegram",
+        "repository": "gkhantyln/opencode-telegram"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow the README to configure a Telegram bot token and run the bridge.",
+          "Restrict the bot to trusted chats and review command permissions."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "Telegram bot token"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Exposes a coding agent through Telegram. Restrict chat access, review command permissions and avoid sending secrets."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-09-29T20:10:53Z"
+      }
+    },
+    {
+      "id": "claude-auth",
+      "name": "Claude Auth",
+      "type": "plugin",
+      "description": "Plugin that imports existing Claude Code OAuth credentials so OpenCode can use a Claude subscription.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "auth",
+        "oauth",
+        "claude",
+        "subscription"
+      ],
+      "source": {
+        "url": "https://github.com/griffinmartin/opencode-claude-auth",
+        "kind": "github",
+        "documentation": "https://github.com/griffinmartin/opencode-claude-auth",
+        "repository": "griffinmartin/opencode-claude-auth"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-claude-auth@latest` to the `plugins` array in `~/.config/opencode/opencode.json` and restart.",
+          "Run `/connect`, choose Anthropic, then import the Claude Code subscription."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Claude Code installed and authenticated"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Reads and refreshes Claude Code OAuth credentials. Review credential storage, account terms and access."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1323,
+        "observed_at": "2026-11-05",
+        "latest_release": "v3.0.0",
+        "last_push": "2026-10-16T20:03:35Z"
+      }
+    },
+    {
+      "id": "opencode-synced",
+      "name": "OpenCode Synced",
+      "type": "plugin",
+      "description": "Plugin that syncs OpenCode global configuration between machines using a Git-backed store.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "devops-cloud"
+      ],
+      "tags": [
+        "sync",
+        "configuration",
+        "git",
+        "backup"
+      ],
+      "source": {
+        "url": "https://github.com/iHildy/opencode-synced",
+        "kind": "github",
+        "documentation": "https://github.com/iHildy/opencode-synced",
+        "repository": "iHildy/opencode-synced"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-synced` to the `plugin`/`plugins` array in your global OpenCode config and restart.",
+          "Review the sync target, token permissions and whether MCP secrets are included."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Git",
+          "GitHub CLI (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Syncs configuration that may contain MCP secrets or tokens. Review encryption and repository permissions before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 168,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.11.0",
+        "last_push": "2026-09-23T03:40:22Z"
+      }
+    },
+    {
+      "id": "opencode-senses",
+      "name": "OpenCode Senses",
+      "type": "plugin",
+      "description": "Vision plugin that lets OpenCode inspect, read and reason about images.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "image-generation"
+      ],
+      "tags": [
+        "vision",
+        "images",
+        "moondream",
+        "multimodal"
+      ],
+      "source": {
+        "url": "https://github.com/itsmeadarsh2008/opencode-senses",
+        "kind": "github",
+        "documentation": "https://github.com/itsmeadarsh2008/opencode-senses",
+        "repository": "itsmeadarsh2008/opencode-senses"
+      },
+      "install": {
+        "instructions": [
+          "Run `npm install -g opencode-senses`, then add `opencode-senses` to the OpenCode plugin configuration.",
+          "The runtime may create a Python environment and install the Moondream package."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Python 3 (runtime)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends images to a local or remote vision model. Review provider configuration and image privacy."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 94,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.3.0",
+        "last_push": "2026-11-05T10:58:04Z"
+      }
+    },
+    {
+      "id": "gemini-auth",
+      "name": "Gemini Auth",
+      "type": "plugin",
+      "description": "OAuth plugin that lets OpenCode use Gemini through a Google account instead of an API key.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "auth",
+        "oauth",
+        "gemini",
+        "google"
+      ],
+      "source": {
+        "url": "https://github.com/jenslys/opencode-gemini-auth",
+        "kind": "github",
+        "documentation": "https://github.com/jenslys/opencode-gemini-auth",
+        "repository": "jenslys/opencode-gemini-auth"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-gemini-auth@latest` to the `plugin`/`plugins` array in your OpenCode config.",
+          "Complete the OAuth flow and review Google's account and quota terms."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Google account"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Handles Google OAuth credentials. Review token storage, account terms and quota usage."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1772,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.1",
+        "last_push": "2026-09-23T08:41:36Z"
+      }
+    },
+    {
+      "id": "opencode-charts",
+      "name": "OpenCode Charts",
+      "type": "plugin",
+      "description": "Plugin that renders deterministic Vega-Lite, Vega and ECharts charts for OpenCode outputs.",
+      "primary_category": "data-science",
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "charts",
+        "vega-lite",
+        "echarts",
+        "visualization"
+      ],
+      "source": {
+        "url": "https://github.com/joe-broadhead/opencode-charts",
+        "kind": "github",
+        "documentation": "https://github.com/joe-broadhead/opencode-charts",
+        "repository": "joe-broadhead/opencode-charts"
+      },
+      "install": {
+        "instructions": [
+          "Add `@joe-broadhead/opencode-charts@0.0.1` to the OpenCode plugin configuration and restart.",
+          "Review the chart spec and output directory settings before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-04T12:05:43Z"
+      }
+    },
+    {
+      "id": "history-search",
+      "name": "History Search",
+      "type": "plugin",
+      "description": "Plugin and CLI for searching OpenCode conversation history with keyword, regex and fuzzy matching.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "history",
+        "search",
+        "sessions",
+        "cli"
+      ],
+      "source": {
+        "url": "https://github.com/joeyism/opencode-history-search",
+        "kind": "github",
+        "documentation": "https://github.com/joeyism/opencode-history-search",
+        "repository": "joeyism/opencode-history-search"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx opencode-history-search`, or add the package to the OpenCode plugin configuration.",
+          "Review which local history files are indexed and where the index is stored."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Reads local conversation history that may contain secrets. Limit scope and protect the index."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 131,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.5.1",
+        "last_push": "2026-07-19T07:30:13Z"
+      }
+    },
+    {
+      "id": "opencode-multiplexer",
+      "name": "OpenCode Multiplexer",
+      "type": "plugin",
+      "description": "Session multiplexer for switching quickly between active OpenCode sessions.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "sessions",
+        "multiplexer",
+        "tui",
+        "workflow"
+      ],
+      "source": {
+        "url": "https://github.com/joeyism/opencode-multiplexer",
+        "kind": "github",
+        "documentation": "https://github.com/joeyism/opencode-multiplexer",
+        "repository": "joeyism/opencode-multiplexer"
+      },
+      "install": {
+        "instructions": [
+          "Install with `cargo install opencode-multiplexer` or `brew install ocmux`, then follow the README.",
+          "Review the session-switching behavior and configuration before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Rust (cargo) or Homebrew"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 31,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.7.0",
+        "last_push": "2026-10-24T00:33:47Z"
+      }
+    },
+    {
+      "id": "claude-code-plugin",
+      "name": "Claude Code Plugin",
+      "type": "plugin",
+      "description": "Plugin that runs Claude models through the official Claude Code CLI as a subprocess provider.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "claude",
+        "cli",
+        "provider",
+        "subprocess"
+      ],
+      "source": {
+        "url": "https://github.com/khalilgharbaoui/opencode-claude-code-plugin",
+        "kind": "github",
+        "documentation": "https://github.com/khalilgharbaoui/opencode-claude-code-plugin",
+        "repository": "khalilgharbaoui/opencode-claude-code-plugin"
+      },
+      "install": {
+        "instructions": [
+          "Add `@khalilgharbaoui/opencode-claude-code-plugin` to the OpenCode plugin configuration.",
+          "Install and authenticate the official `claude` CLI before using the plugin."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Claude Code CLI"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Launches the Claude CLI as a subprocess. Review CLI permissions and the account terms."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 122,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.68.2",
+        "last_push": "2026-11-04T22:54:50Z"
+      }
+    },
+    {
+      "id": "theme-studio",
+      "name": "Theme Studio",
+      "type": "plugin",
+      "description": "TUI plugin for editing OpenCode themes with live preview.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "theme",
+        "editor",
+        "preview",
+        "tui"
+      ],
+      "source": {
+        "url": "https://github.com/kkugot/opencode-theme-studio",
+        "kind": "github",
+        "documentation": "https://github.com/kkugot/opencode-theme-studio",
+        "repository": "kkugot/opencode-theme-studio"
+      },
+      "install": {
+        "instructions": [
+          "Follow the repository README to install and enable the plugin in OpenCode.",
+          "Review the plugin before enabling it; it edits theme files."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Edits local theme files. Back up custom themes before experimenting."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 32,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.2.3",
+        "last_push": "2026-03-23T21:28:41Z"
+      }
+    },
+    {
+      "id": "claude-memory",
+      "name": "Claude Memory",
+      "type": "plugin",
+      "description": "Plugin that shares Claude Code-compatible Markdown memory files between Claude Code and OpenCode.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "memory",
+        "claude-code",
+        "markdown",
+        "context"
+      ],
+      "source": {
+        "url": "https://github.com/kuitos/opencode-claude-memory",
+        "kind": "github",
+        "documentation": "https://github.com/kuitos/opencode-claude-memory",
+        "repository": "kuitos/opencode-claude-memory"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-claude-memory` to the OpenCode plugin configuration and restart.",
+          "Review the memory directory and extract settings before enabling writes."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Writes persistent project memory files. Review what is stored and exclude secrets."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 78,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.3.0",
+        "last_push": "2026-10-31T12:42:50Z"
+      }
+    },
+    {
+      "id": "langfuse-observability",
+      "name": "Langfuse Observability",
+      "type": "plugin",
+      "description": "Plugin that sends OpenCode session traces and generations to Langfuse.",
+      "primary_category": "devops-cloud",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "observability",
+        "langfuse",
+        "tracing",
+        "telemetry"
+      ],
+      "source": {
+        "url": "https://github.com/langfuse/opencode-observability-plugin",
+        "kind": "github",
+        "documentation": "https://github.com/langfuse/opencode-observability-plugin",
+        "repository": "langfuse/opencode-observability-plugin"
+      },
+      "install": {
+        "instructions": [
+          "Add `@langfuse/opencode-observability-plugin@latest` to the plugin configuration and set Langfuse credentials.",
+          "Review the trace payload and retention settings in your Langfuse project."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Langfuse account"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends prompts, generations and tool traces to Langfuse. Review data residency, secrets and retention."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 35,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.7.0",
+        "last_push": "2026-10-29T11:07:20Z"
+      }
+    },
+    {
+      "id": "opencode-vim",
+      "name": "OpenCode Vim",
+      "type": "plugin",
+      "description": "Vim-style keybindings and modal controls for the OpenCode TUI.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "vim",
+        "keybindings",
+        "tui",
+        "modal"
+      ],
+      "source": {
+        "url": "https://github.com/leohenon/opencode-vim-plugin",
+        "kind": "github",
+        "documentation": "https://github.com/leohenon/opencode-vim-plugin",
+        "repository": "leohenon/opencode-vim-plugin"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin add @leohenon/opencode-vim-plugin@beta`, or add the package to your config.",
+          "Review the keymap before enabling it globally."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 30,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.1.6",
+        "last_push": "2026-10-23T15:52:25Z"
+      }
+    },
+    {
+      "id": "opencode-execsa",
+      "name": "OpenCode Execsa",
+      "type": "plugin",
+      "description": "Execution subagent plugin that delegates terminal tasks to a specialized agent with TUI controls.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "subagent",
+        "terminal",
+        "execution",
+        "tui"
+      ],
+      "source": {
+        "url": "https://github.com/lkonga/opencode-execsa",
+        "kind": "github",
+        "documentation": "https://github.com/lkonga/opencode-execsa",
+        "repository": "lkonga/opencode-execsa"
+      },
+      "install": {
+        "instructions": [
+          "Add `@lkonga/opencode-execsa` to the OpenCode plugin configuration and restart.",
+          "Review the execution policy and command allow-list before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Delegates terminal execution to a subagent. Review command permissions and sandboxing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 118,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-09-12T02:31:54Z"
+      }
+    },
+    {
+      "id": "opencode-sessions",
+      "name": "OpenCode Sessions",
+      "type": "plugin",
+      "description": "Session-management plugin with multi-agent collaboration and session switching support for OpenCode.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "sessions",
+        "multi-agent",
+        "collaboration",
+        "workflow"
+      ],
+      "source": {
+        "url": "https://github.com/malhashemi/opencode-sessions",
+        "kind": "github",
+        "documentation": "https://github.com/malhashemi/opencode-sessions",
+        "repository": "malhashemi/opencode-sessions"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-sessions` to the `plugin` array in your OpenCode config; OpenCode installs it on startup.",
+          "Review the multi-agent session behavior before enabling it on shared projects."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Manages multiple agent sessions and their context. Review session isolation and data retention."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 180,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.0.0",
+        "last_push": "2025-10-30T00:54:37Z"
+      }
+    },
+    {
+      "id": "model-router",
+      "name": "OpenCode Model Router",
+      "type": "plugin",
+      "description": "Plugin that routes tasks across fast, medium and heavy model tiers to control cost and latency.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "model-routing",
+        "tiers",
+        "cost",
+        "delegation"
+      ],
+      "source": {
+        "url": "https://github.com/marco-jardim/opencode-model-router",
+        "kind": "github",
+        "documentation": "https://github.com/marco-jardim/opencode-model-router",
+        "repository": "marco-jardim/opencode-model-router"
+      },
+      "install": {
+        "instructions": [
+          "Install with `npm install -g opencode-model-router`, then add `opencode-model-router` to the plugin configuration.",
+          "Review the tier taxonomy and model mappings before enabling routing."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "GPL-3.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Routes requests across configured models. Review cost limits, provider terms and fallback behavior."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 149,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.11.1",
+        "last_push": "2026-11-02T18:26:08Z"
+      }
+    },
+    {
+      "id": "opencode-browser",
+      "name": "OpenCode Browser",
+      "type": "plugin",
+      "description": "Browser-automation plugin that connects OpenCode to Chrome or Edge through Browser MCP.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "browser",
+        "automation",
+        "chrome",
+        "browser-mcp"
+      ],
+      "source": {
+        "url": "https://github.com/michaljach/opencode-browser",
+        "kind": "github",
+        "documentation": "https://github.com/michaljach/opencode-browser",
+        "repository": "michaljach/opencode-browser"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx opencode-browser init` (or `--global`), then install and connect the Browser MCP extension.",
+          "Limit the browser profile and sites the agent can access."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Browser MCP extension"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Automates a live browser session and can act on logged-in accounts. Use a dedicated profile and restrict site access."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 113,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.3.0",
+        "last_push": "2026-10-15T19:21:03Z"
+      }
+    },
+    {
+      "id": "cache-stats",
+      "name": "Cache Stats",
+      "type": "plugin",
+      "description": "TUI plugin that displays cache statistics for the active OpenCode session.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "cache",
+        "tui",
+        "statistics",
+        "session"
+      ],
+      "source": {
+        "url": "https://github.com/nmdra/opencode-cache-stats",
+        "kind": "github",
+        "documentation": "https://github.com/nmdra/opencode-cache-stats",
+        "repository": "nmdra/opencode-cache-stats"
+      },
+      "install": {
+        "instructions": [
+          "Follow the README to copy the plugin into `~/.config/opencode/plugins/cache-stats` and enable it.",
+          "Review the plugin code before installing it manually."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Plugin code runs inside OpenCode. Review the source and pin a version before enabling it."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 26,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-26T05:34:54Z"
+      }
+    },
+    {
+      "id": "openai-codex-auth",
+      "name": "OpenAI Codex Auth",
+      "type": "plugin",
+      "description": "OAuth plugin that enables OpenCode to use ChatGPT Plus/Pro Codex models.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "auth",
+        "oauth",
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "url": "https://github.com/numman-ali/opencode-openai-codex-auth",
+        "kind": "github",
+        "documentation": "https://github.com/numman-ali/opencode-openai-codex-auth",
+        "repository": "numman-ali/opencode-openai-codex-auth"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx -y opencode-openai-codex-auth@latest` and follow the interactive setup.",
+          "Review the OAuth flow and account terms before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "ChatGPT Plus/Pro account"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Handles ChatGPT OAuth credentials. Review token storage, account terms and personal-use restrictions."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 2205,
+        "observed_at": "2026-11-05",
+        "latest_release": "v4.4.0",
+        "last_push": "2026-01-09T14:00:49Z"
+      }
+    },
+    {
+      "id": "laya-drift",
+      "name": "Laya Drift",
+      "type": "plugin",
+      "description": "Plugin that monitors agent drift over time with scores, toasts and a TUI graph.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "drift",
+        "monitoring",
+        "evaluation",
+        "tui"
+      ],
+      "source": {
+        "url": "https://github.com/pythongiant/laya-drift",
+        "kind": "github",
+        "documentation": "https://github.com/pythongiant/laya-drift",
+        "repository": "pythongiant/laya-drift"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository, run `bash scripts/setup.sh`, and install the plugin dependencies as described.",
+          "Review the scoring model and data storage before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "PyTorch",
+          "Bun or npm"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Scores and stores agent behavior locally. Review the data collected and model dependencies."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 17,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-09-23T12:19:37Z"
+      }
+    },
+    {
+      "id": "cmd-provider",
+      "name": "OpenCode Command Provider",
+      "type": "plugin",
+      "description": "Provider plugin that lets OpenCode use CommandCode as a model provider.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "provider",
+        "commandcode",
+        "models",
+        "auth"
+      ],
+      "source": {
+        "url": "https://github.com/rashidrazak/opencode-cmd-provider",
+        "kind": "github",
+        "documentation": "https://github.com/rashidrazak/opencode-cmd-provider",
+        "repository": "rashidrazak/opencode-cmd-provider"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin opencode-cmd-provider` (or `opencode plugin add opencode-cmd-provider`), then restart.",
+          "Authenticate the CommandCode account and review provider terms."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Adds a third-party model provider. Review account credentials, data handling and billing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 133,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.3.4",
+        "last_push": "2026-11-04T19:01:19Z"
+      }
+    },
+    {
+      "id": "opencode-voice",
+      "name": "OpenCode Voice",
+      "type": "plugin",
+      "description": "Speech-to-text and text-to-speech plugin for OpenCode with local Whisper and Piper support.",
+      "primary_category": "audio-music",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "speech-to-text",
+        "text-to-speech",
+        "whisper",
+        "voice"
+      ],
+      "source": {
+        "url": "https://github.com/renjfk/opencode-voice",
+        "kind": "github",
+        "documentation": "https://github.com/renjfk/opencode-voice",
+        "repository": "renjfk/opencode-voice"
+      },
+      "install": {
+        "instructions": [
+          "Install the system dependencies `whisper-cpp` and `sox`, then follow the README to configure the plugin.",
+          "Install `piper-tts` for text-to-speech and download the documented voice models."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "whisper.cpp",
+          "sox",
+          "piper-tts"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Captures microphone audio and may store transcripts. Review recording, storage and transcription privacy."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 93,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.0.0",
+        "last_push": "2026-10-29T21:21:35Z"
+      }
+    },
+    {
+      "id": "working-memory",
+      "name": "OpenCode Working Memory",
+      "type": "plugin",
+      "description": "Persistent workspace memory plugin with hot session context and memory diagnostics.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "memory",
+        "context",
+        "persistence",
+        "workspace"
+      ],
+      "source": {
+        "url": "https://github.com/sdwolf4103/opencode-working-memory",
+        "kind": "github",
+        "documentation": "https://github.com/sdwolf4103/opencode-working-memory",
+        "repository": "sdwolf4103/opencode-working-memory"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-working-memory` to the `plugin`/`plugins` array in your OpenCode config and restart.",
+          "Run the documented `memory-diag` command to inspect what is stored."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Persists workspace context and may inject it into prompts. Review storage and secret handling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 198,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.7.0",
+        "last_push": "2026-10-23T13:55:32Z"
+      }
+    },
+    {
+      "id": "opencode-supermemory",
+      "name": "OpenCode Supermemory",
+      "type": "plugin",
+      "description": "Persistent-memory plugin backed by the Supermemory service, with scoped memory and in-chat commands.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "memory",
+        "cloud",
+        "persistence",
+        "supermemory"
+      ],
+      "source": {
+        "url": "https://github.com/supermemoryai/opencode-supermemory",
+        "kind": "github",
+        "documentation": "https://github.com/supermemoryai/opencode-supermemory",
+        "repository": "supermemoryai/opencode-supermemory"
+      },
+      "install": {
+        "instructions": [
+          "Run `bunx opencode-supermemory@latest install` and follow the interactive setup.",
+          "Review the Supermemory account, scoping and data-retention settings before storing project data."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Supermemory account",
+          "Bun or Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends project memory to the Supermemory cloud service. Review data residency, scoping and deletion."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 1654,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-05T08:11:02Z"
+      }
+    },
+    {
+      "id": "opencode-mem",
+      "name": "OpenCode Mem",
+      "type": "plugin",
+      "description": "Persistent-memory plugin using an embedded Turso vector database and local embeddings.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "memory",
+        "vector-database",
+        "turso",
+        "local"
+      ],
+      "source": {
+        "url": "https://github.com/tickernelz/opencode-mem",
+        "kind": "github",
+        "documentation": "https://github.com/tickernelz/opencode-mem",
+        "repository": "tickernelz/opencode-mem"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-mem@latest` to the plugin configuration and restart OpenCode.",
+          "Review the local database path, embedding model and memory limits."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Stores conversation memory in a local vector database. Review the storage path, retention and credential redaction."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1824,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.41.0",
+        "last_push": "2026-11-04T19:14:39Z"
+      }
+    },
+    {
+      "id": "opencode-plusplus",
+      "name": "OpenCode++",
+      "type": "plugin",
+      "description": "Windows-first reliability harness for OpenCode Desktop with context, edit-boundary and evidence gates.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "devops-cloud"
+      ],
+      "tags": [
+        "windows",
+        "reliability",
+        "verification",
+        "harness"
+      ],
+      "source": {
+        "url": "https://github.com/whut09/opencode-plusplus",
+        "kind": "github",
+        "documentation": "https://github.com/whut09/opencode-plusplus",
+        "repository": "whut09/opencode-plusplus"
+      },
+      "install": {
+        "instructions": [
+          "Download the Windows x64 installer from the repository releases, exit OpenCode Desktop, and run it.",
+          "Review the release artifact and source before running the executable."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Distributed as a Windows installer executable. Verify the release signature/hash and review the source before running."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 113,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.2.12",
+        "last_push": "2026-09-09T11:28:07Z"
+      }
+    },
+    {
+      "id": "models-discovery",
+      "name": "OpenCode Models Discovery",
+      "type": "plugin",
+      "description": "Plugin that queries provider model endpoints and injects discovered models into OpenCode.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "models",
+        "discovery",
+        "provider",
+        "configuration"
+      ],
+      "source": {
+        "url": "https://github.com/yuhp/opencode-models-discovery",
+        "kind": "github",
+        "documentation": "https://github.com/yuhp/opencode-models-discovery",
+        "repository": "yuhp/opencode-models-discovery"
+      },
+      "install": {
+        "instructions": [
+          "Add `opencode-models-discovery@2.1.1` to the plugin configuration and enable discovery for the provider.",
+          "Review the provider endpoint and any optional external metadata enrichment."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Provider API access"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Queries provider endpoints with configured credentials. Review network access, caching and provider terms."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 205,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.1.1",
+        "last_push": "2026-11-04T04:14:12Z"
+      }
+    },
+    {
+      "id": "opencode-litellm",
+      "name": "OpenCode LiteLLM",
+      "type": "plugin",
+      "description": "Plugin that adds LiteLLM proxy support with auto-detection for OpenCode CLI and Desktop.",
+      "primary_category": "ai-machine-learning",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "litellm",
+        "proxy",
+        "provider",
+        "routing"
+      ],
+      "source": {
+        "url": "https://github.com/yuseferi/opencode-litellm",
+        "kind": "github",
+        "documentation": "https://github.com/yuseferi/opencode-litellm",
+        "repository": "yuseferi/opencode-litellm"
+      },
+      "install": {
+        "instructions": [
+          "Run `opencode plugin add opencode-plugin-litellm`, or add `opencode-plugin-litellm@latest` to the config.",
+          "Configure the LiteLLM base URL and credentials as described in the README."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "LiteLLM proxy"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Connects to a LiteLLM proxy that may hold provider keys. Review proxy access control and data handling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 104,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.10.0",
+        "last_push": "2026-11-03T09:24:21Z"
       }
     }
   ]

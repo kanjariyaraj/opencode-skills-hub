@@ -26,12 +26,13 @@ CATEGORIES_DIR = ROOT / "categories"
 COLLECTIONS_DIR = ROOT / "collections"
 INDEX_PATH = CATALOG_DIR / "index.json"
 
-TYPE_ORDER = ["skill", "agent", "plugin", "mcp", "command", "rule", "hook", "provider"]
+TYPE_ORDER = ["skill", "agent", "plugin", "mcp", "theme", "command", "rule", "hook", "provider"]
 TYPE_LABELS = {
     "skill": "Skills",
     "agent": "Agents",
     "plugin": "Plugins",
     "mcp": "MCP Servers",
+    "theme": "Themes",
     "command": "Commands",
     "rule": "Rules",
     "hook": "Hooks",

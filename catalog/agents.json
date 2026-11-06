@@ -8,8 +8,16 @@
       "type": "agent",
       "description": "Flutter-focused agent bundled with @alghanem/opencode-flutter, intended for application architecture and delivery workflows.",
       "primary_category": "mobile-development",
-      "secondary_categories": ["software-development"],
-      "tags": ["flutter", "dart", "agent", "architecture", "mobile"],
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "flutter",
+        "dart",
+        "agent",
+        "architecture",
+        "mobile"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/@alghanem/opencode-flutter",
         "kind": "npm",
@@ -17,23 +25,39 @@
         "repository": null
       },
       "install": {
-        "instructions": ["npm install -g @alghanem/opencode-flutter", "Review the generated agent files before enabling them."],
+        "instructions": [
+          "npm install -g @alghanem/opencode-flutter",
+          "Review the generated agent files before enabling them."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm package metadata verified; the declared repository URL returns 404. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "Flutter SDK"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Flutter SDK"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Global npm install executes package install scripts. Review provenance and the package contents first."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
         "date": "2026-11-05",
         "notes": "npm 0.3.3 and MIT license confirmed via npm registry on 2026-11-05. Agent behavior not executed."
       },
@@ -50,8 +74,15 @@
       "type": "agent",
       "description": "Frontend-specialist agent from DevHive for UI logic and client-side implementation workflows.",
       "primary_category": "software-development",
-      "secondary_categories": ["design-ui-ux"],
-      "tags": ["frontend", "agent", "ui", "devhive"],
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "frontend",
+        "agent",
+        "ui",
+        "devhive"
+      ],
       "source": {
         "url": "https://pypi.org/project/devhive/",
         "kind": "pypi",
@@ -59,23 +90,39 @@
         "repository": "ramBlanco/devhive"
       },
       "install": {
-        "instructions": ["pip install devhive", "Follow the upstream README to register agents with OpenCode."],
+        "instructions": [
+          "pip install devhive",
+          "Follow the upstream README to register agents with OpenCode."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "PyPI 0.1.47 and GitHub repo confirmed; install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Python 3.10+"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3.10+"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Python package install; review dependencies and scripts before installing globally."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "PyPI metadata and GitHub repo confirmed. Agent behavior not executed."
       },
@@ -92,8 +139,15 @@
       "type": "agent",
       "description": "Backend-specialist agent from DevHive for API design, server logic and data-layer implementation.",
       "primary_category": "software-development",
-      "secondary_categories": ["database-backend"],
-      "tags": ["backend", "agent", "api", "devhive"],
+      "secondary_categories": [
+        "database-backend"
+      ],
+      "tags": [
+        "backend",
+        "agent",
+        "api",
+        "devhive"
+      ],
       "source": {
         "url": "https://pypi.org/project/devhive/",
         "kind": "pypi",
@@ -101,23 +155,39 @@
         "repository": "ramBlanco/devhive"
       },
       "install": {
-        "instructions": ["pip install devhive", "Follow the upstream README to register agents with OpenCode."],
+        "instructions": [
+          "pip install devhive",
+          "Follow the upstream README to register agents with OpenCode."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "PyPI 0.1.47 and GitHub repo confirmed; install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Python 3.10+"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3.10+"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Python package install; review dependencies and scripts before installing globally."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "PyPI metadata and GitHub repo confirmed. Agent behavior not executed."
       },
@@ -126,6 +196,69 @@
         "observed_at": "2026-11-05",
         "latest_release": "0.1.47",
         "last_push": "2026-11-01T15:41:18Z"
+      }
+    },
+    {
+      "id": "python-expert-agent",
+      "name": "Python Expert Agent",
+      "type": "agent",
+      "description": "Python-focused agent package that installs a configurable Python expert agent for OpenCode.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "python",
+        "agent",
+        "configuration",
+        "cli"
+      ],
+      "source": {
+        "url": "https://github.com/amrahman90/python-expert-agent",
+        "kind": "github",
+        "documentation": "https://github.com/amrahman90/python-expert-agent",
+        "repository": "amrahman90/python-expert-agent"
+      },
+      "install": {
+        "instructions": [
+          "Run `npm install -g python-expert-agent` and then `python-expert-agent init` to configure the agent.",
+          "Review the generated agent configuration before enabling it."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Python 3"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Global npm install runs package scripts. Review the package and generated agent config before use."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 23,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.0.4",
+        "last_push": "2026-03-01T06:37:30Z"
       }
     }
   ]

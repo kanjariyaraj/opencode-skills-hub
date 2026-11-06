@@ -29,7 +29,7 @@ CATALOG_DIR = ROOT / "catalog"
 TAXONOMY_PATH = ROOT / "data" / "taxonomy.json"
 RAW_INVENTORY_PATH = ROOT / "data" / "raw-inventory.json"
 
-RESOURCE_TYPES = ["skill", "agent", "plugin", "mcp", "command", "rule", "hook", "provider"]
+RESOURCE_TYPES = ["skill", "agent", "plugin", "mcp", "theme", "command", "rule", "hook", "provider"]
 SOURCE_KINDS = ["github", "npm", "pypi", "docs", "website", "unknown"]
 INSTALL_TEST = ["INSTALLATION_TESTED", "NOT_TESTED", "NOT_APPLICABLE", "BLOCKED"]
 COMPAT = ["native", "compatible", "unknown", "incompatible"]

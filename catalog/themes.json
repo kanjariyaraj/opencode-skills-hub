@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0.0",
+  "resource_type": "theme",
+  "resources": [
+    {
+      "id": "catppuccin-opencode",
+      "name": "Catppuccin for OpenCode",
+      "type": "theme",
+      "description": "Catppuccin theme variants with configurable accents for OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "catppuccin",
+        "theme",
+        "pastel",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/catppuccin/opencode",
+        "kind": "github",
+        "documentation": "https://github.com/catppuccin/opencode",
+        "repository": "catppuccin/opencode"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "INSTALLATION_TESTED",
+        "notes": "Installed in an isolated Docker container on 2026-11-05; see reports/installation-results.md."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "INSTALLATION_TESTED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. Theme JSON files were fetched at a pinned commit, parsed, and placed in an isolated OpenCode themes directory inside Docker. Theme selection in the TUI was not exercised. Evidence: reports/installation-results.md."
+      },
+      "signals": {
+        "github_stars_observed": 19,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-05-23T17:22:37Z"
+      }
+    },
+    {
+      "id": "dracula-theme",
+      "name": "Dracula Theme",
+      "type": "theme",
+      "description": "Dracula dark theme for OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "dracula",
+        "theme",
+        "dark",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/dracula/opencode",
+        "kind": "github",
+        "documentation": "https://github.com/dracula/opencode",
+        "repository": "dracula/opencode"
+      },
+      "install": {
+        "instructions": [
+          "Follow the installation instructions at https://draculatheme.com/opencode.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 4,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2025-10-30T15:11:42Z"
+      }
+    },
+    {
+      "id": "opencode-light-themes",
+      "name": "OpenCode Light Themes",
+      "type": "theme",
+      "description": "Curated collection of light OpenCode themes, including GitHub, Solarized and high-contrast variants.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "theme",
+        "light",
+        "solarized",
+        "github"
+      ],
+      "source": {
+        "url": "https://github.com/fatihtoprakk/opencode-light-themes",
+        "kind": "github",
+        "documentation": "https://github.com/fatihtoprakk/opencode-light-themes",
+        "repository": "fatihtoprakk/opencode-light-themes"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 8,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-11-02T20:52:42Z"
+      }
+    },
+    {
+      "id": "synthwave-themes",
+      "name": "Synthwave Themes",
+      "type": "theme",
+      "description": "Synthwave color scheme for OpenCode and other editors, with a shared palette across platforms.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "synthwave",
+        "theme",
+        "dark",
+        "multi-platform"
+      ],
+      "source": {
+        "url": "https://github.com/magimetal/synthwave-themes",
+        "kind": "github",
+        "documentation": "https://github.com/magimetal/synthwave-themes",
+        "repository": "magimetal/synthwave-themes"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 106,
+        "observed_at": "2026-11-05",
+        "latest_release": "2.2.0",
+        "last_push": "2026-04-21T22:17:07Z"
+      }
+    },
+    {
+      "id": "ayu-theme",
+      "name": "Ayu Theme",
+      "type": "theme",
+      "description": "Ayu Dark color theme for OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "ayu",
+        "theme",
+        "dark",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/postrednik/opencode-ayu-theme",
+        "kind": "github",
+        "documentation": "https://github.com/postrednik/opencode-ayu-theme",
+        "repository": "postrednik/opencode-ayu-theme"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 58,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-01-01T04:02:39Z"
+      }
+    },
+    {
+      "id": "opencode-vscode-themes",
+      "name": "OpenCode VS Code Themes",
+      "type": "theme",
+      "description": "Ports of built-in VS Code color themes for OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "vscode",
+        "theme",
+        "port",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/regen45t/opencode-vscode-themes",
+        "kind": "github",
+        "documentation": "https://github.com/regen45t/opencode-vscode-themes",
+        "repository": "regen45t/opencode-vscode-themes"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 8,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-02-10T01:54:10Z"
+      }
+    },
+    {
+      "id": "poimandres-theme",
+      "name": "Poimandres Theme",
+      "type": "theme",
+      "description": "Port of the Poimandres color theme for the OpenCode terminal interface.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "poimandres",
+        "theme",
+        "dark",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/ajaxdude/opencode-ai-poimandres-theme",
+        "kind": "github",
+        "documentation": "https://github.com/ajaxdude/opencode-ai-poimandres-theme",
+        "repository": "ajaxdude/opencode-ai-poimandres-theme"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 16,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.0.0",
+        "last_push": "2026-02-13T05:03:56Z"
+      }
+    },
+    {
+      "id": "moonlight-theme",
+      "name": "Moonlight Theme",
+      "type": "theme",
+      "description": "Moonlight dark color theme for OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [],
+      "tags": [
+        "moonlight",
+        "theme",
+        "dark",
+        "terminal"
+      ],
+      "source": {
+        "url": "https://github.com/brunogabriel/opencode-moonlight-theme",
+        "kind": "github",
+        "documentation": "https://github.com/brunogabriel/opencode-moonlight-theme",
+        "repository": "brunogabriel/opencode-moonlight-theme"
+      },
+      "install": {
+        "instructions": [
+          "Download or copy the theme JSON into `~/.config/opencode/themes/`.",
+          "Select the theme from OpenCode's theme menu."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "native",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "LOW RISK",
+        "notes": "Theme JSON only. Review the file before copying it into your config directory."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 18,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-03-16T23:28:21Z"
+      }
+    }
+  ]
+}

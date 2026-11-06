@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 3 | 4 | 2 |
+| 1 | 6 | 4 | 2 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -19,8 +19,18 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
 | [AI Artist](https://github.com/Stonelukas/Mouse-on-Numpad) | skill | Prompt-craft skill for image models, covering style keywords, negative prompts and model-specific prompting patterns. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
+| [DaisyWriter](https://github.com/ricky-theseus/DaisyWriter) | skill | AI writing toolkit for web novels, short stories and technical blogs, with publishing and cover-generation helpers. | github | GPL-3.0 | REVIEW REQUIRED | source verified, license verified |
+| [heditor](https://github.com/pycodebr/heditor) | skill | Creative vertical-video editing skill for AI agents, including editing workflows and media tooling. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required, active |
 | [Legnext AI Skills (Midjourney API)](https://github.com/legnext-ai/skills) | skill | Skills for integrating the Legnext Midjourney API, including image generation, variations, upscaling and credit management. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
+| [MiniMax H3 OpenCode Skills](https://github.com/unknowlei/minimax-h3-opencode-skills) | skill | OpenCode skill system for MiniMax H3 video prompts, covering creative direction, multishot planning and prompt review. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Papercut Explainer](https://github.com/0xS4N4TG/papercut-explainer) | skill | Agent skills and a scene agent for producing short vertical cut-paper explainer videos with a Remotion pipeline. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [Sprezzature](https://pypi.org/project/sprezzature/) | skill | Design-system skill collection covering colors, typography, accessibility, UI, UX, audio subtitles, vision alt text and figures. | pypi | UNKNOWN | REVIEW REQUIRED | source verified, license review required |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [DaisyWriter](https://github.com/ricky-theseus/DaisyWriter) | skill | AI writing toolkit for web novels, short stories and technical blogs, with publishing and cover-generation helpers. | github | GPL-3.0 | REVIEW REQUIRED | source verified, license verified |
 
 ## Skill packs and toolkits
 

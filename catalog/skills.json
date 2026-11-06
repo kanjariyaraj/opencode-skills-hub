@@ -8,8 +8,18 @@
       "type": "skill",
       "description": "Design-intelligence skill that provides visual styles, palettes, font pairings, charts and UI guidance for landing pages, dashboards and SaaS products.",
       "primary_category": "design-ui-ux",
-      "secondary_categories": ["software-development", "image-generation"],
-      "tags": ["ui", "ux", "design-system", "palette", "typography", "charts"],
+      "secondary_categories": [
+        "software-development",
+        "image-generation"
+      ],
+      "tags": [
+        "ui",
+        "ux",
+        "design-system",
+        "palette",
+        "typography",
+        "charts"
+      ],
       "source": {
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
         "kind": "github",
@@ -17,23 +27,37 @@
         "repository": "nextlevelbuilder/ui-ux-pro-max-skill"
       },
       "install": {
-        "instructions": ["Follow the upstream README for the current agent-specific installation method.", "Review files before copying anything into ~/.config/opencode/skills/."],
+        "instructions": [
+          "Follow the upstream README for the current agent-specific installation method.",
+          "Review files before copying anything into ~/.config/opencode/skills/."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Installation was not executed during cataloging."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only skill; no installation audit was performed. Content may instruct the agent to run commands."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "GitHub repository and MIT license confirmed via GitHub API on 2026-11-05. Skill behavior not executed."
       },
@@ -50,8 +74,17 @@
       "type": "skill",
       "description": "Frontend design and UX review skill focused on visual hierarchy, accessibility, typography, spacing, motion and common anti-patterns.",
       "primary_category": "design-ui-ux",
-      "secondary_categories": ["software-development"],
-      "tags": ["ui", "ux", "accessibility", "typography", "frontend", "review"],
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "ui",
+        "ux",
+        "accessibility",
+        "typography",
+        "frontend",
+        "review"
+      ],
       "source": {
         "url": "https://github.com/pbakaus/impeccable",
         "kind": "github",
@@ -59,23 +92,37 @@
         "repository": "pbakaus/impeccable"
       },
       "install": {
-        "instructions": ["Follow the upstream README for the current installation method.", "Review the skill files before enabling them in an agent."],
+        "instructions": [
+          "Follow the upstream README for the current installation method.",
+          "Review the skill files before enabling them in an agent."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Installation was not executed during cataloging."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "Apache-2.0", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only skill; not security-audited."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "GitHub repository and Apache-2.0 license confirmed via GitHub API on 2026-11-05."
       },
@@ -92,8 +139,17 @@
       "type": "skill",
       "description": "Workflow skill for Android kernel module development using kprobe and kretprobe, covering feasibility, baseline extraction, static checks and insmod testing.",
       "primary_category": "linux-low-level",
-      "secondary_categories": ["android-system-custom-rom"],
-      "tags": ["android", "kernel", "lkm", "kprobe", "kretprobe", "insmod"],
+      "secondary_categories": [
+        "android-system-custom-rom"
+      ],
+      "tags": [
+        "android",
+        "kernel",
+        "lkm",
+        "kprobe",
+        "kretprobe",
+        "insmod"
+      ],
       "source": {
         "url": "https://github.com/Yunnijian/android-kernel-lkm",
         "kind": "github",
@@ -101,23 +157,39 @@
         "repository": "Yunnijian/android-kernel-lkm"
       },
       "install": {
-        "instructions": ["Read the upstream SKILL.md and prerequisites before installation.", "Load kernel modules only on devices you own or are authorized to modify."],
+        "instructions": [
+          "Read the upstream SKILL.md and prerequisites before installation.",
+          "Load kernel modules only on devices you own or are authorized to modify."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "High-consequence domain: kernel modules can brick devices."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "android"],
-        "dependencies": ["matching Android kernel headers", "adb", "insmod"]
+        "platforms": [
+          "linux",
+          "android"
+        ],
+        "dependencies": [
+          "matching Android kernel headers",
+          "adb",
+          "insmod"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Kernel-level operations can destabilize or brick a device. License file not detected by GitHub API."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository confirmed; no recognized license detected. Module workflow not executed."
       },
@@ -134,8 +206,18 @@
       "type": "skill",
       "description": "LineageOS and custom ROM development skill covering source sync, device trees, repopick, Gerrit contributions and vendor blobs.",
       "primary_category": "android-system-custom-rom",
-      "secondary_categories": ["mobile-development", "linux-low-level"],
-      "tags": ["lineageos", "aosp", "device-tree", "repopick", "gerrit", "custom-rom"],
+      "secondary_categories": [
+        "mobile-development",
+        "linux-low-level"
+      ],
+      "tags": [
+        "lineageos",
+        "aosp",
+        "device-tree",
+        "repopick",
+        "gerrit",
+        "custom-rom"
+      ],
       "source": {
         "url": "https://github.com/hyperb1iss/hyperdroid-skill",
         "kind": "github",
@@ -143,23 +225,39 @@
         "repository": "hyperb1iss/hyperdroid-skill"
       },
       "install": {
-        "instructions": ["Follow the upstream README for agent installation.", "Confirm the target device tree and vendor blobs before building."],
+        "instructions": [
+          "Follow the upstream README for agent installation.",
+          "Confirm the target device tree and vendor blobs before building."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Installation was not executed during cataloging."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux"],
-        "dependencies": ["repo", "git", "Android build host"]
+        "platforms": [
+          "linux"
+        ],
+        "dependencies": [
+          "repo",
+          "git",
+          "Android build host"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Build instructions can consume large disk space and run long build jobs; review before executing."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "UNMAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and MIT license confirmed. Last push 2026-01-28; treat as low-activity."
       },
@@ -176,8 +274,18 @@
       "type": "skill",
       "description": "Prompt-craft skill for image models, covering style keywords, negative prompts and model-specific prompting patterns.",
       "primary_category": "image-generation",
-      "secondary_categories": ["design-ui-ux", "content-marketing"],
-      "tags": ["image", "prompting", "midjourney", "stable-diffusion", "flux", "dall-e"],
+      "secondary_categories": [
+        "design-ui-ux",
+        "content-marketing"
+      ],
+      "tags": [
+        "image",
+        "prompting",
+        "midjourney",
+        "stable-diffusion",
+        "flux",
+        "dall-e"
+      ],
       "source": {
         "url": "https://github.com/Stonelukas/Mouse-on-Numpad",
         "kind": "github",
@@ -185,23 +293,37 @@
         "repository": "Stonelukas/Mouse-on-Numpad"
       },
       "install": {
-        "instructions": ["Open the upstream repository and locate the ai-artist skill.", "Copy it into your OpenCode skills directory only after reviewing its contents."],
+        "instructions": [
+          "Open the upstream repository and locate the ai-artist skill.",
+          "Copy it into your OpenCode skills directory only after reviewing its contents."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Parent repository verified; the named skill was not independently executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only skill; not security-audited."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "UNMAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Parent repo and MIT license confirmed; skill-level behavior not tested. Last push 2026-02-08."
       },
@@ -218,8 +340,17 @@
       "type": "skill",
       "description": "Design-philosophy skill for producing poster and illustration assets as PNG or PDF using aesthetic and compositional principles.",
       "primary_category": "design-ui-ux",
-      "secondary_categories": ["image-generation"],
-      "tags": ["canvas", "poster", "illustration", "design", "png", "pdf"],
+      "secondary_categories": [
+        "image-generation"
+      ],
+      "tags": [
+        "canvas",
+        "poster",
+        "illustration",
+        "design",
+        "png",
+        "pdf"
+      ],
       "source": {
         "url": "https://github.com/osmontero/opencode-skills",
         "kind": "github",
@@ -227,23 +358,37 @@
         "repository": "osmontero/opencode-skills"
       },
       "install": {
-        "instructions": ["Find the skill in the upstream repository and review it.", "Copy it into your OpenCode skills directory if you accept its instructions."],
+        "instructions": [
+          "Find the skill in the upstream repository and review it.",
+          "Copy it into your OpenCode skills directory if you accept its instructions."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Parent repository verified; named skill not independently executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "May instruct the agent to run local graphics tooling; review before use."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Parent repo and MIT license confirmed. Last push 2026-10-28."
       },
@@ -260,8 +405,16 @@
       "type": "skill",
       "description": "Skills for integrating the Legnext Midjourney API, including image generation, variations, upscaling and credit management.",
       "primary_category": "image-generation",
-      "secondary_categories": ["content-marketing"],
-      "tags": ["midjourney", "api", "image", "upscale", "variations"],
+      "secondary_categories": [
+        "content-marketing"
+      ],
+      "tags": [
+        "midjourney",
+        "api",
+        "image",
+        "upscale",
+        "variations"
+      ],
       "source": {
         "url": "https://github.com/legnext-ai/skills",
         "kind": "github",
@@ -269,23 +422,39 @@
         "repository": "legnext-ai/skills"
       },
       "install": {
-        "instructions": ["Follow the upstream README for setup.", "Provide API credentials through environment variables; never commit them."],
+        "instructions": [
+          "Follow the upstream README for setup.",
+          "Provide API credentials through environment variables; never commit them."
+        ],
         "requires_api_key": true,
         "tested": "NOT_TESTED",
         "notes": "Requires a Legnext account and API key. Not installed or executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Legnext API key"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Legnext API key"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Third-party API integration; review credential handling and billing implications."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "UNMAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and MIT license confirmed; API integration not tested. Last push 2026-08-10."
       },
@@ -302,8 +471,16 @@
       "type": "skill",
       "description": "Video trimming skill that turns confirmed cut decisions into FFmpeg operations and produces subtitle files.",
       "primary_category": "video-generation",
-      "secondary_categories": ["audio-music"],
-      "tags": ["video", "ffmpeg", "trim", "subtitles", "srt"],
+      "secondary_categories": [
+        "audio-music"
+      ],
+      "tags": [
+        "video",
+        "ffmpeg",
+        "trim",
+        "subtitles",
+        "srt"
+      ],
       "source": {
         "url": "https://github.com/zrt-ai-lab/opencode-skills",
         "kind": "github",
@@ -311,23 +488,38 @@
         "repository": "zrt-ai-lab/opencode-skills"
       },
       "install": {
-        "instructions": ["Locate the videocut-clip skill in the upstream repository.", "Review the FFmpeg commands before running them on valuable media."],
+        "instructions": [
+          "Locate the videocut-clip skill in the upstream repository.",
+          "Review the FFmpeg commands before running them on valuable media."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Parent repository verified; skill not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["ffmpeg"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "ffmpeg"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Runs FFmpeg file operations; confirm input/output paths to avoid overwriting source media."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "Parent repo confirmed; no recognized license detected. Skill not executed."
       },
@@ -344,8 +536,17 @@
       "type": "skill",
       "description": "Skill that reconstructs a single reference image as a procedural, animation-ready Three.js model through staged code generation.",
       "primary_category": "image-generation",
-      "secondary_categories": ["software-development", "game-development"],
-      "tags": ["threejs", "3d", "image-to-3d", "webgl", "procedural"],
+      "secondary_categories": [
+        "software-development",
+        "game-development"
+      ],
+      "tags": [
+        "threejs",
+        "3d",
+        "image-to-3d",
+        "webgl",
+        "procedural"
+      ],
       "source": {
         "url": "https://github.com/img2threejs/img2threejs",
         "kind": "github",
@@ -353,23 +554,38 @@
         "repository": "img2threejs/img2threejs"
       },
       "install": {
-        "instructions": ["Follow the upstream README for the current agent installation."],
+        "instructions": [
+          "Follow the upstream README for the current agent installation."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Installation was not executed during cataloging."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "Apache-2.0", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Generates and executes project code; review generated output before deployment."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and Apache-2.0 license confirmed. Skill behavior not executed."
       },
@@ -386,8 +602,15 @@
       "type": "skill",
       "description": "Process skill that explores intent, requirements and design before implementation begins.",
       "primary_category": "software-development",
-      "secondary_categories": ["design-ui-ux"],
-      "tags": ["planning", "requirements", "design", "process"],
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "planning",
+        "requirements",
+        "design",
+        "process"
+      ],
       "source": {
         "url": "https://github.com/obra/superpowers",
         "kind": "github",
@@ -395,23 +618,37 @@
         "repository": "obra/superpowers"
       },
       "install": {
-        "instructions": ["Install the superpowers plugin through its documented OpenCode method.", "Review the plugin before enabling it."],
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Plugin installation not executed in this session."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only process skill; not security-audited here."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
       },
@@ -429,7 +666,12 @@
       "description": "Process skill that enforces hypothesis-driven root-cause analysis before proposing bug fixes.",
       "primary_category": "software-development",
       "secondary_categories": [],
-      "tags": ["debugging", "root-cause", "process", "testing"],
+      "tags": [
+        "debugging",
+        "root-cause",
+        "process",
+        "testing"
+      ],
       "source": {
         "url": "https://github.com/obra/superpowers",
         "kind": "github",
@@ -437,23 +679,37 @@
         "repository": "obra/superpowers"
       },
       "install": {
-        "instructions": ["Install the superpowers plugin through its documented OpenCode method.", "Review the plugin before enabling it."],
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Plugin installation not executed in this session."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only process skill; not security-audited here."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
       },
@@ -471,7 +727,12 @@
       "description": "Process skill that requires writing and running failing tests before implementation code is written.",
       "primary_category": "software-development",
       "secondary_categories": [],
-      "tags": ["tdd", "testing", "process", "quality"],
+      "tags": [
+        "tdd",
+        "testing",
+        "process",
+        "quality"
+      ],
       "source": {
         "url": "https://github.com/obra/superpowers",
         "kind": "github",
@@ -479,23 +740,37 @@
         "repository": "obra/superpowers"
       },
       "install": {
-        "instructions": ["Install the superpowers plugin through its documented OpenCode method.", "Review the plugin before enabling it."],
+        "instructions": [
+          "Install the superpowers plugin through its documented OpenCode method.",
+          "Review the plugin before enabling it."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "Plugin installation not executed in this session."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
         "dependencies": []
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only process skill; not security-audited here."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "MAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "Repository and MIT license confirmed. Skill content observed in the local install."
       },
@@ -512,8 +787,17 @@
       "type": "skill",
       "description": "Skill that teaches an agent to build Three.js 3D web experiences and turn reference imagery into interactive scenes.",
       "primary_category": "image-generation",
-      "secondary_categories": ["software-development", "game-development"],
-      "tags": ["threejs", "3d", "webgl", "skill", "web"],
+      "secondary_categories": [
+        "software-development",
+        "game-development"
+      ],
+      "tags": [
+        "threejs",
+        "3d",
+        "webgl",
+        "skill",
+        "web"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/3d-web-skill",
         "kind": "npm",
@@ -521,23 +805,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["npm install 3d-web-skill", "Review the generated skill files before use."],
+        "instructions": [
+          "npm install 3d-web-skill",
+          "Review the generated skill files before use."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.3.1 confirmed; no repository URL in registry metadata. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only skill; no source-level audit was possible without a repository URL."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
         "date": "2026-11-05",
         "notes": "npm registry metadata confirmed; no public repository resolved. Skill not executed."
       },
@@ -554,8 +853,16 @@
       "type": "skill",
       "description": "Skill that lets an agent control an Android device through the Termux API for automation and pre-flash preparation.",
       "primary_category": "android-system-custom-rom",
-      "secondary_categories": ["mobile-development"],
-      "tags": ["termux", "android", "automation", "skill", "device"],
+      "secondary_categories": [
+        "mobile-development"
+      ],
+      "tags": [
+        "termux",
+        "android",
+        "automation",
+        "skill",
+        "device"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/termux-skill",
         "kind": "npm",
@@ -563,23 +870,39 @@
         "repository": "itskreisler/termux-skill"
       },
       "install": {
-        "instructions": ["npm install -g termux-skill", "Install the Termux:API app and review the permissions it grants."],
+        "instructions": [
+          "npm install -g termux-skill",
+          "Install the Termux:API app and review the permissions it grants."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 1.3.0 confirmed; license CC-BY-NC-4.0 (non-commercial). Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["android", "linux"],
-        "dependencies": ["Termux", "Termux:API"]
+        "platforms": [
+          "android",
+          "linux"
+        ],
+        "dependencies": [
+          "Termux",
+          "Termux:API"
+        ]
       },
-      "license": { "spdx": "CC-BY-NC-4.0", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "CC-BY-NC-4.0",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Grants device-control capabilities through Termux. Review the exact API calls before enabling."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "UNMAINTAINED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "UNMAINTAINED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed. Last push 2026-07-12; non-commercial license."
       },
@@ -596,8 +919,18 @@
       "type": "skill",
       "description": "Design-system skill collection covering colors, typography, accessibility, UI, UX, audio subtitles, vision alt text and figures.",
       "primary_category": "design-ui-ux",
-      "secondary_categories": ["content-marketing", "image-generation"],
-      "tags": ["design-system", "accessibility", "typography", "audio", "vision", "skill"],
+      "secondary_categories": [
+        "content-marketing",
+        "image-generation"
+      ],
+      "tags": [
+        "design-system",
+        "accessibility",
+        "typography",
+        "audio",
+        "vision",
+        "skill"
+      ],
       "source": {
         "url": "https://pypi.org/project/sprezzature/",
         "kind": "pypi",
@@ -605,23 +938,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["pip install sprezzature", "Follow the package documentation to register the skills."],
+        "instructions": [
+          "pip install sprezzature",
+          "Follow the package documentation to register the skills."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "PyPI 1.6.0 confirmed; license not declared in PyPI metadata. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Python 3"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3"
+        ]
       },
-      "license": { "spdx": "UNKNOWN", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "UNKNOWN",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Instruction-only skill collection; license unreviewed."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "PyPI metadata confirmed; license unknown. Skills not executed."
       },
@@ -630,6 +978,1574 @@
         "observed_at": "2026-11-05",
         "latest_release": "1.6.0",
         "last_push": null
+      }
+    },
+    {
+      "id": "papercut-explainer",
+      "name": "Papercut Explainer",
+      "type": "skill",
+      "description": "Agent skills and a scene agent for producing short vertical cut-paper explainer videos with a Remotion pipeline.",
+      "primary_category": "video-generation",
+      "secondary_categories": [
+        "content-marketing"
+      ],
+      "tags": [
+        "video",
+        "reels",
+        "explainer",
+        "remotion",
+        "animation"
+      ],
+      "source": {
+        "url": "https://github.com/0xS4N4TG/papercut-explainer",
+        "kind": "github",
+        "documentation": "https://github.com/0xS4N4TG/papercut-explainer",
+        "repository": "0xS4N4TG/papercut-explainer"
+      },
+      "install": {
+        "instructions": [
+          "Install with `npx skills add 0xS4N4TG/papercut-explainer`, or open the checkout in OpenCode as described in the README.",
+          "Review the generated scenes and installed Node dependencies before rendering."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Remotion"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Skills drive a Remotion video pipeline and may install Node packages. Review scripts and generated media."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 133,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-17T09:24:52Z"
+      }
+    },
+    {
+      "id": "unity-skills",
+      "name": "Unity Skills",
+      "type": "skill",
+      "description": "AI automation skills for Unity covering scenes, assets, editor operations and build workflows.",
+      "primary_category": "game-development",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "unity",
+        "game-development",
+        "csharp",
+        "editor",
+        "automation"
+      ],
+      "source": {
+        "url": "https://github.com/Besty0728/Unity-Skills",
+        "kind": "github",
+        "documentation": "https://github.com/Besty0728/Unity-Skills",
+        "repository": "Besty0728/Unity-Skills"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README to add the Unity skill folder to your OpenCode skills directory.",
+          "Open the project in Unity and configure the documented agent settings before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Unity Editor"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Skills can modify Unity projects and invoke editor scripts. Work on a copy or version-controlled project."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1923,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.9.1",
+        "last_push": "2026-11-05T11:03:48Z"
+      }
+    },
+    {
+      "id": "ppt-image-first",
+      "name": "PPT Image First",
+      "type": "skill",
+      "description": "Conversation-first skill that turns a rough presentation request into an image-first PPTX deck with staged content and style previews.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "image-generation",
+        "design-ui-ux"
+      ],
+      "tags": [
+        "presentations",
+        "pptx",
+        "image-generation",
+        "workflow"
+      ],
+      "source": {
+        "url": "https://github.com/NyxTides/ppt-image-first",
+        "kind": "github",
+        "documentation": "https://github.com/NyxTides/ppt-image-first",
+        "repository": "NyxTides/ppt-image-first"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README to install the skill into your agent's skills directory.",
+          "Provide access to an image-generation model as described in the workflow."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Image-generation model access"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Sends presentation content and style prompts to an image-generation provider. Review data handling and billing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 1233,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-05-08T12:18:50Z"
+      }
+    },
+    {
+      "id": "design-md-generator",
+      "name": "Design MD Generator",
+      "type": "skill",
+      "description": "Skill and installer that generate a locked DESIGN.md design system and validate it against WCAG 2.1.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "design-system",
+        "wcag",
+        "design-md",
+        "installer"
+      ],
+      "source": {
+        "url": "https://github.com/Vann4799/design-md-generator",
+        "kind": "github",
+        "documentation": "https://github.com/Vann4799/design-md-generator",
+        "repository": "Vann4799/design-md-generator"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx github:Vann4799/design-md-generator --list` to preview changes, then run it without `--list` to install into detected agents.",
+          "Review the generated DESIGN.md and skill files before relying on them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "The installer was executed in preview (--list) mode inside Docker; the actual skill installation was not performed. The installer targets Claude Code, Codex and AGENTS-style directories; OpenCode support was not confirmed."
+      },
+      "compatibility": {
+        "opencode": "unknown",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Installer copies files into agent configuration directories. Preview with --list and review the diff."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. Installer preview smoke-tested in Docker; full installation not executed."
+      },
+      "signals": {
+        "github_stars_observed": 2,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.3.0",
+        "last_push": "2026-09-28T09:53:39Z"
+      }
+    },
+    {
+      "id": "deep-research-skills",
+      "name": "Deep Research Skills",
+      "type": "skill",
+      "description": "Structured deep-research skills with human-in-the-loop checkpoints for research planning, source collection and synthesis.",
+      "primary_category": "education-research",
+      "secondary_categories": [
+        "ai-machine-learning",
+        "documents-productivity"
+      ],
+      "tags": [
+        "research",
+        "synthesis",
+        "citations",
+        "human-in-the-loop"
+      ],
+      "source": {
+        "url": "https://github.com/Weizhena/Deep-Research-skills",
+        "kind": "github",
+        "documentation": "https://github.com/Weizhena/Deep-Research-skills",
+        "repository": "Weizhena/Deep-Research-skills"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and copy the research skill folders into `~/.config/opencode/skills/` as described in the README.",
+          "Install the skill's Python helper dependency with `pip install pyyaml` if you use the scripts."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "PyYAML"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Research workflows browse external sources and may process untrusted content. Verify citations before publishing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 2500,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-08-23T03:25:28Z"
+      }
+    },
+    {
+      "id": "swiftui-design-skill",
+      "name": "SwiftUI Design Skill",
+      "type": "skill",
+      "description": "SwiftUI front-end design skill with six rules aimed at preventing generic AI-generated interfaces.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "mobile-development"
+      ],
+      "tags": [
+        "swiftui",
+        "ios",
+        "design",
+        "frontend"
+      ],
+      "source": {
+        "url": "https://github.com/Wholiver/swiftui-design-skill",
+        "kind": "github",
+        "documentation": "https://github.com/Wholiver/swiftui-design-skill",
+        "repository": "Wholiver/swiftui-design-skill"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx skills add wholiver/swiftui-design-skill -g -y` or follow the README to copy the skill manually.",
+          "Review the skill rules before enabling them globally."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js for the npx installer"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 204,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.0.0",
+        "last_push": "2026-05-01T05:20:08Z"
+      }
+    },
+    {
+      "id": "ispan-data-science-cookbooks",
+      "name": "iSpan Data Science Cookbooks",
+      "type": "skill",
+      "description": "Research-first data-science skill cookbooks covering exploratory analysis, feature engineering and modelling workflows.",
+      "primary_category": "data-science",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "data-science",
+        "python",
+        "cookbook",
+        "feature-engineering"
+      ],
+      "source": {
+        "url": "https://github.com/Zenobia000/iSpan_python-FE_DM-cookbooks",
+        "kind": "github",
+        "documentation": "https://github.com/Zenobia000/iSpan_python-FE_DM-cookbooks",
+        "repository": "Zenobia000/iSpan_python-FE_DM-cookbooks"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow its README to install the skills and course environment.",
+          "Install the Python environment with `uv` or the provided requirements file."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "uv (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Primary documentation is in Chinese with some English sections. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 68,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.2.1",
+        "last_push": "2026-10-30T01:17:28Z"
+      }
+    },
+    {
+      "id": "marimo-opencode-skill",
+      "name": "Marimo OpenCode Skill",
+      "type": "skill",
+      "description": "Skill that keeps coding agents on marimo's reactive-notebook model and prevents common Jupyter-style mistakes.",
+      "primary_category": "data-science",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "marimo",
+        "notebook",
+        "reactive",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/adrunkhuman/marimo-opencode-skill",
+        "kind": "github",
+        "documentation": "https://github.com/adrunkhuman/marimo-opencode-skill",
+        "repository": "adrunkhuman/marimo-opencode-skill"
+      },
+      "install": {
+        "instructions": [
+          "Copy the skill folder into `~/.config/opencode/skills/` as described in the repository README.",
+          "Review the skill guidance before editing production notebooks with it."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "marimo"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 5,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-03-08T14:59:33Z"
+      }
+    },
+    {
+      "id": "opencode-skill-creator",
+      "name": "OpenCode Skill Creator",
+      "type": "skill",
+      "description": "Skill and CLI for creating, testing and optimizing OpenCode skills, adapted for OpenCode V1 and V2.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "skills",
+        "authoring",
+        "testing",
+        "optimization"
+      ],
+      "source": {
+        "url": "https://github.com/antongulin/opencode-skill-creator",
+        "kind": "github",
+        "documentation": "https://github.com/antongulin/opencode-skill-creator",
+        "repository": "antongulin/opencode-skill-creator"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx opencode-skill-creator install --project` to install the skill for the current project.",
+          "Review the generated skill files and test cases before publishing them."
+        ],
+        "requires_api_key": false,
+        "tested": "INSTALLATION_TESTED",
+        "notes": "Installed in an isolated Docker container on 2026-11-05; see reports/installation-results.md."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED",
+          "INSTALLATION_TESTED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. The pinned npm package was installed globally in an isolated Docker container and its CLI was confirmed on PATH. Skill generation and optimization were not executed. Evidence: reports/installation-results.md."
+      },
+      "signals": {
+        "github_stars_observed": 192,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.3.6",
+        "last_push": "2026-10-20T01:58:53Z"
+      }
+    },
+    {
+      "id": "quarkus-skill",
+      "name": "Quarkus Skill",
+      "type": "skill",
+      "description": "Quarkus platform reference skill with documentation and installation guidance for AI coding assistants.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "database-backend"
+      ],
+      "tags": [
+        "quarkus",
+        "java",
+        "framework",
+        "reference"
+      ],
+      "source": {
+        "url": "https://github.com/b6k-dev/quarkus-skill",
+        "kind": "github",
+        "documentation": "https://github.com/b6k-dev/quarkus-skill",
+        "repository": "b6k-dev/quarkus-skill"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx skills add b6k-dev/quarkus-skill` or copy the skill folder manually.",
+          "Use the bundled reference docs as a starting point and verify against current Quarkus documentation."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js for the npx installer"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 14,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-03-24T19:06:51Z"
+      }
+    },
+    {
+      "id": "aur-skills",
+      "name": "AUR Skills",
+      "type": "skill",
+      "description": "Agent skills for Arch Linux AUR packaging, including PKGBUILD creation, makepkg builds, submission and audit.",
+      "primary_category": "linux-low-level",
+      "secondary_categories": [
+        "devops-cloud"
+      ],
+      "tags": [
+        "arch-linux",
+        "aur",
+        "packaging",
+        "pkgbuild"
+      ],
+      "source": {
+        "url": "https://github.com/enihcam/aur-skills",
+        "kind": "github",
+        "documentation": "https://github.com/enihcam/aur-skills",
+        "repository": "enihcam/aur-skills"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and copy the skill folders into `.opencode/skills/` or your global skills directory.",
+          "Review generated PKGBUILDs and run builds in a clean environment."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Arch Linux",
+          "makepkg"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Skills generate and can run packaging commands. Inspect PKGBUILDs before building or submitting."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 6,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.0.1",
+        "last_push": "2026-10-09T12:45:40Z"
+      }
+    },
+    {
+      "id": "architecture-diagram-skill",
+      "name": "Architecture Diagram Skill",
+      "type": "skill",
+      "description": "Skill that builds click-through animated system-architecture diagrams as a single HTML file.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "architecture",
+        "diagrams",
+        "html",
+        "visualization"
+      ],
+      "source": {
+        "url": "https://github.com/konraddzbik/architecture-diagram-skill",
+        "kind": "github",
+        "documentation": "https://github.com/konraddzbik/architecture-diagram-skill",
+        "repository": "konraddzbik/architecture-diagram-skill"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and copy `skills/architecture-diagram` into your agent's skills directory as described in the README.",
+          "Open the generated HTML locally and review it before sharing."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": []
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 149,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.5.0",
+        "last_push": "2026-10-22T18:52:47Z"
+      }
+    },
+    {
+      "id": "open-document-skills",
+      "name": "Open Document Skills",
+      "type": "skill",
+      "description": "Agent skills and stdlib-only scripts for creating and editing OpenDocument files (ODT, ODP, ODS, ODG).",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "opendocument",
+        "odt",
+        "ods",
+        "odp",
+        "documents"
+      ],
+      "source": {
+        "url": "https://github.com/leiverkus/open-document-skills",
+        "kind": "github",
+        "documentation": "https://github.com/leiverkus/open-document-skills",
+        "repository": "leiverkus/open-document-skills"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx skills add leiverkus/open-document-skills --list` to inspect the skills, then install the ones you need.",
+          "LibreOffice is optional for rendering; the core generators use only the Python standard library."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "LibreOffice (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 3,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.15.0",
+        "last_push": "2026-07-23T17:33:55Z"
+      }
+    },
+    {
+      "id": "ctf-skills",
+      "name": "CTF Skills",
+      "type": "skill",
+      "description": "Agent skills for CTF challenges covering web exploitation, binary pwn, cryptography, reverse engineering and forensics.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "ctf",
+        "security",
+        "pwn",
+        "cryptography",
+        "forensics"
+      ],
+      "source": {
+        "url": "https://github.com/ljagiello/ctf-skills",
+        "kind": "github",
+        "documentation": "https://github.com/ljagiello/ctf-skills",
+        "repository": "ljagiello/ctf-skills"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx skills add ljagiello/ctf-skills` or copy the relevant skill folders manually.",
+          "Use only in authorized labs, CTF events or systems you own."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js for the npx installer"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Offensive security techniques for CTF training. Use only in authorized labs and competitions."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 3621,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-30T16:48:55Z"
+      }
+    },
+    {
+      "id": "artcraft-skills",
+      "name": "ArtCraft Skills",
+      "type": "skill",
+      "description": "Agent skills for the ArtCraft Rust creative suite, covering evidence-verified image and design workflows.",
+      "primary_category": "image-generation",
+      "secondary_categories": [
+        "design-ui-ux"
+      ],
+      "tags": [
+        "artcraft",
+        "rust",
+        "image",
+        "creative"
+      ],
+      "source": {
+        "url": "https://github.com/midasmatterhorn/artcraft-skills",
+        "kind": "github",
+        "documentation": "https://github.com/midasmatterhorn/artcraft-skills",
+        "repository": "midasmatterhorn/artcraft-skills"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow the README to install the ArtCraft skills.",
+          "Install the ArtCraft tooling required by the skills before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Rust",
+          "ArtCraft"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 63,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.3.0",
+        "last_push": "2026-11-04T14:41:43Z"
+      }
+    },
+    {
+      "id": "obsidian-knowledge-workflow",
+      "name": "Obsidian Knowledge Workflow",
+      "type": "skill",
+      "description": "Seven skills for an Obsidian-based knowledge workflow, including inbox triage, linking and an Obsidian MCP setup.",
+      "primary_category": "documents-productivity",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "obsidian",
+        "knowledge-base",
+        "notes",
+        "mcp"
+      ],
+      "source": {
+        "url": "https://github.com/r007b34r/opencode-obsidian-knowledge-workflow",
+        "kind": "github",
+        "documentation": "https://github.com/r007b34r/opencode-obsidian-knowledge-workflow",
+        "repository": "r007b34r/opencode-obsidian-knowledge-workflow"
+      },
+      "install": {
+        "instructions": [
+          "Copy the repository's skills into `~/.opencode/skills/` as described in the README.",
+          "Configure the Obsidian MCP server before using the vault-dependent skills."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Obsidian",
+          "Obsidian MCP"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Skills can read and modify an Obsidian vault. Back up the vault and review write operations."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 13,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-05-14T11:39:07Z"
+      }
+    },
+    {
+      "id": "osint-skill",
+      "name": "OSINT Skill",
+      "type": "skill",
+      "description": "OSINT skill that guides agents from a name or selector to a structured open-source intelligence report.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "osint",
+        "research",
+        "investigation",
+        "privacy"
+      ],
+      "source": {
+        "url": "https://github.com/smixs/osint-skill",
+        "kind": "github",
+        "documentation": "https://github.com/smixs/osint-skill",
+        "repository": "smixs/osint-skill"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and copy the `osint/` folder into your agent's skills directory.",
+          "Install optional helpers such as `jq` and the Apify MCP tooling only if the workflow needs them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "jq (optional)",
+          "Apify tooling (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "OSINT workflows can collect personal data. Use only for lawful, authorized research and respect privacy rules."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 157,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-03-10T05:18:43Z"
+      }
+    },
+    {
+      "id": "spec-forge",
+      "name": "Spec Forge",
+      "type": "skill",
+      "description": "Specification-generation skill suite for PRDs, SRS documents, technical designs and test plans using industry templates.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "specifications",
+        "prd",
+        "srs",
+        "technical-design"
+      ],
+      "source": {
+        "url": "https://github.com/tercel/spec-forge",
+        "kind": "github",
+        "documentation": "https://github.com/tercel/spec-forge",
+        "repository": "tercel/spec-forge"
+      },
+      "install": {
+        "instructions": [
+          "Follow the upstream README to install the commands and skills for your agent.",
+          "Review generated specifications against your project before adopting them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "unknown",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Agent with slash-command support"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Documentation targets Claude Code; OpenCode compatibility is not verified. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 10,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-09-16T06:29:10Z"
+      }
+    },
+    {
+      "id": "opencode-academic-research",
+      "name": "OpenCode Academic Research",
+      "type": "skill",
+      "description": "OpenCode port of an academic-research skill suite with four skills, slash commands and a multi-agent research pipeline.",
+      "primary_category": "education-research",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "academic",
+        "research",
+        "citations",
+        "pipeline"
+      ],
+      "source": {
+        "url": "https://github.com/timpara/opencode-academic-research",
+        "kind": "github",
+        "documentation": "https://github.com/timpara/opencode-academic-research",
+        "repository": "timpara/opencode-academic-research"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow the OpenCode installation section of the README.",
+          "Install Python dependencies with `uv sync --extra dev` if you use the bundled scripts."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "uv"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Research pipelines browse external sources and may process untrusted content. Verify sources and citations."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 84,
+        "observed_at": "2026-11-05",
+        "latest_release": "v3.9.4.2-opencode.1",
+        "last_push": "2026-08-30T21:27:08Z"
+      }
+    },
+    {
+      "id": "rust-agentic-skills",
+      "name": "Rust Agentic Skills",
+      "type": "skill",
+      "description": "Modular Rust engineering skills that turn general-purpose agents into a constraint-based Rust development team.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "linux-low-level"
+      ],
+      "tags": [
+        "rust",
+        "agents",
+        "engineering",
+        "skills"
+      ],
+      "source": {
+        "url": "https://github.com/udapy/rust-agentic-skills",
+        "kind": "github",
+        "documentation": "https://github.com/udapy/rust-agentic-skills",
+        "repository": "udapy/rust-agentic-skills"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow the README to link the skills into your agent.",
+          "Review the Rust build and lint scripts before letting the agent run them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "unknown",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Rust toolchain"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. OpenCode compatibility was not confirmed; the README targets Claude Code and Gemini."
+      },
+      "signals": {
+        "github_stars_observed": 58,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.1.2",
+        "last_push": "2026-02-12T20:33:04Z"
+      }
+    },
+    {
+      "id": "minimax-h3-opencode-skills",
+      "name": "MiniMax H3 OpenCode Skills",
+      "type": "skill",
+      "description": "OpenCode skill system for MiniMax H3 video prompts, covering creative direction, multishot planning and prompt review.",
+      "primary_category": "video-generation",
+      "secondary_categories": [
+        "content-marketing"
+      ],
+      "tags": [
+        "minimax",
+        "video",
+        "prompting",
+        "multishot"
+      ],
+      "source": {
+        "url": "https://github.com/unknowlei/minimax-h3-opencode-skills",
+        "kind": "github",
+        "documentation": "https://github.com/unknowlei/minimax-h3-opencode-skills",
+        "repository": "unknowlei/minimax-h3-opencode-skills"
+      },
+      "install": {
+        "instructions": [
+          "Ask an agent to read the repository's AGENTS.md and install the skills as described there.",
+          "Review the installed skill files before generating prompts."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "MiniMax H3 access"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Installation instructions are written in Chinese and assume an agent-driven install. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 131,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-08-09T11:02:28Z"
+      }
+    },
+    {
+      "id": "superpm",
+      "name": "superPM",
+      "type": "skill",
+      "description": "Product-management skill framework covering discovery, prioritisation, MVP planning and delivery workflows.",
+      "primary_category": "business-finance",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "product-management",
+        "prd",
+        "mvp",
+        "workflow"
+      ],
+      "source": {
+        "url": "https://github.com/konglong87/superPM",
+        "kind": "github",
+        "documentation": "https://github.com/konglong87/superPM",
+        "repository": "konglong87/superPM"
+      },
+      "install": {
+        "instructions": [
+          "Run `npx skills add https://github.com/konglong87/superPM` to install all skills, or use `--skill` to select individual ones.",
+          "Review the skill prompts before using them for product decisions."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js for the npx installer"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Instruction-only skill. SKILL.md can direct the agent to run commands; review it before enabling."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "Primary documentation is in Chinese. GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 86,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.6.1",
+        "last_push": "2026-10-26T07:12:41Z"
+      }
+    },
+    {
+      "id": "daisywriter",
+      "name": "DaisyWriter",
+      "type": "skill",
+      "description": "AI writing toolkit for web novels, short stories and technical blogs, with publishing and cover-generation helpers.",
+      "primary_category": "content-marketing",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "writing",
+        "novels",
+        "blogs",
+        "publishing"
+      ],
+      "source": {
+        "url": "https://github.com/ricky-theseus/DaisyWriter",
+        "kind": "github",
+        "documentation": "https://github.com/ricky-theseus/DaisyWriter",
+        "repository": "ricky-theseus/DaisyWriter"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository and follow the per-skill README installation steps.",
+          "Install Node and Playwright dependencies only inside the skills that need them."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Python 3",
+          "Playwright (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "GPL-3.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Some skills install Node and Playwright packages and automate publishing sites. Review the scripts before running them."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 71,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-07-08T10:56:17Z"
+      }
+    },
+    {
+      "id": "heditor",
+      "name": "heditor",
+      "type": "skill",
+      "description": "Creative vertical-video editing skill for AI agents, including editing workflows and media tooling.",
+      "primary_category": "video-generation",
+      "secondary_categories": [
+        "content-marketing"
+      ],
+      "tags": [
+        "video-editing",
+        "vertical-video",
+        "creative",
+        "media"
+      ],
+      "source": {
+        "url": "https://github.com/pycodebr/heditor",
+        "kind": "github",
+        "documentation": "https://github.com/pycodebr/heditor",
+        "repository": "pycodebr/heditor"
+      },
+      "install": {
+        "instructions": [
+          "Prefer `npx skills add pycodebr/heditor -g`; if you use the repository install script, read it before executing.",
+          "Review the skill's media dependencies and output settings before editing client footage."
+        ],
+        "requires_api_key": true,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "ffmpeg (likely)"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Skill may download and run media tooling and upload footage to generation providers. Review its install script first."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 107,
+        "observed_at": "2026-11-05",
+        "latest_release": "v2.20.0",
+        "last_push": "2026-11-04T23:22:28Z"
       }
     }
   ]

@@ -2,7 +2,7 @@
 
 Every entry from the original discovery brief is preserved in `data/raw-inventory.json`. This report lists entries that could not be promoted to the verified catalog because the source was missing, unresolved, not found, or restricted.
 
-Unresolved raw entries: **54** of **111**.
+Unresolved raw entries: **54** of **202**.
 
 ## Source Unresolved (46)
 

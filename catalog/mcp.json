@@ -9,7 +9,12 @@
       "description": "Authorization-gated MCP server that exposes penetration-testing tooling to MCP-capable agents.",
       "primary_category": "cybersecurity",
       "secondary_categories": [],
-      "tags": ["pentest", "mcp", "security", "offensive"],
+      "tags": [
+        "pentest",
+        "mcp",
+        "security",
+        "offensive"
+      ],
       "source": {
         "url": "https://pypi.org/project/pentester-mcp/",
         "kind": "pypi",
@@ -17,23 +22,38 @@
         "repository": null
       },
       "install": {
-        "instructions": ["pip install pentester-mcp", "Configure it only against systems you own or have explicit written authorization to test."],
+        "instructions": [
+          "pip install pentester-mcp",
+          "Configure it only against systems you own or have explicit written authorization to test."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "PyPI 0.4.0 confirmed; install not executed. Offensive tooling."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos"],
-        "dependencies": ["Python 3"]
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "dependencies": [
+          "Python 3"
+        ]
       },
-      "license": { "spdx": "MIT", "status": "LICENSE_VERIFIED" },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
       "security": {
         "level": "HIGH RISK",
         "notes": "Offensive security tooling. Use only with explicit authorization and a defined in-scope target. Never scan third-party systems."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_VERIFIED", "SECURITY_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "SECURITY_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "PyPI metadata confirmed; license declared as MIT. Tool behavior not executed."
       },
@@ -50,8 +70,16 @@
       "type": "mcp",
       "description": "DuckDB-backed MCP memory server that gives agents structured search, read and write access to Obsidian vaults.",
       "primary_category": "documents-productivity",
-      "secondary_categories": ["education-research"],
-      "tags": ["obsidian", "memory", "mcp", "duckdb", "notes"],
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "obsidian",
+        "memory",
+        "mcp",
+        "duckdb",
+        "notes"
+      ],
       "source": {
         "url": "https://pypi.org/project/duckbrain/",
         "kind": "pypi",
@@ -59,23 +87,39 @@
         "repository": null
       },
       "install": {
-        "instructions": ["pip install duckbrain", "Point it at a backed-up vault and verify write behavior before enabling writes."],
+        "instructions": [
+          "pip install duckbrain",
+          "Point it at a backed-up vault and verify write behavior before enabling writes."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "PyPI 0.7.0 confirmed; license not declared in PyPI metadata. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Python 3", "Obsidian vault"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "Obsidian vault"
+        ]
       },
-      "license": { "spdx": "UNKNOWN", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "UNKNOWN",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Reads and writes local notes. Back up the vault and restrict write access until reviewed."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "PyPI metadata confirmed; license unknown. Functionality not executed."
       },
@@ -92,8 +136,16 @@
       "type": "mcp",
       "description": "Playwright-powered browser automation server that controls Chrome or Edge using accessibility snapshots and element references.",
       "primary_category": "software-development",
-      "secondary_categories": ["cybersecurity"],
-      "tags": ["playwright", "browser", "automation", "mcp", "testing"],
+      "secondary_categories": [
+        "cybersecurity"
+      ],
+      "tags": [
+        "playwright",
+        "browser",
+        "automation",
+        "mcp",
+        "testing"
+      ],
       "source": {
         "url": "https://www.npmjs.com/package/opencode-browser-control",
         "kind": "npm",
@@ -101,23 +153,40 @@
         "repository": "FileXego/opencode-browser-control"
       },
       "install": {
-        "instructions": ["npm install -g opencode-browser-control", "Install a Playwright browser and review the server configuration."],
+        "instructions": [
+          "npm install -g opencode-browser-control",
+          "Install a Playwright browser and review the server configuration."
+        ],
         "requires_api_key": false,
         "tested": "NOT_TESTED",
         "notes": "npm 0.1.0 confirmed; repository license not detected. Install not executed."
       },
       "compatibility": {
         "opencode": "compatible",
-        "platforms": ["linux", "macos", "windows"],
-        "dependencies": ["Node.js", "Playwright", "Chromium/Chrome"]
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js",
+          "Playwright",
+          "Chromium/Chrome"
+        ]
       },
-      "license": { "spdx": "NOASSERTION", "status": "LICENSE_REVIEW_REQUIRED" },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
       "security": {
         "level": "REVIEW REQUIRED",
         "notes": "Browser control can access authenticated sessions. Isolate profiles and avoid exposing credentials to untrusted sites."
       },
       "verification": {
-        "status": ["SOURCE_VERIFIED", "LICENSE_REVIEW_REQUIRED"],
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
         "date": "2026-11-05",
         "notes": "npm and GitHub repository confirmed. Browser automation not executed."
       },
@@ -126,6 +195,524 @@
         "observed_at": "2026-11-05",
         "latest_release": "0.1.0",
         "last_push": "2026-06-10T14:41:56Z"
+      }
+    },
+    {
+      "id": "opencode-mcp-server",
+      "name": "OpenCode MCP",
+      "type": "mcp",
+      "description": "MCP server that exposes OpenCode capabilities through 70 tools, 10 resources and 5 prompts.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "mcp",
+        "opencode",
+        "tools",
+        "server"
+      ],
+      "source": {
+        "url": "https://github.com/AlaeddineMessadi/opencode-mcp",
+        "kind": "github",
+        "documentation": "https://github.com/AlaeddineMessadi/opencode-mcp",
+        "repository": "AlaeddineMessadi/opencode-mcp"
+      },
+      "install": {
+        "instructions": [
+          "Add the server with `claude mcp add opencode -- npx -y opencode-mcp`, or configure the equivalent npx command in OpenCode.",
+          "Review the exposed tools before connecting it to a sensitive workspace."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Exposes broad OpenCode tooling to MCP clients. Review tool scope and workspace access."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 161,
+        "observed_at": "2026-11-05",
+        "latest_release": "v3.1.0",
+        "last_push": "2026-10-29T01:29:14Z"
+      }
+    },
+    {
+      "id": "ast-grep-mcp",
+      "name": "ast-grep MCP",
+      "type": "mcp",
+      "description": "MCP server for AI-optimized AST code search and replacement.",
+      "primary_category": "software-development",
+      "secondary_categories": [],
+      "tags": [
+        "ast-grep",
+        "code-search",
+        "refactoring",
+        "mcp"
+      ],
+      "source": {
+        "url": "https://github.com/ThinkDonk/ast-grep-mcp",
+        "kind": "github",
+        "documentation": "https://github.com/ThinkDonk/ast-grep-mcp",
+        "repository": "ThinkDonk/ast-grep-mcp"
+      },
+      "install": {
+        "instructions": [
+          "Install the package with `npm install @chousyn/ast-grep-mcp` and register it as an MCP server in OpenCode.",
+          "Review the search and replace tools before granting write access."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Can rewrite source code through AST replacements. Review tool permissions and use version control."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 0,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.1.2",
+        "last_push": "2026-07-02T01:15:38Z"
+      }
+    },
+    {
+      "id": "codesearch-mcp",
+      "name": "CodeSearch",
+      "type": "mcp",
+      "description": "Multi-repo semantic code-search MCP server with hybrid vector and BM25 retrieval, built in Rust.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "semantic-search",
+        "code-search",
+        "rust",
+        "mcp"
+      ],
+      "source": {
+        "url": "https://github.com/flupkede/codesearch",
+        "kind": "github",
+        "documentation": "https://github.com/flupkede/codesearch",
+        "repository": "flupkede/codesearch"
+      },
+      "install": {
+        "instructions": [
+          "Follow the README to install the Rust server and register it as an MCP server.",
+          "Index only repositories you are authorized to search."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Rust"
+        ]
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Indexes repository contents locally. Verify where indexes are stored and exclude secrets before indexing."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 101,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.7.9",
+        "last_push": "2026-11-04T12:29:38Z"
+      }
+    },
+    {
+      "id": "osint-mcp",
+      "name": "OSINT MCP",
+      "type": "mcp",
+      "description": "86-tool OSINT MCP server with evidence graphs, image analysis and reverse-search workflows.",
+      "primary_category": "cybersecurity",
+      "secondary_categories": [
+        "education-research"
+      ],
+      "tags": [
+        "osint",
+        "investigation",
+        "mcp",
+        "evidence"
+      ],
+      "source": {
+        "url": "https://github.com/n5za/osint-mcp",
+        "kind": "github",
+        "documentation": "https://github.com/n5za/osint-mcp",
+        "repository": "n5za/osint-mcp"
+      },
+      "install": {
+        "instructions": [
+          "Clone the repository, install it with `python -m pip install -e .`, and add it to your MCP configuration.",
+          "Restrict use to lawful, authorized investigations."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "OSINT tooling collects public and personal data. Use only for lawful, authorized research and review data retention."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 8,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-10-27T23:29:15Z"
+      }
+    },
+    {
+      "id": "ai-sessions-mcp",
+      "name": "AI Sessions MCP",
+      "type": "mcp",
+      "description": "MCP server for searching and retrieving AI coding sessions from Claude Code, Gemini CLI and other local tools.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "documents-productivity"
+      ],
+      "tags": [
+        "sessions",
+        "search",
+        "claude-code",
+        "mcp"
+      ],
+      "source": {
+        "url": "https://github.com/yoavf/ai-sessions-mcp",
+        "kind": "github",
+        "documentation": "https://github.com/yoavf/ai-sessions-mcp",
+        "repository": "yoavf/ai-sessions-mcp"
+      },
+      "install": {
+        "instructions": [
+          "Install and run the MCP server using the upstream README, then register it with OpenCode.",
+          "Review which local session directories are indexed."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Reads local AI session transcripts that may contain sensitive code and prompts. Limit indexed directories."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 31,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.7.0",
+        "last_push": "2026-08-17T10:40:53Z"
+      }
+    },
+    {
+      "id": "sense-mcp",
+      "name": "Sense",
+      "type": "mcp",
+      "description": "MCP server that gives coding agents structural code intelligence and context retrieval.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "code-intelligence",
+        "context",
+        "go",
+        "mcp"
+      ],
+      "source": {
+        "url": "https://github.com/luuuc/sense",
+        "kind": "github",
+        "documentation": "https://github.com/luuuc/sense",
+        "repository": "luuuc/sense"
+      },
+      "install": {
+        "instructions": [
+          "Install with `go install github.com/luuuc/sense/cmd/sense@latest` and register the binary as an MCP server.",
+          "Review the indexed paths and ignore rules before use."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Go"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Indexes source code and exposes it to the agent. Exclude secrets and third-party code you cannot process."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 45,
+        "observed_at": "2026-11-05",
+        "latest_release": "v1.16.3",
+        "last_push": "2026-11-04T20:16:23Z"
+      }
+    },
+    {
+      "id": "ogham-mcp",
+      "name": "Ogham MCP",
+      "type": "mcp",
+      "description": "Shared persistent-memory MCP server for Claude, OpenCode and other MCP clients.",
+      "primary_category": "software-development",
+      "secondary_categories": [
+        "ai-machine-learning"
+      ],
+      "tags": [
+        "memory",
+        "mcp",
+        "persistence",
+        "search"
+      ],
+      "source": {
+        "url": "https://github.com/ogham-mcp/ogham-mcp",
+        "kind": "github",
+        "documentation": "https://github.com/ogham-mcp/ogham-mcp",
+        "repository": "ogham-mcp/ogham-mcp"
+      },
+      "install": {
+        "instructions": [
+          "Run `uvx --from ogham-mcp ogham init` and follow the generated MCP configuration.",
+          "Review the storage backend and retention settings before storing project data."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Python 3",
+          "uv",
+          "PostgreSQL (optional)"
+        ]
+      },
+      "license": {
+        "spdx": "MIT",
+        "status": "LICENSE_VERIFIED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Stores and shares conversation memory across clients. Review storage location, access control and deletion."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_VERIFIED",
+          "MAINTAINED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed."
+      },
+      "signals": {
+        "github_stars_observed": 116,
+        "observed_at": "2026-11-05",
+        "latest_release": "v0.19.0",
+        "last_push": "2026-10-14T19:34:41Z"
+      }
+    },
+    {
+      "id": "figma-mcp",
+      "name": "Figma MCP",
+      "type": "mcp",
+      "description": "Minimal MCP bridge for logging into Figma and exposing design context to OpenCode.",
+      "primary_category": "design-ui-ux",
+      "secondary_categories": [
+        "software-development"
+      ],
+      "tags": [
+        "figma",
+        "design",
+        "mcp",
+        "bridge"
+      ],
+      "source": {
+        "url": "https://github.com/gberaudo/opencode-mcp-figma",
+        "kind": "github",
+        "documentation": "https://github.com/gberaudo/opencode-mcp-figma",
+        "repository": "gberaudo/opencode-mcp-figma"
+      },
+      "install": {
+        "instructions": [
+          "Follow the repository README to build the bridge and register it as an MCP server.",
+          "Review the Figma access scope before authenticating."
+        ],
+        "requires_api_key": false,
+        "tested": "NOT_TESTED",
+        "notes": "Not installed during cataloging; commands are derived from the upstream README."
+      },
+      "compatibility": {
+        "opencode": "compatible",
+        "platforms": [
+          "linux",
+          "macos",
+          "windows"
+        ],
+        "dependencies": [
+          "Node.js"
+        ]
+      },
+      "license": {
+        "spdx": "NOASSERTION",
+        "status": "LICENSE_REVIEW_REQUIRED"
+      },
+      "security": {
+        "level": "REVIEW REQUIRED",
+        "notes": "Connects to a Figma account and exposes design data. Review OAuth scope and workspace permissions."
+      },
+      "verification": {
+        "status": [
+          "SOURCE_VERIFIED",
+          "LICENSE_REVIEW_REQUIRED"
+        ],
+        "date": "2026-11-05",
+        "notes": "GitHub repository, license and README metadata confirmed via GitHub API on 2026-11-05. Installation and runtime behavior were not executed. No standard license was detected; review licensing before use."
+      },
+      "signals": {
+        "github_stars_observed": 98,
+        "observed_at": "2026-11-05",
+        "latest_release": null,
+        "last_push": "2026-03-31T13:53:32Z"
       }
     }
   ]

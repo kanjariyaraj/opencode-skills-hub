@@ -10,116 +10,1419 @@
     "DUPLICATE"
   ],
   "entries": [
-    { "name": "farmage/opencode-skills", "claimed_source": "farmage/opencode-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT; large language/framework skill set." },
-    { "name": "openkit", "claimed_source": "openkit", "category": "software-development", "resolution": "VERIFIED", "notes": "Resolved to jviniciusb/openkit (MIT). The bare npm name 'openkit' is an unrelated placeholder package." },
-    { "name": "devhive", "claimed_source": "pip install devhive", "category": "software-development", "resolution": "VERIFIED", "notes": "PyPI devhive 0.1.47 and npm devhive 0.1.0 both exist; upstream PyPI project points to ramBlanco/devhive." },
-    { "name": "jshsakura/awesome-opencode-skills", "claimed_source": "jshsakura/awesome-opencode-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT. Repo description says 136+ skills; brief claimed 175+." },
-    { "name": "sickn33/agentic-awesome-skills", "claimed_source": "sickn33/agentic-awesome-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT. Brief claimed 1,700+ skills; not independently counted." },
-    { "name": "@alghanem/opencode-flutter", "claimed_source": "npm @alghanem/opencode-flutter", "category": "mobile-development", "resolution": "VERIFIED", "notes": "npm package 0.3.3 confirmed; declared repository URL returns 404, so npm is the authoritative source." },
-    { "name": "MiniMax Skills", "claimed_source": "MiniMax", "category": "mobile-development", "resolution": "SOURCE_UNRESOLVED", "notes": "frontend-dev and android-native-dev skills exist in the local installed library; no upstream repository URL supplied or confirmed." },
-    { "name": "opencode-agent-kit", "claimed_source": "npm opencode-agent-kit", "category": "mobile-development", "resolution": "VERIFIED", "notes": "npm 1.3.144 confirmed; defuj/opencode-agent-kit (MIT)." },
-    { "name": "Hcachild/opencode-skills", "claimed_source": "Hcachild/opencode-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT; low activity." },
-    { "name": "naodeng/awesome-qa-skills", "claimed_source": "naodeng/awesome-qa-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION (review required)." },
-    { "name": "opencode QA", "claimed_source": "unspecified", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied; cannot verify." },
-    { "name": "qa-test-cli", "claimed_source": "npx qa-test init", "category": "software-development", "resolution": "VERIFIED", "notes": "npm 0.2.11 confirmed; MIT; declared repository URL returns 404." },
-    { "name": "opencode-plugin-gstack", "claimed_source": "npm opencode-plugin-gstack", "category": "software-development", "resolution": "VERIFIED", "notes": "npm 0.1.1 confirmed; sjzsdu/OpencodePlugins." },
-    { "name": "database-admin", "claimed_source": "npm database-admin", "category": "database-backend", "resolution": "VERIFIED", "notes": "npm 1.2.1 confirmed; MIT; nyingimaina/open-code-database-admin." },
-    { "name": "zrt-ai-lab/smart-query", "claimed_source": "zrt-ai-lab/smart-query", "category": "database-backend", "resolution": "NOT_FOUND", "notes": "GitHub repo does not exist at that path. The parent repo zrt-ai-lab/opencode-skills exists; smart-query may be a skill inside it." },
-    { "name": "opencode-postgres", "claimed_source": "npm opencode-postgres", "category": "database-backend", "resolution": "VERIFIED", "notes": "npm 1.0.0 confirmed; vimtor/opencode-plugins (MIT)." },
-    { "name": "MariaDB AI Plugins", "claimed_source": "MariaDB docs", "category": "database-backend", "resolution": "SOURCE_UNRESOLVED", "notes": "Official MariaDB documentation referenced but no exact URL supplied; not confirmed." },
-    { "name": "ui-ux-pro-max", "claimed_source": "SkillsMP", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "Resolved to nextlevelbuilder/ui-ux-pro-max-skill on GitHub (MIT)." },
-    { "name": "saurabhnemade/open-design", "claimed_source": "saurabhnemade/open-design", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; Apache-2.0." },
-    { "name": "impeccable", "claimed_source": "impeccable", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "Resolved to pbakaus/impeccable (Apache-2.0)." },
-    { "name": "oh-my-design-cli", "claimed_source": "npm oh-my-design-cli", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "npm 2.0.6 confirmed; kwakseongjae/oh-my-design (MIT)." },
-    { "name": "sprezzature", "claimed_source": "pip install sprezzature", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "PyPI 1.6.0 confirmed; license not declared in PyPI metadata (review required)." },
-    { "name": "@opensploit/core", "claimed_source": "npm @opensploit/core", "category": "cybersecurity", "resolution": "VERIFIED", "notes": "npm 0.2.0 confirmed; silicon-works/opensploit-plugin (MIT). Offensive tooling: authorized targets only." },
-    { "name": "open-sploit", "claimed_source": "npx open-sploit", "category": "cybersecurity", "resolution": "VERIFIED", "notes": "npm 1.2.0 confirmed; no repository URL in registry metadata. Offensive tooling: authorized targets only." },
-    { "name": "awarexone/Agentic-Bug-Hunter", "claimed_source": "awarexone/Agentic-Bug-Hunter", "category": "cybersecurity", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT. Bug-bounty framework; authorized programs only." },
-    { "name": "pentester-mcp", "claimed_source": "pip install pentester-mcp", "category": "cybersecurity", "resolution": "VERIFIED", "notes": "PyPI 0.4.0 confirmed; MIT. Authorization-gated MCP server." },
-    { "name": "@bengabay94/mrzero", "claimed_source": "npx @bengabay94/mrzero install", "category": "cybersecurity", "resolution": "VERIFIED", "notes": "npm 0.1.0-alpha.1 confirmed; bengabay1994/MrZero (MIT)." },
-    { "name": "GeniusHu-tgty/oc-tgtylab", "claimed_source": "GeniusHu-tgty/oc-tgtylab", "category": "cybersecurity", "resolution": "NOT_FOUND", "notes": "GitHub repo not found on 2026-11-05." },
-    { "name": "Yunnijian/android-kernel-lkm", "claimed_source": "Yunnijian/android-kernel-lkm", "category": "linux-low-level", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION (review required)." },
-    { "name": "oywjun/opencode-skills", "claimed_source": "oywjun/opencode-skills", "category": "linux-low-level", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION; last push 2026-01-14." },
-    { "name": "Linux Kernel OpenCode Config", "claimed_source": "AtomGit", "category": "linux-low-level", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact AtomGit URL supplied." },
-    { "name": "Hugging Face kernel-builder", "claimed_source": "kernel-builder skills add --opencode", "category": "linux-low-level", "resolution": "SOURCE_UNRESOLVED", "notes": "Hugging Face project referenced; exact OpenCode integration URL not supplied." },
-    { "name": "hyperb1iss/hyperdroid-skill", "claimed_source": "hyperb1iss/hyperdroid-skill", "category": "android-system-custom-rom", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "termux-skill", "claimed_source": "npm termux-skill", "category": "android-system-custom-rom", "resolution": "VERIFIED", "notes": "npm 1.3.0 confirmed; itskreisler/termux-skill; license CC-BY-NC-4.0 (non-commercial)." },
-    { "name": "Hope2333/opencode-termux", "claimed_source": "Hope2333/opencode-termux", "category": "android-system-custom-rom", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "opencode-nanobanana", "claimed_source": "npm opencode-nanobanana", "category": "image-generation", "resolution": "VERIFIED", "notes": "npm 0.3.0 confirmed; 48Nauts-Operator/opencode-nanobanana; license NOASSERTION." },
-    { "name": "ffhub-ffmpeg", "claimed_source": "ffhub-io/ffhub-ffmpeg", "category": "video-generation", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "video-recap-skills", "claimed_source": "unspecified", "category": "video-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "videocut-clip", "claimed_source": "zrt-ai-lab/opencode-skills", "category": "video-generation", "resolution": "VERIFIED", "notes": "Parent repo verified; skill-level entry not independently executed." },
-    { "name": "video-subtitle-cutter", "claimed_source": "unspecified", "category": "video-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "legnext-ai/skills", "claimed_source": "legnext-ai/skills", "category": "image-generation", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "ai-artist", "claimed_source": "Stonelukas/Mouse-on-Numpad", "category": "image-generation", "resolution": "VERIFIED", "notes": "Parent repo confirmed; MIT; skill-level entry not independently executed." },
-    { "name": "AI Image Generator", "claimed_source": "unspecified", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "Midjourney MCP", "claimed_source": "Ace Data Cloud", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "Vendor referenced; exact MCP endpoint not supplied." },
-    { "name": "Generative Media Skills", "claimed_source": "unspecified", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "opencode-media-skills", "claimed_source": "unknown", "category": "image-generation", "resolution": "NOT_FOUND", "notes": "Not present on npm; no GitHub repo found under that exact name." },
-    { "name": "kedbin/relearning-flow", "claimed_source": "kedbin/relearning-flow", "category": "audio-music", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "audio-jingle", "claimed_source": "opencode-supreme-setup", "category": "audio-music", "resolution": "SOURCE_UNRESOLVED", "notes": "Referenced as part of an unverified setup collection." },
-    { "name": "mimo-audio-skill", "claimed_source": "unspecified GitHub repo", "category": "audio-music", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact repository supplied." },
-    { "name": "podo/design-agent-skills", "claimed_source": "podo/design-agent-skills", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "codex-skills-alternative", "claimed_source": "unspecified GitHub repo", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact repository supplied." },
-    { "name": "designing-canvas-art", "claimed_source": "osmontero/opencode-skills", "category": "design-ui-ux", "resolution": "VERIFIED", "notes": "Parent repo confirmed; MIT; skill-level entry not independently executed." },
-    { "name": "create-opencode-workspace", "claimed_source": "npx create-opencode-workspace", "category": "content-marketing", "resolution": "SOURCE_UNRESOLVED", "notes": "npm package not checked in this pass; treat as unverified." },
-    { "name": "content-creator-core", "claimed_source": "SkillsMP", "category": "content-marketing", "resolution": "SOURCE_UNRESOLVED", "notes": "SkillsMP listing referenced; no canonical repository supplied." },
-    { "name": "social-post-writer-seo", "claimed_source": "unspecified", "category": "content-marketing", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "linkedin-content-generator", "claimed_source": "unspecified", "category": "content-marketing", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "cmo-so/marketing", "claimed_source": "cmo-so/marketing", "category": "content-marketing", "resolution": "NOT_FOUND", "notes": "GitHub repo not found on 2026-11-05." },
-    { "name": "grand151/awesome-opencode-skills", "claimed_source": "grand151/awesome-opencode-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION; last push 2025-12-29." },
-    { "name": "academic-researcher", "claimed_source": "create-opencode-workspace template", "category": "education-research", "resolution": "SOURCE_UNRESOLVED", "notes": "Template referenced; workspace package unverified." },
-    { "name": "paper-reading", "claimed_source": "unspecified GitHub repo", "category": "education-research", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact repository supplied." },
-    { "name": "opencode-supreme-setup", "claimed_source": "SkillsMP", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Collection referenced; no canonical repository supplied." },
-    { "name": "opencodeskills.dev", "claimed_source": "https://opencodeskills.dev", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Website referenced; not fetched or validated in this pass." },
-    { "name": "luongnv89/awesome-skills", "claimed_source": "luongnv89/awesome-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "tokifyi/awesome-agent-skills-1", "claimed_source": "tokifyi/awesome-agent-skills-1", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "TheArchitectit/awesome-opencode-skills", "claimed_source": "TheArchitectit/awesome-opencode-skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "SteamedFish/skills", "claimed_source": "SteamedFish/skills", "category": "software-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "@aegntic/bypass-agent", "claimed_source": "npm @aegntic/bypass-agent", "category": "cybersecurity", "resolution": "RESTRICTED", "notes": "Permission-bypass tooling. Excluded from catalog; see restricted/README.md." },
-    { "name": "opencode-god-plugin", "claimed_source": "npm opencode-god-plugin", "category": "cybersecurity", "resolution": "RESTRICTED", "notes": "Permission-bypass tooling. Excluded from catalog; see restricted/README.md." },
-    { "name": "opencode-gpt-unlocked", "claimed_source": "unspecified GitHub repo", "category": "cybersecurity", "resolution": "RESTRICTED", "notes": "Refusal-rewrite tooling. Excluded from catalog; see restricted/README.md." },
-    { "name": "evil-opencode", "claimed_source": "unspecified GitHub repo", "category": "cybersecurity", "resolution": "RESTRICTED", "notes": "Guardrail-stripped fork. Excluded from catalog; see restricted/README.md." },
-    { "name": "agent-ml-skills", "claimed_source": "npm agent-ml-skills", "category": "ai-machine-learning", "resolution": "VERIFIED", "notes": "npm 0.1.0 confirmed; param087/agent-ml-skills (MIT)." },
-    { "name": "charlieviettq/awesome-agent-skill", "claimed_source": "charlieviettq/awesome-agent-skill", "category": "ai-machine-learning", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT. Brief claimed 598 skills; not independently counted." },
-    { "name": "lib-transformers", "claimed_source": "Skills.rest", "category": "ai-machine-learning", "resolution": "SOURCE_UNRESOLVED", "notes": "Skills.rest listing referenced; no canonical repository supplied." },
-    { "name": "statistics-science", "claimed_source": "ffsshhttiikk/opencode-agents-skills", "category": "data-science", "resolution": "SOURCE_UNRESOLVED", "notes": "Repository referenced only inside a GitHub URL in the brief; not verified by API in this pass." },
-    { "name": "TraftG/opencode-game-studio", "claimed_source": "TraftG/opencode-game-studio", "category": "game-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "MRCalderon3D/everything-game-dev-code", "claimed_source": "MRCalderon3D/everything-game-dev-code", "category": "game-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "delta120S/gamedev-agent-skills", "claimed_source": "delta120S/gamedev-agent-skills", "category": "game-development", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "Godot3D-Harness", "claimed_source": "Awesome Skills", "category": "game-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Listing referenced; no canonical repository supplied." },
-    { "name": "OpenCodeGameStudios (SkillsMP)", "claimed_source": "SkillsMP / striderZA", "category": "game-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Listing referenced; no canonical repository supplied." },
-    { "name": "pkuxkxjason/skills", "claimed_source": "pkuxkxjason/skills", "category": "video-generation", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "3d-web-skill", "claimed_source": "npm 3d-web-skill", "category": "image-generation", "resolution": "VERIFIED", "notes": "npm 0.3.1 confirmed; license MIT; no repository URL in registry metadata." },
-    { "name": "img2threejs", "claimed_source": "img2threejs", "category": "image-generation", "resolution": "VERIFIED", "notes": "Resolved to img2threejs/img2threejs (Apache-2.0)." },
-    { "name": "anatomy", "claimed_source": "unspecified GitHub repo", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact repository supplied." },
-    { "name": "aniruddhaadak80/skills", "claimed_source": "aniruddhaadak80/skills", "category": "business-finance", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; MIT." },
-    { "name": "chendongqi/OPB-Skills", "claimed_source": "chendongqi/OPB-Skills", "category": "business-finance", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "finance-skills", "claimed_source": "alirezarezvani", "category": "business-finance", "resolution": "SOURCE_UNRESOLVED", "notes": "Owner name supplied without repository name." },
-    { "name": "opencode-playwright-interactive", "claimed_source": "unspecified GitHub repo", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "No exact repository supplied." },
-    { "name": "opencode-browser-control", "claimed_source": "npm opencode-browser-control", "category": "software-development", "resolution": "VERIFIED", "notes": "npm 0.1.0 confirmed; FileXego/opencode-browser-control." },
-    { "name": "HossamYoussof/opencode-config", "claimed_source": "HossamYoussof/opencode-config", "category": "documents-productivity", "resolution": "VERIFIED", "notes": "GitHub repo confirmed; license NOASSERTION." },
-    { "name": "MK-ORGANIZATION-1/AGENTS-COLLECTION", "claimed_source": "MK-ORGANIZATION-1/AGENTS-COLLECTION", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Referenced in research; not verified by API in this pass." },
-    { "name": "duckbrain", "claimed_source": "pip install duckbrain", "category": "documents-productivity", "resolution": "VERIFIED", "notes": "PyPI 0.7.0 confirmed; license not declared in PyPI metadata." },
-    { "name": "opencode-productivity-agent", "claimed_source": "npm opencode-productivity-agent", "category": "documents-productivity", "resolution": "VERIFIED", "notes": "npm 0.2.1 confirmed; MIT; no repository URL in registry metadata." },
-    { "name": "everything-backend", "claimed_source": "unspecified", "category": "database-backend", "resolution": "SOURCE_UNRESOLVED", "notes": "No owner/repository supplied." },
-    { "name": "civiltekk-skills", "claimed_source": "civiltekk-skills", "category": "documents-productivity", "resolution": "VERIFIED", "notes": "Resolved to darellchua2/civiltekk-skills (Apache-2.0)." },
-    { "name": "WaveSpeed Skill", "claimed_source": "npm @wavespeed/cli", "category": "video-generation", "resolution": "VERIFIED", "notes": "npm 0.4.27 confirmed; WaveSpeedAI/wavespeed-cli (MIT)." },
-    { "name": "android-build", "claimed_source": "JTech Forums", "category": "android-system-custom-rom", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "android-8-policy", "claimed_source": "JTech Forums", "category": "android-system-custom-rom", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "android-reverse-engineering", "claimed_source": "JTech Forums", "category": "android-system-custom-rom", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "reverse-engineer-anything", "claimed_source": "JTech Forums", "category": "cybersecurity", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "apktool", "claimed_source": "JTech Forums", "category": "android-system-custom-rom", "resolution": "SOURCE_UNRESOLVED", "notes": "Refers to the well-known APK tool, not necessarily an OpenCode skill." },
-    { "name": "material-design-3-ui", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "design-taste-frontend", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "interface-design", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "motion-design", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "render-visual", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "spotkit", "claimed_source": "JTech Forums", "category": "design-ui-ux", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "svg-creator", "claimed_source": "JTech Forums", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "algorithmic-art", "claimed_source": "JTech Forums", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "canvas", "claimed_source": "JTech Forums", "category": "image-generation", "resolution": "SOURCE_UNRESOLVED", "notes": "Forum-listed skill; no canonical repository supplied." },
-    { "name": "WebGL", "claimed_source": "JTech Forums", "category": "software-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Technology, not a verified resource." },
-    { "name": "mobile-developer", "claimed_source": "SkillsAuth", "category": "mobile-development", "resolution": "SOURCE_UNRESOLVED", "notes": "Listing referenced; no canonical repository supplied." }
+    {
+      "name": "farmage/opencode-skills",
+      "claimed_source": "farmage/opencode-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT; large language/framework skill set."
+    },
+    {
+      "name": "openkit",
+      "claimed_source": "openkit",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "Resolved to jviniciusb/openkit (MIT). The bare npm name 'openkit' is an unrelated placeholder package."
+    },
+    {
+      "name": "devhive",
+      "claimed_source": "pip install devhive",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "PyPI devhive 0.1.47 and npm devhive 0.1.0 both exist; upstream PyPI project points to ramBlanco/devhive."
+    },
+    {
+      "name": "jshsakura/awesome-opencode-skills",
+      "claimed_source": "jshsakura/awesome-opencode-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT. Repo description says 136+ skills; brief claimed 175+."
+    },
+    {
+      "name": "sickn33/agentic-awesome-skills",
+      "claimed_source": "sickn33/agentic-awesome-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT. Brief claimed 1,700+ skills; not independently counted."
+    },
+    {
+      "name": "@alghanem/opencode-flutter",
+      "claimed_source": "npm @alghanem/opencode-flutter",
+      "category": "mobile-development",
+      "resolution": "VERIFIED",
+      "notes": "npm package 0.3.3 confirmed; declared repository URL returns 404, so npm is the authoritative source."
+    },
+    {
+      "name": "MiniMax Skills",
+      "claimed_source": "MiniMax",
+      "category": "mobile-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "frontend-dev and android-native-dev skills exist in the local installed library; no upstream repository URL supplied or confirmed."
+    },
+    {
+      "name": "opencode-agent-kit",
+      "claimed_source": "npm opencode-agent-kit",
+      "category": "mobile-development",
+      "resolution": "VERIFIED",
+      "notes": "npm 1.3.144 confirmed; defuj/opencode-agent-kit (MIT)."
+    },
+    {
+      "name": "Hcachild/opencode-skills",
+      "claimed_source": "Hcachild/opencode-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT; low activity."
+    },
+    {
+      "name": "naodeng/awesome-qa-skills",
+      "claimed_source": "naodeng/awesome-qa-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION (review required)."
+    },
+    {
+      "name": "opencode QA",
+      "claimed_source": "unspecified",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied; cannot verify."
+    },
+    {
+      "name": "qa-test-cli",
+      "claimed_source": "npx qa-test init",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.2.11 confirmed; MIT; declared repository URL returns 404."
+    },
+    {
+      "name": "opencode-plugin-gstack",
+      "claimed_source": "npm opencode-plugin-gstack",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.1.1 confirmed; sjzsdu/OpencodePlugins."
+    },
+    {
+      "name": "database-admin",
+      "claimed_source": "npm database-admin",
+      "category": "database-backend",
+      "resolution": "VERIFIED",
+      "notes": "npm 1.2.1 confirmed; MIT; nyingimaina/open-code-database-admin."
+    },
+    {
+      "name": "zrt-ai-lab/smart-query",
+      "claimed_source": "zrt-ai-lab/smart-query",
+      "category": "database-backend",
+      "resolution": "NOT_FOUND",
+      "notes": "GitHub repo does not exist at that path. The parent repo zrt-ai-lab/opencode-skills exists; smart-query may be a skill inside it."
+    },
+    {
+      "name": "opencode-postgres",
+      "claimed_source": "npm opencode-postgres",
+      "category": "database-backend",
+      "resolution": "VERIFIED",
+      "notes": "npm 1.0.0 confirmed; vimtor/opencode-plugins (MIT)."
+    },
+    {
+      "name": "MariaDB AI Plugins",
+      "claimed_source": "MariaDB docs",
+      "category": "database-backend",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Official MariaDB documentation referenced but no exact URL supplied; not confirmed."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "claimed_source": "SkillsMP",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "Resolved to nextlevelbuilder/ui-ux-pro-max-skill on GitHub (MIT)."
+    },
+    {
+      "name": "saurabhnemade/open-design",
+      "claimed_source": "saurabhnemade/open-design",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; Apache-2.0."
+    },
+    {
+      "name": "impeccable",
+      "claimed_source": "impeccable",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "Resolved to pbakaus/impeccable (Apache-2.0)."
+    },
+    {
+      "name": "oh-my-design-cli",
+      "claimed_source": "npm oh-my-design-cli",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "npm 2.0.6 confirmed; kwakseongjae/oh-my-design (MIT)."
+    },
+    {
+      "name": "sprezzature",
+      "claimed_source": "pip install sprezzature",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "PyPI 1.6.0 confirmed; license not declared in PyPI metadata (review required)."
+    },
+    {
+      "name": "@opensploit/core",
+      "claimed_source": "npm @opensploit/core",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.2.0 confirmed; silicon-works/opensploit-plugin (MIT). Offensive tooling: authorized targets only."
+    },
+    {
+      "name": "open-sploit",
+      "claimed_source": "npx open-sploit",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "npm 1.2.0 confirmed; no repository URL in registry metadata. Offensive tooling: authorized targets only."
+    },
+    {
+      "name": "awarexone/Agentic-Bug-Hunter",
+      "claimed_source": "awarexone/Agentic-Bug-Hunter",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT. Bug-bounty framework; authorized programs only."
+    },
+    {
+      "name": "pentester-mcp",
+      "claimed_source": "pip install pentester-mcp",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "PyPI 0.4.0 confirmed; MIT. Authorization-gated MCP server."
+    },
+    {
+      "name": "@bengabay94/mrzero",
+      "claimed_source": "npx @bengabay94/mrzero install",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.1.0-alpha.1 confirmed; bengabay1994/MrZero (MIT)."
+    },
+    {
+      "name": "GeniusHu-tgty/oc-tgtylab",
+      "claimed_source": "GeniusHu-tgty/oc-tgtylab",
+      "category": "cybersecurity",
+      "resolution": "NOT_FOUND",
+      "notes": "GitHub repo not found on 2026-11-05."
+    },
+    {
+      "name": "Yunnijian/android-kernel-lkm",
+      "claimed_source": "Yunnijian/android-kernel-lkm",
+      "category": "linux-low-level",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION (review required)."
+    },
+    {
+      "name": "oywjun/opencode-skills",
+      "claimed_source": "oywjun/opencode-skills",
+      "category": "linux-low-level",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION; last push 2026-01-14."
+    },
+    {
+      "name": "Linux Kernel OpenCode Config",
+      "claimed_source": "AtomGit",
+      "category": "linux-low-level",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact AtomGit URL supplied."
+    },
+    {
+      "name": "Hugging Face kernel-builder",
+      "claimed_source": "kernel-builder skills add --opencode",
+      "category": "linux-low-level",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Hugging Face project referenced; exact OpenCode integration URL not supplied."
+    },
+    {
+      "name": "hyperb1iss/hyperdroid-skill",
+      "claimed_source": "hyperb1iss/hyperdroid-skill",
+      "category": "android-system-custom-rom",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "termux-skill",
+      "claimed_source": "npm termux-skill",
+      "category": "android-system-custom-rom",
+      "resolution": "VERIFIED",
+      "notes": "npm 1.3.0 confirmed; itskreisler/termux-skill; license CC-BY-NC-4.0 (non-commercial)."
+    },
+    {
+      "name": "Hope2333/opencode-termux",
+      "claimed_source": "Hope2333/opencode-termux",
+      "category": "android-system-custom-rom",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "opencode-nanobanana",
+      "claimed_source": "npm opencode-nanobanana",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.3.0 confirmed; 48Nauts-Operator/opencode-nanobanana; license NOASSERTION."
+    },
+    {
+      "name": "ffhub-ffmpeg",
+      "claimed_source": "ffhub-io/ffhub-ffmpeg",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "video-recap-skills",
+      "claimed_source": "unspecified",
+      "category": "video-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "videocut-clip",
+      "claimed_source": "zrt-ai-lab/opencode-skills",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "Parent repo verified; skill-level entry not independently executed."
+    },
+    {
+      "name": "video-subtitle-cutter",
+      "claimed_source": "unspecified",
+      "category": "video-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "legnext-ai/skills",
+      "claimed_source": "legnext-ai/skills",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "ai-artist",
+      "claimed_source": "Stonelukas/Mouse-on-Numpad",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "Parent repo confirmed; MIT; skill-level entry not independently executed."
+    },
+    {
+      "name": "AI Image Generator",
+      "claimed_source": "unspecified",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "Midjourney MCP",
+      "claimed_source": "Ace Data Cloud",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Vendor referenced; exact MCP endpoint not supplied."
+    },
+    {
+      "name": "Generative Media Skills",
+      "claimed_source": "unspecified",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "opencode-media-skills",
+      "claimed_source": "unknown",
+      "category": "image-generation",
+      "resolution": "NOT_FOUND",
+      "notes": "Not present on npm; no GitHub repo found under that exact name."
+    },
+    {
+      "name": "kedbin/relearning-flow",
+      "claimed_source": "kedbin/relearning-flow",
+      "category": "audio-music",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "audio-jingle",
+      "claimed_source": "opencode-supreme-setup",
+      "category": "audio-music",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Referenced as part of an unverified setup collection."
+    },
+    {
+      "name": "mimo-audio-skill",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "audio-music",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact repository supplied."
+    },
+    {
+      "name": "podo/design-agent-skills",
+      "claimed_source": "podo/design-agent-skills",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "codex-skills-alternative",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact repository supplied."
+    },
+    {
+      "name": "designing-canvas-art",
+      "claimed_source": "osmontero/opencode-skills",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "Parent repo confirmed; MIT; skill-level entry not independently executed."
+    },
+    {
+      "name": "create-opencode-workspace",
+      "claimed_source": "npx create-opencode-workspace",
+      "category": "content-marketing",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "npm package not checked in this pass; treat as unverified."
+    },
+    {
+      "name": "content-creator-core",
+      "claimed_source": "SkillsMP",
+      "category": "content-marketing",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "SkillsMP listing referenced; no canonical repository supplied."
+    },
+    {
+      "name": "social-post-writer-seo",
+      "claimed_source": "unspecified",
+      "category": "content-marketing",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "linkedin-content-generator",
+      "claimed_source": "unspecified",
+      "category": "content-marketing",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "cmo-so/marketing",
+      "claimed_source": "cmo-so/marketing",
+      "category": "content-marketing",
+      "resolution": "NOT_FOUND",
+      "notes": "GitHub repo not found on 2026-11-05."
+    },
+    {
+      "name": "grand151/awesome-opencode-skills",
+      "claimed_source": "grand151/awesome-opencode-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION; last push 2025-12-29."
+    },
+    {
+      "name": "academic-researcher",
+      "claimed_source": "create-opencode-workspace template",
+      "category": "education-research",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Template referenced; workspace package unverified."
+    },
+    {
+      "name": "paper-reading",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "education-research",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact repository supplied."
+    },
+    {
+      "name": "opencode-supreme-setup",
+      "claimed_source": "SkillsMP",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Collection referenced; no canonical repository supplied."
+    },
+    {
+      "name": "opencodeskills.dev",
+      "claimed_source": "https://opencodeskills.dev",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Website referenced; not fetched or validated in this pass."
+    },
+    {
+      "name": "luongnv89/awesome-skills",
+      "claimed_source": "luongnv89/awesome-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "tokifyi/awesome-agent-skills-1",
+      "claimed_source": "tokifyi/awesome-agent-skills-1",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "TheArchitectit/awesome-opencode-skills",
+      "claimed_source": "TheArchitectit/awesome-opencode-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "SteamedFish/skills",
+      "claimed_source": "SteamedFish/skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "@aegntic/bypass-agent",
+      "claimed_source": "npm @aegntic/bypass-agent",
+      "category": "cybersecurity",
+      "resolution": "RESTRICTED",
+      "notes": "Permission-bypass tooling. Excluded from catalog; see restricted/README.md."
+    },
+    {
+      "name": "opencode-god-plugin",
+      "claimed_source": "npm opencode-god-plugin",
+      "category": "cybersecurity",
+      "resolution": "RESTRICTED",
+      "notes": "Permission-bypass tooling. Excluded from catalog; see restricted/README.md."
+    },
+    {
+      "name": "opencode-gpt-unlocked",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "cybersecurity",
+      "resolution": "RESTRICTED",
+      "notes": "Refusal-rewrite tooling. Excluded from catalog; see restricted/README.md."
+    },
+    {
+      "name": "evil-opencode",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "cybersecurity",
+      "resolution": "RESTRICTED",
+      "notes": "Guardrail-stripped fork. Excluded from catalog; see restricted/README.md."
+    },
+    {
+      "name": "agent-ml-skills",
+      "claimed_source": "npm agent-ml-skills",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.1.0 confirmed; param087/agent-ml-skills (MIT)."
+    },
+    {
+      "name": "charlieviettq/awesome-agent-skill",
+      "claimed_source": "charlieviettq/awesome-agent-skill",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT. Brief claimed 598 skills; not independently counted."
+    },
+    {
+      "name": "lib-transformers",
+      "claimed_source": "Skills.rest",
+      "category": "ai-machine-learning",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Skills.rest listing referenced; no canonical repository supplied."
+    },
+    {
+      "name": "statistics-science",
+      "claimed_source": "ffsshhttiikk/opencode-agents-skills",
+      "category": "data-science",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Repository referenced only inside a GitHub URL in the brief; not verified by API in this pass."
+    },
+    {
+      "name": "TraftG/opencode-game-studio",
+      "claimed_source": "TraftG/opencode-game-studio",
+      "category": "game-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "MRCalderon3D/everything-game-dev-code",
+      "claimed_source": "MRCalderon3D/everything-game-dev-code",
+      "category": "game-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "delta120S/gamedev-agent-skills",
+      "claimed_source": "delta120S/gamedev-agent-skills",
+      "category": "game-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "Godot3D-Harness",
+      "claimed_source": "Awesome Skills",
+      "category": "game-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Listing referenced; no canonical repository supplied."
+    },
+    {
+      "name": "OpenCodeGameStudios (SkillsMP)",
+      "claimed_source": "SkillsMP / striderZA",
+      "category": "game-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Listing referenced; no canonical repository supplied."
+    },
+    {
+      "name": "pkuxkxjason/skills",
+      "claimed_source": "pkuxkxjason/skills",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "3d-web-skill",
+      "claimed_source": "npm 3d-web-skill",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.3.1 confirmed; license MIT; no repository URL in registry metadata."
+    },
+    {
+      "name": "img2threejs",
+      "claimed_source": "img2threejs",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "Resolved to img2threejs/img2threejs (Apache-2.0)."
+    },
+    {
+      "name": "anatomy",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact repository supplied."
+    },
+    {
+      "name": "aniruddhaadak80/skills",
+      "claimed_source": "aniruddhaadak80/skills",
+      "category": "business-finance",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; MIT."
+    },
+    {
+      "name": "chendongqi/OPB-Skills",
+      "claimed_source": "chendongqi/OPB-Skills",
+      "category": "business-finance",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "finance-skills",
+      "claimed_source": "alirezarezvani",
+      "category": "business-finance",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Owner name supplied without repository name."
+    },
+    {
+      "name": "opencode-playwright-interactive",
+      "claimed_source": "unspecified GitHub repo",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No exact repository supplied."
+    },
+    {
+      "name": "opencode-browser-control",
+      "claimed_source": "npm opencode-browser-control",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.1.0 confirmed; FileXego/opencode-browser-control."
+    },
+    {
+      "name": "HossamYoussof/opencode-config",
+      "claimed_source": "HossamYoussof/opencode-config",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repo confirmed; license NOASSERTION."
+    },
+    {
+      "name": "MK-ORGANIZATION-1/AGENTS-COLLECTION",
+      "claimed_source": "MK-ORGANIZATION-1/AGENTS-COLLECTION",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Referenced in research; not verified by API in this pass."
+    },
+    {
+      "name": "duckbrain",
+      "claimed_source": "pip install duckbrain",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "PyPI 0.7.0 confirmed; license not declared in PyPI metadata."
+    },
+    {
+      "name": "opencode-productivity-agent",
+      "claimed_source": "npm opencode-productivity-agent",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.2.1 confirmed; MIT; no repository URL in registry metadata."
+    },
+    {
+      "name": "everything-backend",
+      "claimed_source": "unspecified",
+      "category": "database-backend",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "No owner/repository supplied."
+    },
+    {
+      "name": "civiltekk-skills",
+      "claimed_source": "civiltekk-skills",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "Resolved to darellchua2/civiltekk-skills (Apache-2.0)."
+    },
+    {
+      "name": "WaveSpeed Skill",
+      "claimed_source": "npm @wavespeed/cli",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "npm 0.4.27 confirmed; WaveSpeedAI/wavespeed-cli (MIT)."
+    },
+    {
+      "name": "android-build",
+      "claimed_source": "JTech Forums",
+      "category": "android-system-custom-rom",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "android-8-policy",
+      "claimed_source": "JTech Forums",
+      "category": "android-system-custom-rom",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "android-reverse-engineering",
+      "claimed_source": "JTech Forums",
+      "category": "android-system-custom-rom",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "claimed_source": "JTech Forums",
+      "category": "cybersecurity",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "apktool",
+      "claimed_source": "JTech Forums",
+      "category": "android-system-custom-rom",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Refers to the well-known APK tool, not necessarily an OpenCode skill."
+    },
+    {
+      "name": "material-design-3-ui",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "design-taste-frontend",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "interface-design",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "motion-design",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "render-visual",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "spotkit",
+      "claimed_source": "JTech Forums",
+      "category": "design-ui-ux",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "svg-creator",
+      "claimed_source": "JTech Forums",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "algorithmic-art",
+      "claimed_source": "JTech Forums",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "canvas",
+      "claimed_source": "JTech Forums",
+      "category": "image-generation",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Forum-listed skill; no canonical repository supplied."
+    },
+    {
+      "name": "WebGL",
+      "claimed_source": "JTech Forums",
+      "category": "software-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Technology, not a verified resource."
+    },
+    {
+      "name": "mobile-developer",
+      "claimed_source": "SkillsAuth",
+      "category": "mobile-development",
+      "resolution": "SOURCE_UNRESOLVED",
+      "notes": "Listing referenced; no canonical repository supplied."
+    },
+    {
+      "name": "0xS4N4TG/papercut-explainer",
+      "claimed_source": "0xS4N4TG/papercut-explainer",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Besty0728/Unity-Skills",
+      "claimed_source": "Besty0728/Unity-Skills",
+      "category": "game-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "NyxTides/ppt-image-first",
+      "claimed_source": "NyxTides/ppt-image-first",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Vann4799/design-md-generator",
+      "claimed_source": "Vann4799/design-md-generator",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Weizhena/Deep-Research-skills",
+      "claimed_source": "Weizhena/Deep-Research-skills",
+      "category": "education-research",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Wholiver/swiftui-design-skill",
+      "claimed_source": "Wholiver/swiftui-design-skill",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Zenobia000/iSpan_python-FE_DM-cookbooks",
+      "claimed_source": "Zenobia000/iSpan_python-FE_DM-cookbooks",
+      "category": "data-science",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "adrunkhuman/marimo-opencode-skill",
+      "claimed_source": "adrunkhuman/marimo-opencode-skill",
+      "category": "data-science",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "antongulin/opencode-skill-creator",
+      "claimed_source": "antongulin/opencode-skill-creator",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "b6k-dev/quarkus-skill",
+      "claimed_source": "b6k-dev/quarkus-skill",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "enihcam/aur-skills",
+      "claimed_source": "enihcam/aur-skills",
+      "category": "linux-low-level",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "konraddzbik/architecture-diagram-skill",
+      "claimed_source": "konraddzbik/architecture-diagram-skill",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "leiverkus/open-document-skills",
+      "claimed_source": "leiverkus/open-document-skills",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ljagiello/ctf-skills",
+      "claimed_source": "ljagiello/ctf-skills",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "midasmatterhorn/artcraft-skills",
+      "claimed_source": "midasmatterhorn/artcraft-skills",
+      "category": "image-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "r007b34r/opencode-obsidian-knowledge-workflow",
+      "claimed_source": "r007b34r/opencode-obsidian-knowledge-workflow",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "smixs/osint-skill",
+      "claimed_source": "smixs/osint-skill",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "tercel/spec-forge",
+      "claimed_source": "tercel/spec-forge",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "timpara/opencode-academic-research",
+      "claimed_source": "timpara/opencode-academic-research",
+      "category": "education-research",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "udapy/rust-agentic-skills",
+      "claimed_source": "udapy/rust-agentic-skills",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "unknowlei/minimax-h3-opencode-skills",
+      "claimed_source": "unknowlei/minimax-h3-opencode-skills",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "konglong87/superPM",
+      "claimed_source": "konglong87/superPM",
+      "category": "business-finance",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ricky-theseus/DaisyWriter",
+      "claimed_source": "ricky-theseus/DaisyWriter",
+      "category": "content-marketing",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "pycodebr/heditor",
+      "claimed_source": "pycodebr/heditor",
+      "category": "video-generation",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "amrahman90/python-expert-agent",
+      "claimed_source": "amrahman90/python-expert-agent",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "AlaeddineMessadi/opencode-mcp",
+      "claimed_source": "AlaeddineMessadi/opencode-mcp",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ThinkDonk/ast-grep-mcp",
+      "claimed_source": "ThinkDonk/ast-grep-mcp",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "flupkede/codesearch",
+      "claimed_source": "flupkede/codesearch",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "n5za/osint-mcp",
+      "claimed_source": "n5za/osint-mcp",
+      "category": "cybersecurity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "yoavf/ai-sessions-mcp",
+      "claimed_source": "yoavf/ai-sessions-mcp",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "luuuc/sense",
+      "claimed_source": "luuuc/sense",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ogham-mcp/ogham-mcp",
+      "claimed_source": "ogham-mcp/ogham-mcp",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "gberaudo/opencode-mcp-figma",
+      "claimed_source": "gberaudo/opencode-mcp-figma",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "catppuccin/opencode",
+      "claimed_source": "catppuccin/opencode",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "dracula/opencode",
+      "claimed_source": "dracula/opencode",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "fatihtoprakk/opencode-light-themes",
+      "claimed_source": "fatihtoprakk/opencode-light-themes",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "magimetal/synthwave-themes",
+      "claimed_source": "magimetal/synthwave-themes",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "postrednik/opencode-ayu-theme",
+      "claimed_source": "postrednik/opencode-ayu-theme",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "regen45t/opencode-vscode-themes",
+      "claimed_source": "regen45t/opencode-vscode-themes",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ajaxdude/opencode-ai-poimandres-theme",
+      "claimed_source": "ajaxdude/opencode-ai-poimandres-theme",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "brunogabriel/opencode-moonlight-theme",
+      "claimed_source": "brunogabriel/opencode-moonlight-theme",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ApplauseLab/opencode-plugin-simple-memory",
+      "claimed_source": "ApplauseLab/opencode-plugin-simple-memory",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "DEVtheOPS/opencode-plugin-otel",
+      "claimed_source": "DEVtheOPS/opencode-plugin-otel",
+      "category": "devops-cloud",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Hotakus/opencode-subagent-magazine",
+      "claimed_source": "Hotakus/opencode-subagent-magazine",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "JRedeker/opencode-morph-fast-apply",
+      "claimed_source": "JRedeker/opencode-morph-fast-apply",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "KochC/opencode-llm-proxy",
+      "claimed_source": "KochC/opencode-llm-proxy",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "MrDoe/OpenCodeRAG",
+      "claimed_source": "MrDoe/OpenCodeRAG",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "MrGray17/opentoken",
+      "claimed_source": "MrGray17/opentoken",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Mte90/opencode-auto-resume",
+      "claimed_source": "Mte90/opencode-auto-resume",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "NoeFabris/opencode-antigravity-auth",
+      "claimed_source": "NoeFabris/opencode-antigravity-auth",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Octane0411/opencode-plugin-openspec",
+      "claimed_source": "Octane0411/opencode-plugin-openspec",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "Tarquinen/opencode-dynamic-context-pruning",
+      "claimed_source": "Tarquinen/opencode-dynamic-context-pruning",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "TejasS1233/opencode-parser",
+      "claimed_source": "TejasS1233/opencode-parser",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "ThomasSanna/opencode-mercato",
+      "claimed_source": "ThomasSanna/opencode-mercato",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "YuanG1944/message-bridge-opencode-plugin",
+      "claimed_source": "YuanG1944/message-bridge-opencode-plugin",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "aihaipeng/opencode-dir-tree-tui",
+      "claimed_source": "aihaipeng/opencode-dir-tree-tui",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "alfaoz/opencode-see-image",
+      "claimed_source": "alfaoz/opencode-see-image",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "angristan/opencode-wakatime",
+      "claimed_source": "angristan/opencode-wakatime",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "anis-dr/opencode-mermaid-renderer",
+      "claimed_source": "anis-dr/opencode-mermaid-renderer",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "bulutmuf/opencode-failover",
+      "claimed_source": "bulutmuf/opencode-failover",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "charfeng1/opencode-ralph-loop",
+      "claimed_source": "charfeng1/opencode-ralph-loop",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "emilsvennesson/opencode-websearch",
+      "claimed_source": "emilsvennesson/opencode-websearch",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "frap129/opencode-rules",
+      "claimed_source": "frap129/opencode-rules",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "gkhantyln/opencode-telegram",
+      "claimed_source": "gkhantyln/opencode-telegram",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "griffinmartin/opencode-claude-auth",
+      "claimed_source": "griffinmartin/opencode-claude-auth",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "iHildy/opencode-synced",
+      "claimed_source": "iHildy/opencode-synced",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "itsmeadarsh2008/opencode-senses",
+      "claimed_source": "itsmeadarsh2008/opencode-senses",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "jenslys/opencode-gemini-auth",
+      "claimed_source": "jenslys/opencode-gemini-auth",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "joe-broadhead/opencode-charts",
+      "claimed_source": "joe-broadhead/opencode-charts",
+      "category": "data-science",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "joeyism/opencode-history-search",
+      "claimed_source": "joeyism/opencode-history-search",
+      "category": "documents-productivity",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "joeyism/opencode-multiplexer",
+      "claimed_source": "joeyism/opencode-multiplexer",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "khalilgharbaoui/opencode-claude-code-plugin",
+      "claimed_source": "khalilgharbaoui/opencode-claude-code-plugin",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "kkugot/opencode-theme-studio",
+      "claimed_source": "kkugot/opencode-theme-studio",
+      "category": "design-ui-ux",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "kuitos/opencode-claude-memory",
+      "claimed_source": "kuitos/opencode-claude-memory",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "langfuse/opencode-observability-plugin",
+      "claimed_source": "langfuse/opencode-observability-plugin",
+      "category": "devops-cloud",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "leohenon/opencode-vim-plugin",
+      "claimed_source": "leohenon/opencode-vim-plugin",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "lkonga/opencode-execsa",
+      "claimed_source": "lkonga/opencode-execsa",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "malhashemi/opencode-sessions",
+      "claimed_source": "malhashemi/opencode-sessions",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "marco-jardim/opencode-model-router",
+      "claimed_source": "marco-jardim/opencode-model-router",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "michaljach/opencode-browser",
+      "claimed_source": "michaljach/opencode-browser",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "nmdra/opencode-cache-stats",
+      "claimed_source": "nmdra/opencode-cache-stats",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "numman-ali/opencode-openai-codex-auth",
+      "claimed_source": "numman-ali/opencode-openai-codex-auth",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "pythongiant/laya-drift",
+      "claimed_source": "pythongiant/laya-drift",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "rashidrazak/opencode-cmd-provider",
+      "claimed_source": "rashidrazak/opencode-cmd-provider",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "renjfk/opencode-voice",
+      "claimed_source": "renjfk/opencode-voice",
+      "category": "audio-music",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "sdwolf4103/opencode-working-memory",
+      "claimed_source": "sdwolf4103/opencode-working-memory",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "supermemoryai/opencode-supermemory",
+      "claimed_source": "supermemoryai/opencode-supermemory",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "tickernelz/opencode-mem",
+      "claimed_source": "tickernelz/opencode-mem",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "whut09/opencode-plusplus",
+      "claimed_source": "whut09/opencode-plusplus",
+      "category": "software-development",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "yuhp/opencode-models-discovery",
+      "claimed_source": "yuhp/opencode-models-discovery",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    },
+    {
+      "name": "yuseferi/opencode-litellm",
+      "claimed_source": "yuseferi/opencode-litellm",
+      "category": "ai-machine-learning",
+      "resolution": "VERIFIED",
+      "notes": "GitHub repository, license and README confirmed via GitHub API on 2026-11-05."
+    }
   ]
 }

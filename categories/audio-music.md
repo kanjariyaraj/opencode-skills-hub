@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 2 | 2 | 1 |
+| 1 | 2 | 2 | 1 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -18,8 +18,15 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [OpenCode Voice](https://github.com/renjfk/opencode-voice) | plugin | Speech-to-text and text-to-speech plugin for OpenCode with local Whisper and Piper support. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [Videocut Clip](https://github.com/zrt-ai-lab/opencode-skills) | skill | Video trimming skill that turns confirmed cut decisions into FFmpeg operations and produces subtitle files. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
 | [WaveSpeed CLI](https://www.npmjs.com/package/@wavespeed/cli) | plugin | CLI and agent integration for running image, video, audio and 3D generation models through the WaveSpeed platform. | npm | MIT | REVIEW REQUIRED | source verified, license verified, active |
+
+## Plugins
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [OpenCode Voice](https://github.com/renjfk/opencode-voice) | plugin | Speech-to-text and text-to-speech plugin for OpenCode with local Whisper and Piper support. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 
 ## Skill packs and toolkits
 

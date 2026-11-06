@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 5 | 4 | 5 | 3 |
+| 6 | 7 | 5 | 3 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -20,10 +20,14 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | --- | --- | --- | --- | --- | --- | --- |
 | [3D Web Skill](https://www.npmjs.com/package/3d-web-skill) | skill | Skill that teaches an agent to build Three.js 3D web experiences and turn reference imagery into interactive scenes. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
 | [AI Artist](https://github.com/Stonelukas/Mouse-on-Numpad) | skill | Prompt-craft skill for image models, covering style keywords, negative prompts and model-specific prompting patterns. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
+| [ArtCraft Skills](https://github.com/midasmatterhorn/artcraft-skills) | skill | Agent skills for the ArtCraft Rust creative suite, covering evidence-verified image and design workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [Designing Canvas Art](https://github.com/osmontero/opencode-skills) | skill | Design-philosophy skill for producing poster and illustration assets as PNG or PDF using aesthetic and compositional principles. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [img2threejs](https://github.com/img2threejs/img2threejs) | skill | Skill that reconstructs a single reference image as a procedural, animation-ready Three.js model through staged code generation. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified, active |
 | [Legnext AI Skills (Midjourney API)](https://github.com/legnext-ai/skills) | skill | Skills for integrating the Legnext Midjourney API, including image generation, variations, upscaling and credit management. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
 | [OpenCode Nano Banana](https://www.npmjs.com/package/opencode-nanobanana) | plugin | OpenCode plugin that adds image generation and editing features, plus video-generation workflows, directly into the coding agent. | npm | NOASSERTION | REVIEW REQUIRED | source verified, license review required |
+| [OpenCode See Image](https://github.com/alfaoz/opencode-see-image) | plugin | Plugin that routes images to a vision-capable model so non-vision models can inspect them. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode Senses](https://github.com/itsmeadarsh2008/opencode-senses) | plugin | Vision plugin that lets OpenCode inspect, read and reason about images. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [PPT Image First](https://github.com/NyxTides/ppt-image-first) | skill | Conversation-first skill that turns a rough presentation request into an image-first PPTX deck with staged content and style previews. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
 | [Sprezzature](https://pypi.org/project/sprezzature/) | skill | Design-system skill collection covering colors, typography, accessibility, UI, UX, audio subtitles, vision alt text and figures. | pypi | UNKNOWN | REVIEW REQUIRED | source verified, license review required |
 | [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | skill | Design-intelligence skill that provides visual styles, palettes, font pairings, charts and UI guidance for landing pages, dashboards and SaaS products. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [WaveSpeed CLI](https://www.npmjs.com/package/@wavespeed/cli) | plugin | CLI and agent integration for running image, video, audio and 3D generation models through the WaveSpeed platform. | npm | MIT | REVIEW REQUIRED | source verified, license verified, active |
@@ -34,6 +38,7 @@ Start with the entries marked *source verified* and *license verified*. Every en
 | --- | --- | --- | --- | --- | --- | --- |
 | [3D Web Skill](https://www.npmjs.com/package/3d-web-skill) | skill | Skill that teaches an agent to build Three.js 3D web experiences and turn reference imagery into interactive scenes. | npm | MIT | REVIEW REQUIRED | source verified, license verified |
 | [AI Artist](https://github.com/Stonelukas/Mouse-on-Numpad) | skill | Prompt-craft skill for image models, covering style keywords, negative prompts and model-specific prompting patterns. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
+| [ArtCraft Skills](https://github.com/midasmatterhorn/artcraft-skills) | skill | Agent skills for the ArtCraft Rust creative suite, covering evidence-verified image and design workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [img2threejs](https://github.com/img2threejs/img2threejs) | skill | Skill that reconstructs a single reference image as a procedural, animation-ready Three.js model through staged code generation. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified, active |
 | [Legnext AI Skills (Midjourney API)](https://github.com/legnext-ai/skills) | skill | Skills for integrating the Legnext Midjourney API, including image generation, variations, upscaling and credit management. | github | MIT | REVIEW REQUIRED | source verified, license verified, low activity |
 

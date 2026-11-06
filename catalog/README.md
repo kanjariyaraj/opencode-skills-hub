@@ -8,6 +8,7 @@ This directory is the source of truth for the resource catalog.
 | `agents.json` | Agents and specialist roles |
 | `plugins.json` | Plugins and CLIs |
 | `mcp.json` | MCP servers |
+| `themes.json` | OpenCode color themes |
 | `commands.json` | Commands |
 | `rules.json` | Rules |
 | `hooks.json` | Hooks |

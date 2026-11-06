@@ -6,7 +6,7 @@
 
 | Primary entries | Secondary mentions | Skill packs | Role collections |
 | ---: | ---: | ---: | ---: |
-| 0 | 1 | 2 | 1 |
+| 2 | 7 | 2 | 1 |
 
 Counts reflect structured catalog entries, not popularity or upstream quality. A resource can appear on another page through its secondary categories.
 
@@ -18,7 +18,22 @@ Start with the entries marked *source verified* and *license verified*. Every en
 
 | Resource | Type | What it does | Source | License | Security | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
+| [CTF Skills](https://github.com/ljagiello/ctf-skills) | skill | Agent skills for CTF challenges covering web exploitation, binary pwn, cryptography, reverse engineering and forensics. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Deep Research Skills](https://github.com/Weizhena/Deep-Research-skills) | skill | Structured deep-research skills with human-in-the-loop checkpoints for research planning, source collection and synthesis. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
 | [DuckBrain](https://pypi.org/project/duckbrain/) | mcp | DuckDB-backed MCP memory server that gives agents structured search, read and write access to Obsidian vaults. | pypi | UNKNOWN | REVIEW REQUIRED | source verified, license review required |
+| [iSpan Data Science Cookbooks](https://github.com/Zenobia000/iSpan_python-FE_DM-cookbooks) | skill | Research-first data-science skill cookbooks covering exploratory analysis, feature engineering and modelling workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [Obsidian Knowledge Workflow](https://github.com/r007b34r/opencode-obsidian-knowledge-workflow) | skill | Seven skills for an Obsidian-based knowledge workflow, including inbox triage, linking and an Obsidian MCP setup. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified |
+| [OpenCode Academic Research](https://github.com/timpara/opencode-academic-research) | skill | OpenCode port of an academic-research skill suite with four skills, slash commands and a multi-agent research pipeline. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required, active |
+| [OpenCode Skill Creator](https://github.com/antongulin/opencode-skill-creator) | skill | Skill and CLI for creating, testing and optimizing OpenCode skills, adapted for OpenCode V1 and V2. | github | Apache-2.0 | REVIEW REQUIRED | source verified, license verified, active, installation tested |
+| [OSINT MCP](https://github.com/n5za/osint-mcp) | mcp | 86-tool OSINT MCP server with evidence graphs, image analysis and reverse-search workflows. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OSINT Skill](https://github.com/smixs/osint-skill) | skill | OSINT skill that guides agents from a name or selector to a structured open-source intelligence report. | github | MIT | REVIEW REQUIRED | source verified, license verified |
+
+## Skills
+
+| Resource | Type | What it does | Source | License | Security | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Deep Research Skills](https://github.com/Weizhena/Deep-Research-skills) | skill | Structured deep-research skills with human-in-the-loop checkpoints for research planning, source collection and synthesis. | github | MIT | REVIEW REQUIRED | source verified, license verified, active |
+| [OpenCode Academic Research](https://github.com/timpara/opencode-academic-research) | skill | OpenCode port of an academic-research skill suite with four skills, slash commands and a multi-agent research pipeline. | github | NOASSERTION | REVIEW REQUIRED | source verified, license review required, active |
 
 ## Skill packs and toolkits
 
